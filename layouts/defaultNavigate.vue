@@ -6,7 +6,12 @@
           v-for="link in links"
           :key="link.id"
           :href="`#${link.id}`"
-          @click="$vuetify.goTo(`#${link.id}`)"
+          @click="
+            $router.push({
+              path: '/',
+              query: { id: link.id.toLowerCase().replaceAll(' ', '-') },
+            })
+          "
         >
           {{ link.name }}
         </v-tab>
@@ -28,12 +33,11 @@ import layoutProps from '~/mixins/layoutProps.vue'
 
 export default {
   mixins: [layoutProps],
+  data: () => ({
+    activeTab: 'index',
+  }),
   mounted() {
-    if (this.$route.query.id) {
-      this.$vuetify.goTo(`#${this.$route.query.id}`)
-      this.activeTab = this.$route.query.id
-      this.$router.replace({ query: null })
-    }
+    this.$data.activeTab = this.$route.name
   },
 }
 </script>
