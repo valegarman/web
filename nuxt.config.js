@@ -1,5 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
@@ -40,6 +38,17 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    [
+      'nuxt-i18n',
+      {
+        vueI18nLoader: true,
+        locales: ['en', 'es'],
+        defaultLocale: 'en',
+        vueI18n: {
+          fallbackLocale: 'en',
+        },
+      },
+    ],
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)

@@ -6,11 +6,12 @@
           v-for="link in links"
           :key="link.id"
           :href="`#${link.id}`"
-          @click="$vuetify.goTo(`#${link.id}`)"
+          @click="pushToRouter(link)"
         >
-          {{ link.name }}
+          {{ $t(link.id) }}
         </v-tab>
       </v-tabs>
+      <i18nButton />
     </v-app-bar>
     <v-main>
       <v-container>
@@ -25,15 +26,26 @@
 
 <script>
 import layoutProps from '~/mixins/layoutProps.vue'
+import i18nButton from '~/components/layout/i18nButton.vue'
 
 export default {
+  components: { i18nButton },
   mixins: [layoutProps],
+  data: () => ({
+    activeTab: 'publications',
+  }),
   mounted() {
-    if (this.$route.query.id) {
-      this.$vuetify.goTo(`#${this.$route.query.id}`)
-      this.activeTab = this.$route.query.id
-      this.$router.replace({ query: null })
-    }
+    this.activeTab = this.$route.path.replace('/', '')
+  },
+  methods: {
+    pushToRouter(link) {
+      this.$router.push(
+        this.localePath({
+          path: '/',
+          query: { id: link.id.toLowerCase().replaceAll(' ', '-') },
+        })
+      )
+    },
   },
 }
 </script>
