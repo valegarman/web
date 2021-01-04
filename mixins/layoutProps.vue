@@ -2,11 +2,13 @@
 {
   "en": {
     "index": "Home",
-    "publications": "Publications"
+    "publications": "Publications", 
+    "timeline": "Timeline"
   },
   "es": {
     "index": "Inicio",
-    "publications": "Publicaciones"
+    "publications": "Publicaciones",
+    "timeline": "Linea temporal"
   }
 }
 </i18n>
@@ -14,7 +16,7 @@
 <script>
 export default {
   data: () => ({
-    links: ['index', 'publications'],
+    links: ['index', 'timeline', 'publications', 'asdfasdfasdfsadf'],
   }),
 }
 </script>

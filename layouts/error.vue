@@ -6,7 +6,9 @@
     <h1 v-else>
       {{ otherError }}
     </h1>
-    <NuxtLink to="/"> Home page </NuxtLink>
+    <v-btn color="transparent" class="pr-4" elevation="0" :to="localePath('/')">
+      Home page <v-icon right> mdi-link </v-icon>
+    </v-btn>
   </v-app>
 </template>
 

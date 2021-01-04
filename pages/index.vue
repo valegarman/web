@@ -14,10 +14,17 @@
     </v-app-bar>
     <v-row no-gutters justify="center">
       <i18nButton />
+      <div
+        id="index"
+        v-intersect="onIntersectHandler()"
+        style="width: 100%; height: 100vh"
+      >
+        <hero />
+      </div>
       <v-col cols="12" md="8">
-        <div id="index" v-intersect="onIntersectHandler()">
+        <div id="timeline" v-intersect="onIntersectHandler()">
           <indexSection>
-            <indexCard />
+            <timelineSearch :years="years" />
           </indexSection>
         </div>
         <div id="publications" v-intersect="onIntersectHandler()">
@@ -35,14 +42,33 @@ import layoutProps from '~/mixins/layoutProps.vue'
 import i18nButton from '~/components/layout/i18nButton.vue'
 import indexSection from '~/components/index/indexSection.vue'
 import indexSlide from '~/components/index/indexSlide.vue'
-import indexCard from '~/components/index/indexCard.vue'
+import hero from '~/components/index/hero.vue'
+import timelineSearch from '~/components/timelines/timelineSearch.vue'
 
 export default {
   layout: 'empty',
-  components: { i18nButton, indexSection, indexSlide, indexCard },
+  components: { i18nButton, indexSection, indexSlide, hero, timelineSearch },
   mixins: [layoutProps],
   data: () => ({
     activeTab: 'index',
+    years: [
+      {
+        color: 'cyan',
+        year: '1960',
+      },
+      {
+        color: 'green',
+        year: '1970',
+      },
+      {
+        color: 'pink',
+        year: '1980',
+      },
+      {
+        color: 'amber',
+        year: '1990',
+      },
+    ],
   }),
   mounted() {
     if (this.$route.query.id) {
