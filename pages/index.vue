@@ -1,63 +1,45 @@
 <template>
-  <v-app>
+  <v-main>
     <v-app-bar app flat>
       <v-tabs v-model="activeTab" centered class="ml-n9">
         <v-tab
           v-for="link in links"
-          :key="link.id"
-          :href="`#${link.id}`"
+          :key="link"
+          :href="`#${link}`"
           @click="goToId(link)"
         >
-          {{ $t(link.id) }}
+          {{ $t(link) }}
         </v-tab>
       </v-tabs>
-      <i18nButton />
     </v-app-bar>
-    <v-main>
-      <v-container>
-        <v-row justify="center" align="center">
-          <v-col cols="12" sm="8" md="6">
-            <div
-              id="index"
-              v-intersect="{
-                handler: onIntersect,
-                options: {
-                  threshold: [0, 0.5, 1.0],
-                },
-              }"
-              style="height: 1000px"
-            >
-              Index
-            </div>
-            <div
-              id="publications"
-              v-intersect="{
-                handler: onIntersect,
-                options: {
-                  threshold: [0, 0.5, 1.0],
-                },
-              }"
-              style="height: 1000px"
-            >
-              publications
-            </div>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-main>
-    <v-footer app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
-  </v-app>
+    <v-row no-gutters justify="center">
+      <i18nButton />
+      <v-col cols="12" md="8">
+        <div id="index" v-intersect="onIntersectHandler()">
+          <indexSection>
+            <indexCard />
+          </indexSection>
+        </div>
+        <div id="publications" v-intersect="onIntersectHandler()">
+          <indexSection>
+            <indexSlide />
+          </indexSection>
+        </div>
+      </v-col>
+    </v-row>
+  </v-main>
 </template>
 
 <script>
 import layoutProps from '~/mixins/layoutProps.vue'
 import i18nButton from '~/components/layout/i18nButton.vue'
+import indexSection from '~/components/index/indexSection.vue'
+import indexSlide from '~/components/index/indexSlide.vue'
+import indexCard from '~/components/index/indexCard.vue'
 
 export default {
-  layout: "empty",
-  components: { i18nButton },
+  layout: 'empty',
+  components: { i18nButton, indexSection, indexSlide, indexCard },
   mixins: [layoutProps],
   data: () => ({
     activeTab: 'index',
@@ -75,8 +57,16 @@ export default {
         this.activeTab = entries[0].target.id
       }
     },
+    onIntersectHandler() {
+      return {
+        handler: this.onIntersect,
+        options: {
+          threshold: [0, 0.25, 0.5, 0.75, 1.0],
+        },
+      }
+    },
     goToId(link) {
-      this.$vuetify.goTo(`#${link.id}`)
+      this.$vuetify.goTo(`#${link}`)
     },
   },
 }

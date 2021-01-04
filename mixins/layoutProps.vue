@@ -14,7 +14,7 @@
 <script>
 export default {
   data: () => ({
-    links: [{ id: 'index' }, { id: 'publications' }],
+    links: ['index', 'publications'],
   }),
 }
 </script>

@@ -4,20 +4,19 @@
       <v-tabs v-model="activeTab" centered class="ml-n9">
         <v-tab
           v-for="link in links"
-          :key="link.id"
-          :href="`#${link.id}`"
+          :key="link"
+          :href="`#${link}`"
           @click="pushToRouter(link)"
         >
-          {{ $t(link.id) }}
+          {{ $t(link) }}
         </v-tab>
       </v-tabs>
-      <i18nButton />
     </v-app-bar>
-    <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
-    </v-main>
+
+    <v-row no-gutters justify="center">
+      <i18nButton />
+      <nuxt />
+    </v-row>
     <v-footer app>
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
@@ -35,14 +34,14 @@ export default {
     activeTab: 'publications',
   }),
   mounted() {
-    this.activeTab = this.$route.path.replace('/', '')
+    this.activeTab = this.$route.name.replace(/__(.*)/, '')
   },
   methods: {
     pushToRouter(link) {
       this.$router.push(
         this.localePath({
           path: '/',
-          query: { id: link.id.toLowerCase().replaceAll(' ', '-') },
+          query: { id: link.toLowerCase().replaceAll(' ', '-') },
         })
       )
     },
