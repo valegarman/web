@@ -3,12 +3,12 @@
   "en": {
     "index": "Home",
     "publications": "Publications", 
-    "timeline": "Timeline"
+    "news": "News"
   },
   "es": {
     "index": "Inicio",
     "publications": "Publicaciones",
-    "timeline": "Linea temporal"
+    "news": "Noticias"
   }
 }
 </i18n>
@@ -16,7 +16,7 @@
 <script>
 export default {
   data: () => ({
-    links: ['timeline', 'publications', 'asdfasdfasdfsadf'],
+    links: ['news', 'publications'],
     activeTab: 'index',
   }),
   methods: {

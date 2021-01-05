@@ -1,5 +1,5 @@
 <template>
-  <v-main>
+  <main>
     <v-app-bar app flat>
       <v-tabs v-model="activeTab" centered class="ml-n9">
         <indexTab @tab="goToId" />
@@ -22,19 +22,19 @@
         <hero />
       </div>
       <v-col cols="12" md="8">
-        <div id="timeline" v-intersect="onIntersectHandler()">
-          <indexSection>
-            <timelineSearch :years="years" />
-          </indexSection>
-        </div>
-        <div id="publications" v-intersect="onIntersectHandler()">
+        <div class="pb-5" id="news" v-intersect="onIntersectHandler()">
           <indexSection>
             <indexSlide />
           </indexSection>
         </div>
+        <div class="pb-5" id="publications" v-intersect="onIntersectHandler()">
+          <indexSection>
+            <timelineSearch :years="years" />
+          </indexSection>
+        </div>
       </v-col>
     </v-row>
-  </v-main>
+  </main>
 </template>
 
 <script>

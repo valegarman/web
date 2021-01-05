@@ -33,7 +33,10 @@ export default {
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
     try {
-      const article = await $content(`${app.i18n.locale}/`, params.slug).fetch()
+      const article = await $content(
+        `/info/${app.i18n.locale}/`,
+        params.slug
+      ).fetch()
       return { article }
     } catch {
       error({ statusCode: 404, message: 'not found' })

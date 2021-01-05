@@ -18,7 +18,7 @@
     <div>
       <span class="policy-text">
         {{ $t('cookies_policy') }}
-        <nuxt-link :to="localePath('/content/cookies_policy')">
+        <nuxt-link :to="localePath('/info/cookies_policy')">
           {{ $t('link') }}
         </nuxt-link>
       </span>
