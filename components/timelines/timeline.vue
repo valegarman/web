@@ -7,21 +7,16 @@
       small
       class="mb-12"
     >
-      <div class="py-4">
-        <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">
-          {{ year.year }} Title
-        </h2>
-        <div>
-          Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola
-          imperdiet nec
-        </div>
-      </div>
+      <indexCard />
     </v-timeline-item>
   </v-timeline>
 </template>
 
 <script>
+import indexCard from '~/components/index/indexCard.vue'
+
 export default {
+  components: { indexCard },
   props: {
     years: {
       type: Array,

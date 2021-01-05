@@ -22,12 +22,12 @@
         <hero />
       </div>
       <v-col cols="12" md="8">
-        <div class="pb-5" id="news" v-intersect="onIntersectHandler()">
+        <div id="news" v-intersect="onIntersectHandler()" class="pb-5">
           <indexSection>
             <indexSlide />
           </indexSection>
         </div>
-        <div class="pb-5" id="publications" v-intersect="onIntersectHandler()">
+        <div id="publications" v-intersect="onIntersectHandler()" class="pb-5">
           <indexSection>
             <timelineSearch :years="years" />
           </indexSection>
