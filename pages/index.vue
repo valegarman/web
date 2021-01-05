@@ -1,73 +1,87 @@
 <template>
-  <v-app>
+  <main>
     <v-app-bar app flat>
       <v-tabs v-model="activeTab" centered class="ml-n9">
+        <indexTab @tab="goToId" />
         <v-tab
           v-for="link in links"
-          :key="link.id"
-          :href="`#${link.id}`"
+          :key="link"
+          :href="`#${link}`"
           @click="goToId(link)"
         >
-          {{ $t(link.id) }}
+          {{ $t(link) }}
         </v-tab>
       </v-tabs>
-      <i18nButton />
     </v-app-bar>
-    <v-main>
-      <v-container>
-        <v-row justify="center" align="center">
-          <v-col cols="12" sm="8" md="6">
-            <div
-              id="index"
-              v-intersect="{
-                handler: onIntersect,
-                options: {
-                  threshold: [0, 0.5, 1.0],
-                },
-              }"
-              style="height: 1000px"
-            >
-              Index
-            </div>
-            <div
-              id="publications"
-              v-intersect="{
-                handler: onIntersect,
-                options: {
-                  threshold: [0, 0.5, 1.0],
-                },
-              }"
-              style="height: 1000px"
-            >
-              publications
-            </div>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-main>
-    <v-footer app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
-  </v-app>
+    <v-row no-gutters justify="center">
+      <div
+        id="index"
+        v-intersect="onIntersectHandler()"
+        style="width: 100%; height: 100vh"
+      >
+        <hero />
+      </div>
+      <v-col cols="12" md="8">
+        <div class="pb-5" id="news" v-intersect="onIntersectHandler()">
+          <indexSection>
+            <indexSlide />
+          </indexSection>
+        </div>
+        <div class="pb-5" id="publications" v-intersect="onIntersectHandler()">
+          <indexSection>
+            <timelineSearch :years="years" />
+          </indexSection>
+        </div>
+      </v-col>
+    </v-row>
+  </main>
 </template>
 
 <script>
-import layoutProps from '~/mixins/layoutProps.vue'
-import i18nButton from '~/components/layout/i18nButton.vue'
+import navbar from '~/mixins/navbar.vue'
+import indexSection from '~/components/index/indexSection.vue'
+import indexSlide from '~/components/index/indexSlide.vue'
+import hero from '~/components/index/hero.vue'
+import timelineSearch from '~/components/timelines/timelineSearch.vue'
+import indexTab from '~/components/layout/indexTab.vue'
 
 export default {
-  layout: "empty",
-  components: { i18nButton },
-  mixins: [layoutProps],
+  layout: 'default',
+  components: {
+    indexSection,
+    indexSlide,
+    hero,
+    timelineSearch,
+    indexTab,
+  },
+  mixins: [navbar],
   data: () => ({
     activeTab: 'index',
+    years: [
+      {
+        color: 'cyan',
+        year: '1960',
+      },
+      {
+        color: 'green',
+        year: '1970',
+      },
+      {
+        color: 'pink',
+        year: '1980',
+      },
+      {
+        color: 'amber',
+        year: '1990',
+      },
+    ],
   }),
   mounted() {
-    if (this.$route.query.id) {
+    try {
       this.$vuetify.goTo(`#${this.$route.query.id}`)
       this.activeTab = this.$route.query.id
       this.$router.replace({ query: null })
-    }
+    } catch (err) {}
   },
   methods: {
     onIntersect(entries, observer, intersect) {
@@ -75,8 +89,13 @@ export default {
         this.activeTab = entries[0].target.id
       }
     },
-    goToId(link) {
-      this.$vuetify.goTo(`#${link.id}`)
+    onIntersectHandler() {
+      return {
+        handler: this.onIntersect,
+        options: {
+          threshold: [0, 0.25, 0.5, 0.75, 1.0],
+        },
+      }
     },
   },
 }
