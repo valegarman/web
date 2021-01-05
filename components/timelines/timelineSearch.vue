@@ -35,7 +35,7 @@ export default {
   computed: {
     selectedPublications() {
       return this.publications.filter(
-        (selected) => this.isSelected === false || selected === true
+        (publication) => publication.selected || !this.isSelected
       )
     },
   },

@@ -1,8 +1,17 @@
 publications:
-  - title: Early maternal deprivation immunologically primes hippocampal synapses by redistributing interleukin-1 receptor type I in a sex dependent manner.
-    journal: Brain, Behavior, and Immunity.
-    issue: 35; 135-143.
+  - title: Mechanisms for selective single-cell reactivation during offline sharp-wave ripples and their distortion by fast ripples
+    journal: Neuron
+    issue: 94 (6), 1234–1247
+    year: 2017
+    link: https://www.cell.com/neuron/fulltext/S0896-6273(17)30470-1
+    authors: Valero M, Averkin RG, Fernandez-Lamo I, Aguilar J, Lopez-Pigozzi D, Brotons-Mas JR, Cid E, Tamas G, Menendez de la Prida, L
+    selected: true
+    img: /images/NeuronCover.jpg
+
+  - title: Early maternal deprivation immunologically primes hippocampal synapses by redistributing interleukin-1 receptor type I in a sex dependent manner
+    journal: Brain, Behavior, and Immunity
+    issue: 35; 135-143
     year: 2013
     link: http://www.sciencedirect.com/science/article/pii/S0889159113004625
-    authors: Viviani B, Boraso M, Valero M, Gardoni F, Marco EM, Llorente R, Corsini E, Galli CL, Di Luca M, Marinovich M, López-Gallardo M, Viveros MP.
+    authors: Viviani B, Boraso M, Valero M, Gardoni F, Marco EM, Llorente R, Corsini E, Galli CL, Di Luca M, Marinovich M, López-Gallardo M, Viveros MP
     selected: false
