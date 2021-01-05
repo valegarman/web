@@ -3,7 +3,7 @@
     <v-btn
       color="transparent"
       class="pr-4"
-      elevation="0"
+      text
       :to="localePath('/publications')"
     >
       Publications <v-icon right> mdi-link </v-icon>

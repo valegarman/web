@@ -1,24 +1,23 @@
 <template>
   <v-timeline dense>
     <v-timeline-item
-      v-for="(year, i) in years"
+      v-for="(publication, i) in publications"
       :key="i"
-      :color="year.color"
+      :color="publication.selected ? 'green' : 'grey'"
       small
-      class="mb-12"
-    >
-      <indexCard />
+      class="mr-2"
+      ><timelineCard :publication="publication" />
     </v-timeline-item>
   </v-timeline>
 </template>
 
 <script>
-import indexCard from '~/components/index/indexCard.vue'
+import timelineCard from '~/components/timelines/timelineCard.vue'
 
 export default {
-  components: { indexCard },
+  components: { timelineCard },
   props: {
-    years: {
+    publications: {
       type: Array,
       default: () => [],
     },

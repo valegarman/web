@@ -1,8 +1,19 @@
+<i18n>
+{
+  "en": {
+    "is_selected": "Selected publications"
+  },
+  "es": {
+    "is_selected": "Artículos seleccionados"
+  }
+}
+</i18n>
+
 <template>
   <section>
-    <v-container style="max-width: 600px">
-      <v-text-field v-model="select" label="Search"></v-text-field>
-      <timeline :years="selectedYears" />
+    <v-container style="max-width: 800px">
+      <v-checkbox v-model="isSelected" :label="$t('is_selected')"></v-checkbox>
+      <timeline :publications="selectedPublications" />
     </v-container>
   </section>
 </template>
@@ -13,17 +24,19 @@ import timeline from '~/components/timelines/timeline.vue'
 export default {
   components: { timeline },
   props: {
-    years: {
+    publications: {
       type: Array,
       default: () => [],
     },
   },
   data: () => ({
-    select: null,
+    isSelected: true,
   }),
   computed: {
-    selectedYears() {
-      return this.years.filter((year) => year.year > this.select)
+    selectedPublications() {
+      return this.publications.filter(
+        (selected) => this.isSelected === false || selected === true
+      )
     },
   },
 }

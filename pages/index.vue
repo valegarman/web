@@ -1,5 +1,6 @@
 <template>
   <main>
+    <pre> {{ publicationsa.publications }} </pre>
     <v-app-bar app flat>
       <v-tabs v-model="activeTab" centered class="ml-n9">
         <indexTab @tab="goToId" />
@@ -22,14 +23,9 @@
         <hero />
       </div>
       <v-col cols="12" md="8">
-        <div id="news" v-intersect="onIntersectHandler()" class="pb-5">
-          <indexSection>
-            <indexSlide />
-          </indexSection>
-        </div>
         <div id="publications" v-intersect="onIntersectHandler()" class="pb-5">
           <indexSection>
-            <timelineSearch :years="years" />
+            <timelineSearch :publications="publications.publications" />
           </indexSection>
         </div>
       </v-col>
@@ -40,7 +36,6 @@
 <script>
 import navbar from '~/mixins/navbar.vue'
 import indexSection from '~/components/index/indexSection.vue'
-import indexSlide from '~/components/index/indexSlide.vue'
 import hero from '~/components/index/hero.vue'
 import timelineSearch from '~/components/timelines/timelineSearch.vue'
 import indexTab from '~/components/layout/indexTab.vue'
@@ -49,33 +44,21 @@ export default {
   layout: 'default',
   components: {
     indexSection,
-    indexSlide,
     hero,
     timelineSearch,
     indexTab,
   },
   mixins: [navbar],
+  async asyncData({ $content, params, app, error }) {
+    try {
+      const publicationsa = await $content('/publications/publications').fetch()
+      return { publicationsa }
+    } catch {
+      error({ statusCode: 404, message: 'not found' })
+    }
+  },
   data: () => ({
     activeTab: 'index',
-    years: [
-      {
-        color: 'cyan',
-        year: '1960',
-      },
-      {
-        color: 'green',
-        year: '1970',
-      },
-      {
-        color: 'pink',
-        year: '1980',
-      },
-      {
-        color: 'amber',
-        year: '1990',
-      },
-    ],
-  }),
   mounted() {
     try {
       this.$vuetify.goTo(`#${this.$route.query.id}`)
