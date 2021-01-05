@@ -2,6 +2,7 @@
   <v-main>
     <v-app-bar app flat>
       <v-tabs v-model="activeTab" centered class="ml-n9">
+        <indexTab @tab="goToId" />
         <v-tab
           v-for="link in links"
           :key="link"
@@ -13,7 +14,6 @@
       </v-tabs>
     </v-app-bar>
     <v-row no-gutters justify="center">
-      <i18nButton />
       <div
         id="index"
         v-intersect="onIntersectHandler()"
@@ -38,17 +38,23 @@
 </template>
 
 <script>
-import layoutProps from '~/mixins/layoutProps.vue'
-import i18nButton from '~/components/layout/i18nButton.vue'
+import navbar from '~/mixins/navbar.vue'
 import indexSection from '~/components/index/indexSection.vue'
 import indexSlide from '~/components/index/indexSlide.vue'
 import hero from '~/components/index/hero.vue'
 import timelineSearch from '~/components/timelines/timelineSearch.vue'
+import indexTab from '~/components/layout/indexTab.vue'
 
 export default {
-  layout: 'empty',
-  components: { i18nButton, indexSection, indexSlide, hero, timelineSearch },
-  mixins: [layoutProps],
+  layout: 'default',
+  components: {
+    indexSection,
+    indexSlide,
+    hero,
+    timelineSearch,
+    indexTab,
+  },
+  mixins: [navbar],
   data: () => ({
     activeTab: 'index',
     years: [
@@ -71,11 +77,11 @@ export default {
     ],
   }),
   mounted() {
-    if (this.$route.query.id) {
+    try {
       this.$vuetify.goTo(`#${this.$route.query.id}`)
       this.activeTab = this.$route.query.id
       this.$router.replace({ query: null })
-    }
+    } catch (err) {}
   },
   methods: {
     onIntersect(entries, observer, intersect) {
@@ -90,9 +96,6 @@ export default {
           threshold: [0, 0.25, 0.5, 0.75, 1.0],
         },
       }
-    },
-    goToId(link) {
-      this.$vuetify.goTo(`#${link}`)
     },
   },
 }
