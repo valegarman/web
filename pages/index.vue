@@ -1,6 +1,5 @@
 <template>
   <main>
-    <pre> {{ publicationsa.publications }} </pre>
     <v-app-bar app flat>
       <v-tabs v-model="activeTab" centered class="ml-n9">
         <indexTab @tab="goToId" />
@@ -51,14 +50,15 @@ export default {
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
     try {
-      const publicationsa = await $content('/publications/publications').fetch()
-      return { publicationsa }
+      const publications = await $content('/publications/publications').fetch()
+      return { publications }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }
   },
   data: () => ({
     activeTab: 'index',
+  }),
   mounted() {
     try {
       this.$vuetify.goTo(`#${this.$route.query.id}`)
