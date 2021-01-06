@@ -1,8 +1,5 @@
 <template>
   <section>
-    <h2 class="pb-8 pl-5 font-weight-regular">
-      {{ $t('publications.title') }}
-    </h2>
     <v-container class="px-0" style="max-width: 800px">
       <v-checkbox
         v-model="isSelected"

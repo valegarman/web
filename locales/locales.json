@@ -4,7 +4,8 @@
       "index": "Home",
       "news": "News",
       "publications": "Publications",
-      "resources": "Resources" 
+      "contact": "Contact",
+      "resources": "Resources"
     },
     "cookies": {
       "button": "Accept",
@@ -19,13 +20,17 @@
     },
     "news_and_views": {
       "title": "NEWS AND VIEWS"
+    },
+    "contact": {
+      "title": "CONTACT"
     }
   },
   "es": {
     "nav": {
       "index": "Inicio",
       "news": "Noticias",
-      "publications": "Publicaciones",
+      "publications": "Artículos",
+      "contact": "Contacto",
       "resources": "Recursos"
     },
     "cookies": {
@@ -41,6 +46,9 @@
     },
     "news_and_views": {
       "title": "NOTICIAS"
+    },
+    "contact": {
+      "title": "CONTACTO"
     }
   }
 }

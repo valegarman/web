@@ -1,8 +1,5 @@
 <template>
   <section>
-    <h2 class="pb-8 pl-5 font-weight-regular">
-      {{ $t('news_and_views.title') }}
-    </h2>
     <v-slide-group class="py-3" show-arrows>
       <v-slide-item v-for="newElement in news" :key="newElement.title">
         <indexCard :new-element="newElement" />

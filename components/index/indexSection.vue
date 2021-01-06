@@ -1,13 +1,19 @@
 <template>
   <article class="pt-4">
-    <v-btn
-      color="transparent"
-      class="pr-4"
-      text
-      :to="localePath('/publications')"
-    >
-      Publications <v-icon right> mdi-link </v-icon>
-    </v-btn>
+    <h2 class="pb-8 pl-5 font-weight-regular">
+      {{ $t(title) }}
+    </h2>
     <slot />
   </article>
 </template>
+
+<script>
+export default {
+  props: {
+    title: {
+      type: String,
+      default: '',
+    },
+  },
+}
+</script>

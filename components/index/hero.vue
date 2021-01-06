@@ -3,9 +3,18 @@
     <div class="hero-text">
       <h1 style="font-size: 50px">Manuel Valero</h1>
       <p>Neurophysiology and electrophysiology</p>
+      <iconsLinks color="white" />
     </div>
   </div>
 </template>
+
+<script>
+import iconsLinks from '~/components/index/iconsLinks.vue'
+
+export default {
+  components: { iconsLinks },
+}
+</script>
 
 <style lang="scss">
 .hero-image {

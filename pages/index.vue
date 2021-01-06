@@ -21,13 +21,20 @@
       </div>
       <v-col cols="12" md="8">
         <div id="news" ref="news" class="pb-5">
-          <indexSection>
+          <indexSection title="news_and_views.title">
             <newsSlide :news="news.news" />
           </indexSection>
         </div>
         <div id="publications" ref="publications" class="pb-5">
-          <indexSection>
+          <indexSection title="publications.title">
             <timelineSearch :publications="publications.publications" />
+          </indexSection>
+        </div>
+        <div id="contact" ref="contact" class="pb-5">
+          <indexSection title="contact.title">
+            <iconsLinks />
+            <nuxt-content class="px-7" :document="contact" />
+            <funko />
           </indexSection>
         </div>
       </v-col>
@@ -39,9 +46,11 @@
 import navbar from '~/mixins/navbar.vue'
 import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
+import iconsLinks from '~/components/index/iconsLinks.vue'
 import timelineSearch from '~/components/timelines/timelineSearch.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 import newsSlide from '~/components/news/newsSlide.vue'
+import funko from '~/components/funko/funko.vue'
 
 export default {
   layout: 'default',
@@ -51,13 +60,18 @@ export default {
     timelineSearch,
     indexTab,
     newsSlide,
+    iconsLinks,
+    funko,
   },
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
     try {
+      const contact = await $content(
+        `/contact/${app.i18n.locale}/contact`
+      ).fetch()
       const news = await $content(`/news/${app.i18n.locale}/news`).fetch()
       const publications = await $content('/publications/publications').fetch()
-      return { publications, news }
+      return { publications, news, contact }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }
@@ -90,7 +104,17 @@ export default {
       this.activeTab = entries
         .filter((entrie) => entrie.position <= 100)
         .sort((a, b) => b.position - a.position)[0].id
+      if (
+        window.innerHeight + window.pageYOffset >=
+        document.body.offsetHeight
+      ) {
+        this.activeTab = 'contact'
+      }
     },
   },
 }
 </script>
+
+<style>
+@import url('~/assets/css/md.css');
+</style>
