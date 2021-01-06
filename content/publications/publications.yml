@@ -1,17 +1,147 @@
 publications:
+  
+  - title: Mechanisms and plasticity of chemogenically induced interneuronal suppression of principal cells
+    journal: PNAS
+    issue: 118(2), e2014157118
+    year: 2020
+    link: https://www.pnas.org/content/118/2/e2014157118.long
+    authors: Rogers S, Rozman PA, Valero M, Doyle WK, and Buzsáki G
+    selected: false
+
+  - title: GABAergic signaling to astrocytes in the prefrontal cortex sustains goal-directed behaviors
+    journal: Nature Neuroscience
+    issue: 24(1), 82-92
+    year: 2020
+    link: https://www.nature.com/articles/s41593-020-00752-x
+    authors: Mederos S, Sánchez-Puelles C, Esparza J, Valero M, Ponomarenko A, Perea G 
+    selected: false
+
+  - title: Multimodal determinants of phase-locked dynamics across deep-superficial hippocampal sublayers during theta oscillations
+    journal: Nature Communications
+    issue: 11, 2217
+    year: 2020
+    link: https://www.nature.com/articles/s41467-020-15840-6
+    authors: Navas-Olive A, Valero M, Jurado-Parras T, Salas-Quiroga A, Averkin RG, Gambino G, Cid E & Menendez de la Prida L
+    selected: false
+
+  - title: Long-term hippocampal interneuronopathy drives sex-dimorphic spatial memory impairment induced by prenatal THC exposure
+    journal: Neuropsychopharmacology
+    issue: 45, 877-886
+    year: 2020
+    link: https://www.nature.com/articles/s41386-020-0621-3
+    authors: Salas-Quiroga A, García-Rincón D, Gómez-Domínguez D, Valero M, Simón-Sánchez S, Paraíso-Luna J, Aguareles J, Pujadas M, Muguruza C, Callado LF, Lutz B, Guzmán M, Menendez de la Prida L, Galve-Roperh I
+    selected: false
+
+  - title: Pathological aspects of neuronal hyperploidization in Alzheimer’s disease evidenced by computer simulation
+    journal: Frontiers in Genetics
+    issue: 27
+    year: 2020
+    link: https://www.frontiersin.org/articles/10.3389/fgene.2020.00287/full?report=reader
+    authors: Barrio-Alonso E, Fontana B, Valero M and Frade JM
+    selected: false
+
+  - title: Head-mounted approaches for targeting single-cells in freely moving animals
+    journal: Journal of Neuroscience Methods
+    issue: 326, 108397
+    year: 2019
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
+    authors: Valero* M & English DF
+    selected: false
+  
+  - title: Proximodistal organization of the CA2 hippocampal area
+    journal: Cell reports
+    issue: 26 (7), 1734-1746
+    year: 2019
+    link: https://www.sciencedirect.com/science/article/pii/S2211124719300890
+    authors: Fernandez-Lamo I, Gomez-Dominguez D, Sanchez-Aguilera A, Oliva A, Victoria Morales A, Valero M, Cid E, Berenyi A, Menendez de la Prida L
+    selected: false  
+    img: /images/CellReports2019Cover.jpg
+
+  - title: "The hippocampus in depth: a sublayer-specific perspective of entorhinal–hippocampal function"
+    journal: Current opinion in neurobiology
+    issue: 52, 107-114 
+    year: 2018
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0959438817302994#fig0020
+    authors: Valero M, Menendez de la Prida L
+    selected: true  
+
+  - title: Feedback and Feedforward Inhibition May Resonate Distinctly in the Ripple Symphony
+    journal: The Journal of Neuroscience
+    issue: 38 (30), 6612
+    year: 2018
+    link: https://www.jneurosci.org/content/38/30/6612
+    authors: Sanchez-Aguilera A, Navas-Olive A, Valero M*
+    selected: false  
+
   - title: Mechanisms for selective single-cell reactivation during offline sharp-wave ripples and their distortion by fast ripples
     journal: Neuron
     issue: 94 (6), 1234–1247
     year: 2017
     link: https://www.cell.com/neuron/fulltext/S0896-6273(17)30470-1
-    authors: Valero M, Averkin RG, Fernandez-Lamo I, Aguilar J, Lopez-Pigozzi D, Brotons-Mas JR, Cid E, Tamas G, Menendez de la Prida, L
+    authors: Valero M, Averkin RG, Fernandez-Lamo I, Aguilar J, Lopez-Pigozzi D, Brotons-Mas JR, Cid E, Tamas G, Menendez de la Prida L
     selected: true
     img: /images/NeuronCover.jpg
 
+  - title: Altered oscillatory dynamics of CA1 parvalbumin basket cells during theta–gamma rhythmopathies of temporal lobe epilepsy
+    journal: eNeuro
+    issue: 3 (6), 0284-16.2016 
+    year: 2016
+    link: https://www.eneuro.org/content/3/6/ENEURO.0284-16.2016
+    authors: Lopez-Pigozzi D, Laurent F, Brotons-Mas JR, Valderrama M, Valero M, Fernandez-Lamo I, Cid E, Gomez-Dominguez D, Gal B, Mendendez de la Prida L
+    selected: false
+
+  - title: Determinants of different deep/superficial CA1 pyramidal cell dynamics during sharp-wave-ripples
+    journal: Nature Neuroscience
+    issue: 18, 1281–1290
+    year: 2015
+    link: https://www.nature.com/articles/nn.4074
+    authors: Valero M, Cid E, Averkin RG, Aguilar J, Sanchez-Aguilera A, Viney T, Gomez-Dominguez D, Bellistri E and Menendez de la Prida L
+    selected: true
+
+  - title: Proximodistal structure of theta coordination in the dorsal hippocampus of epileptic rats
+    journal: The Journal of Neuroscience 
+    issue: 35(11), 4760-4775 
+    year: 2015
+    link: https://www.jneurosci.org/content/35/11/4760.long
+    authors: Laurent F, Brotons-Mas J Cid E, Lopez-Pigozzi D, Valero M, Gal B, Menendez de la Prida L
+    selected: false
+
+  - title: Extracellular calcium controls the expression of two different forms of ripple-like hippocampal oscillations
+    journal: The Journal of Neuroscience 
+    issue: 34(8), 2989-3004 
+    year: 2014
+    link: https://www.jneurosci.org/content/34/8/2989.short
+    authors: Aivar P, Valero M, Bellistri E, Menendez de la Prida L
+    selected: false
+
   - title: Early maternal deprivation immunologically primes hippocampal synapses by redistributing interleukin-1 receptor type I in a sex dependent manner
     journal: Brain, Behavior, and Immunity
-    issue: 35; 135-143
+    issue: 35, 135-143
     year: 2013
     link: http://www.sciencedirect.com/science/article/pii/S0889159113004625
     authors: Viviani B, Boraso M, Valero M, Gardoni F, Marco EM, Llorente R, Corsini E, Galli CL, Di Luca M, Marinovich M, López-Gallardo M, Viveros MP
+    selected: false
+
+  - title: Sex dependent effects of early maternal deprivation on MDMA induced conditioned place preference in adolescent rats. Possible neurochemical correlates
+    journal: Toxicology 
+    issue: 6 311(1-2), 78-86 
+    year: 2013
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0300483X12004222?via%3Dihub
+    authors: Llorente-Berzal A, Manzanedo C, Daza-Losada M, Valero M, Lopez Gallardo M, Rodriguez-Arias M, Miñarro J, Viveros MP
+    selected: false
+
+  - title: Maternal deprivation effects on brain plasticity and recognition memory in adolescent male and female rats
+    journal: Neuropharmacology
+    issue: 68, 223-31 
+    year: 2013
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0028390812004509?via%3Dihub
+    authors: Marco EM, Valero M, De La Serna O, Aisa B, Borcel E, Mamirez MJ, Viveros MP
+    selected: false
+
+  - title: Neurobehavioural and metabolic long-term consequences of neonatal maternal deprivation stress and adolescent olanzapine treatment in rats of both sexes
+    journal: Neuropharmacology
+    issue: 62, 1332-1341 
+    year: 2012
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0028390811003091
+    authors: Llorente-Berzal A, Mela V, Borcel E, Valero M, López-Gallardo M, Viveros MP, Marco EM
     selected: false

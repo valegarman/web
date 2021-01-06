@@ -1,17 +1,16 @@
 <template>
   <div class="hero-image">
     <div class="hero-text">
-      <h1 style="font-size: 50px">I am John Doe</h1>
-      <p>And I'm a Photographer</p>
-      <button>Hire me</button>
+      <h1 style="font-size: 50px">Manuel Valero</h1>
+      <p>Neurophysiology and electrophysiology</p>
     </div>
   </div>
 </template>
 
 <style lang="scss">
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('http://valeroneuroscience.com/header_bg3.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.3)),
+    url('/images/bkg2.jpg');
   height: 95%;
   background-position: center;
   background-repeat: no-repeat;
