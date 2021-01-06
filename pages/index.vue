@@ -1,7 +1,7 @@
 <template>
   <main>
     <v-app-bar app flat>
-      <v-tabs v-model="activeTab" centered class="ml-n9">
+      <v-tabs :value="activeTab" centered class="ml-n9">
         <indexTab @tab="goToId" />
         <v-tab
           v-for="link in links"
@@ -14,20 +14,16 @@
       </v-tabs>
     </v-app-bar>
     <v-row no-gutters justify="center">
-      <div
-        id="index"
-        v-intersect="onIntersectHandler()"
-        style="width: 100%; height: 100vh"
-      >
+      <div id="index" ref="index" style="width: 100%; height: 100vh">
         <hero />
       </div>
       <v-col cols="12" md="8">
-        <div id="news" v-intersect="onIntersectHandler()" class="pb-5">
+        <div id="news" ref="news" class="pb-5">
           <indexSection>
             <newsSlide :news="news.news" />
           </indexSection>
         </div>
-        <div id="publications" v-intersect="onIntersectHandler()" class="pb-5">
+        <div id="publications" ref="publications" class="pb-5">
           <indexSection>
             <timelineSearch :publications="publications.publications" />
           </indexSection>
@@ -65,62 +61,30 @@ export default {
     }
   },
   data: () => ({
-    intersectElementes: {
-      index: {
-        intersectionRatio: 0,
-        isIntersecting: true,
-      },
-    },
+    activeTab: 'index',
   }),
-  computed: {
-    activeTab: {
-      get() {
-        const entries = []
-        for (const name in this.intersectElementes) {
-          if (this.intersectElementes[name].isIntersecting) {
-            entries.push({
-              name,
-              intersectionRatio: this.intersectElementes[name]
-                .intersectionRatio,
-            })
-          }
-        }
-        return entries.sort(
-          (a, b) => a.intersectionRatio > b.intersectionRatio
-        )[0].name
-      },
-      set(newTab) {
-        return newTab
-      },
-    },
+  destroyed() {
+    window.removeEventListener('scroll', this.handleScroll)
   },
   mounted() {
+    window.addEventListener('scroll', this.handleScroll)
     try {
       this.$vuetify.goTo(`#${this.$route.query.id}`)
       this.$router.replace({ query: null })
     } catch (err) {}
   },
   methods: {
-    onIntersect(entries, observer, isIntersecting) {
-      this.intersectElementes[entries[0].target.id] = {
-        intersectionRatio: entries[0].intersectionRatio,
-        isIntersecting,
+    handleScroll(a) {
+      const entries = []
+      for (const link of [...this.links, 'index']) {
+        entries.push({
+          id: this.$refs[link].id,
+          position: this.$refs[link].getBoundingClientRect().top,
+        })
       }
-    },
-    onIntersectHandler() {
-      const thresholds = []
-      const numSteps = 100
-
-      for (let i = 0; i <= numSteps; i++) {
-        const ratio = i / numSteps
-        thresholds.push(ratio)
-      }
-      return {
-        handler: this.onIntersect,
-        options: {
-          threshold: thresholds,
-        },
-      }
+      this.activeTab = entries
+        .filter((entrie) => entrie.position <= 100)
+        .sort((a, b) => b.position - a.position)[0].id
     },
   },
 }
