@@ -1,9 +1,9 @@
 <template>
-  <section class="pa-1">
+  <section>
     <h2 class="pb-8 pl-5 font-weight-regular">
       {{ $t('news_and_views.title') }}
     </h2>
-    <v-slide-group show-arrows>
+    <v-slide-group class="py-3" show-arrows>
       <v-slide-item v-for="newElement in news" :key="newElement.title">
         <indexCard :new-element="newElement" />
       </v-slide-item>
@@ -30,7 +30,7 @@ export default {
 .v-slide-group__next {
   background: transparent;
   position: relative;
-  min-width: 40px;
+  min-width: 100px;
   z-index: 2;
   i {
     color: #fff !important;
@@ -43,6 +43,6 @@ export default {
   }
 }
 .v-slide-group__wrapper {
-  margin: 0 -40px 0 -40px;
+  margin: 0 -100px 0 -100px;
 }
 </style>

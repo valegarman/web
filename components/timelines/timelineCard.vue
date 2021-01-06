@@ -6,7 +6,7 @@
           <v-img width="150" :src="publication.img"></v-img>
         </v-card>
       </v-col>
-      <v-col cols="12" sm="12" md="9">
+      <v-col cols="12" sm="12" :md="publication.img ? '9' : '12'">
         <v-card-text class="text-subtitle-1 text-sm-h5">
           <a :href="publication.link">{{ publication.title }}</a>
         </v-card-text>
@@ -22,7 +22,7 @@
       </v-card-text>
 
       <v-card-text class="pt-1">
-        {{ publication.description }}
+        {{ publication.authors }}
       </v-card-text>
     </div>
   </v-card>
