@@ -3,7 +3,7 @@
     <v-speed-dial
       v-model="fab"
       bottom
-      right
+      left
       fixed
       direction="top"
       transition="slide-y-reverse-transition"

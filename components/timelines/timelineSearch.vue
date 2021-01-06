@@ -1,18 +1,14 @@
-<i18n>
-{
-  "en": {
-    "is_selected": "Selected publications"
-  },
-  "es": {
-    "is_selected": "Artículos seleccionados"
-  }
-}
-</i18n>
-
 <template>
   <section>
-    <v-container style="max-width: 800px">
-      <v-checkbox v-model="isSelected" :label="$t('is_selected')"></v-checkbox>
+    <h2 class="pb-8 pl-5 font-weight-regular">
+      {{ $t('publications.title') }}
+    </h2>
+    <v-container class="px-0" style="max-width: 800px">
+      <v-checkbox
+        v-model="isSelected"
+        class="ml-2"
+        :label="$t('timelineSearch.is_selected')"
+      ></v-checkbox>
       <timeline :publications="selectedPublications" />
     </v-container>
   </section>

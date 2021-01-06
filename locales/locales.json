@@ -1,0 +1,44 @@
+{
+  "en": {
+    "nav": {
+      "index": "Home",
+      "news": "News",
+      "publications": "Publications" 
+    },
+    "cookies": {
+      "button": "Accept",
+      "cookies_policy": "This Cookie Policy is part of and is incorporated into our Privacy Policy. By using the Site, you agree to be bound by this Cookie Policy and our Privacy Policy. For more information about how we use information collected by cookies and other tracking technologies, please refer to our Privacy Policy ",
+      "link": "page."
+    },
+    "timelineSearch": {
+      "is_selected": "Selected publications"
+    },
+    "publications": {
+      "title": "PUBLICATIONS"
+    },
+    "news_and_views": {
+      "title": "NEWS AND VIEWS"
+    }
+  },
+  "es": {
+    "nav": {
+      "index": "Inicio",
+      "news": "Noticias",
+      "publications": "Publicaciones"
+    },
+    "cookies": {
+      "button": "Aceptar",
+      "cookies_policy": "Utilizamos cookies propias y de terceros para obtener datos estadísticos de la navegación de nuestros usuarios y mejorar nuestros servicios. Si acepta o continúa navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información ",
+      "link": "aqui."
+    },
+    "timelineSearch": {
+      "is_selected": "Artículos seleccionados"
+    },
+    "publications": {
+      "title": "ARTÍCULOS"
+    },
+    "news_and_views": {
+      "title": "NOTICIAS"
+    }
+  }
+}

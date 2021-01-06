@@ -1,3 +1,5 @@
+import i18nMessages from './locales/locales.json'
+
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
@@ -41,11 +43,11 @@ export default {
     [
       'nuxt-i18n',
       {
-        vueI18nLoader: true,
         locales: ['en', 'es'],
         defaultLocale: 'en',
         vueI18n: {
           fallbackLocale: 'en',
+          messages: i18nMessages,
         },
       },
     ],
@@ -57,6 +59,9 @@ export default {
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    theme: {
+      options: { customProperties: true },
+    },
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

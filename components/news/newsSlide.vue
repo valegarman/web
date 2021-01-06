@@ -1,18 +1,27 @@
 <template>
-  <section>
-    <v-slide-group show-arrows class="mt-2">
-      <v-slide-item v-for="n in 15" :key="n">
-        <indexCard />
+  <section class="pa-1">
+    <h2 class="pb-8 pl-5 font-weight-regular">
+      {{ $t('news_and_views.title') }}
+    </h2>
+    <v-slide-group show-arrows>
+      <v-slide-item v-for="newElement in news" :key="newElement.title">
+        <indexCard :new-element="newElement" />
       </v-slide-item>
     </v-slide-group>
   </section>
 </template>
 
 <script>
-import indexCard from '~/components/index/indexCard.vue'
+import indexCard from '~/components/news/newsCard.vue'
 
 export default {
   components: { indexCard },
+  props: {
+    news: {
+      type: Array,
+      default: () => [],
+    },
+  },
 }
 </script>
 
@@ -32,8 +41,5 @@ export default {
   .v-icon--disabled {
     display: none;
   }
-}
-.v-slide-group__wrapper {
-  margin: 0 -40px 0 -40px;
 }
 </style>

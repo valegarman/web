@@ -9,7 +9,7 @@
           :href="`#${link}`"
           @click="pushToRouter(link)"
         >
-          {{ $t(link) }}
+          {{ $t(`nav.${link}`) }}
         </v-tab>
       </v-tabs>
     </v-app-bar>
@@ -42,9 +42,9 @@ export default {
       error({ statusCode: 404, message: 'not found' })
     }
   },
-  mounted() {
-    this.activeTab = 'index'
-  },
+  data: () => ({
+    activeTab: 'index',
+  }),
 }
 </script>
 

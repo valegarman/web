@@ -7,20 +7,22 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="12" md="9">
-        <v-card-text class="text-h6">
-          {{ publication.title }}
+        <v-card-text class="text-subtitle-1 text-sm-h5">
+          <a :href="publication.link">{{ publication.title }}</a>
         </v-card-text>
       </v-col>
     </v-row>
     <div>
       <v-card-text class="pt-1 pb-0">
-        <span class="text-h5"> {{ publication.journal }} </span>
+        <span class="text-h6 text-sm-h6">
+          {{ publication.journal }}
+        </span>
         {{ publication.issue }}
         <p class="text-subtitle-1">{{ publication.year }}</p>
       </v-card-text>
 
       <v-card-text class="pt-1">
-        {{ publication.authors }}
+        {{ publication.description }}
       </v-card-text>
     </div>
   </v-card>
@@ -36,3 +38,16 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+a:link {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  color: var(--v-primary-base);
+}
+</style>

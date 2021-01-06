@@ -9,7 +9,7 @@
           :href="`#${link}`"
           @click="goToId(link)"
         >
-          {{ $t(link) }}
+          {{ $t(`nav.${link}`) }}
         </v-tab>
       </v-tabs>
     </v-app-bar>
@@ -22,6 +22,11 @@
         <hero />
       </div>
       <v-col cols="12" md="8">
+        <div id="news" v-intersect="onIntersectHandler()" class="pb-5">
+          <indexSection>
+            <newsSlide :news="news.news" />
+          </indexSection>
+        </div>
         <div id="publications" v-intersect="onIntersectHandler()" class="pb-5">
           <indexSection>
             <timelineSearch :publications="publications.publications" />
@@ -38,6 +43,7 @@ import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
 import timelineSearch from '~/components/timelines/timelineSearch.vue'
 import indexTab from '~/components/layout/indexTab.vue'
+import newsSlide from '~/components/news/newsSlide.vue'
 
 export default {
   layout: 'default',
@@ -46,37 +52,73 @@ export default {
     hero,
     timelineSearch,
     indexTab,
+    newsSlide,
   },
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
     try {
+      const news = await $content(`/news/${app.i18n.locale}/news`).fetch()
       const publications = await $content('/publications/publications').fetch()
-      return { publications }
+      return { publications, news }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }
   },
   data: () => ({
-    activeTab: 'index',
+    intersectElementes: {
+      index: {
+        intersectionRatio: 0,
+        isIntersecting: true,
+      },
+    },
   }),
+  computed: {
+    activeTab: {
+      get() {
+        const entries = []
+        for (const name in this.intersectElementes) {
+          if (this.intersectElementes[name].isIntersecting) {
+            entries.push({
+              name,
+              intersectionRatio: this.intersectElementes[name]
+                .intersectionRatio,
+            })
+          }
+        }
+        return entries.sort(
+          (a, b) => a.intersectionRatio > b.intersectionRatio
+        )[0].name
+      },
+      set(newTab) {
+        return newTab
+      },
+    },
+  },
   mounted() {
     try {
       this.$vuetify.goTo(`#${this.$route.query.id}`)
-      this.activeTab = this.$route.query.id
       this.$router.replace({ query: null })
     } catch (err) {}
   },
   methods: {
-    onIntersect(entries, observer, intersect) {
-      if (entries[0].intersectionRatio >= 0.5) {
-        this.activeTab = entries[0].target.id
+    onIntersect(entries, observer, isIntersecting) {
+      this.intersectElementes[entries[0].target.id] = {
+        intersectionRatio: entries[0].intersectionRatio,
+        isIntersecting,
       }
     },
     onIntersectHandler() {
+      const thresholds = []
+      const numSteps = 100
+
+      for (let i = 0; i <= numSteps; i++) {
+        const ratio = i / numSteps
+        thresholds.push(ratio)
+      }
       return {
         handler: this.onIntersect,
         options: {
-          threshold: [0, 0.25, 0.5, 0.75, 1.0],
+          threshold: thresholds,
         },
       }
     },
