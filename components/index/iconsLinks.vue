@@ -5,9 +5,19 @@
         <RGIcon />
       </iconBase>
     </v-btn>
-    <v-btn icon :color="color" :href="contactLinks.googleSchoolar">
-      <iconBase class="ml-3" width="30" height="30" icon-name="googleSchoolar">
+    <v-btn class="ml-2" icon :color="color" :href="contactLinks.googleSchoolar">
+      <iconBase width="30" height="30" icon-name="googleSchoolar">
         <googleSchoolarIcon />
+      </iconBase>
+    </v-btn>
+    <v-btn class="ml-3" icon :color="color" :href="contactLinks.gmail">
+      <iconBase width="30" height="30" icon-name="googleSchoolar">
+        <gmailLogo />
+      </iconBase>
+    </v-btn>
+    <v-btn class="ml-3" icon :color="color" :href="contactLinks.github">
+      <iconBase width="30" height="30" icon-name="googleSchoolar">
+        <gitLogo />
       </iconBase>
     </v-btn>
   </div>
@@ -16,6 +26,8 @@
 <script>
 import googleSchoolarIcon from '~/components/icons/googleSchoolarIcon.vue'
 import RGIcon from '~/components/icons/RGIcon.vue'
+import gmailLogo from '~/components/icons/gmailLogo.vue'
+import gitLogo from '~/components/icons/gitLogo.vue'
 import iconBase from '~/components/icons/iconBase.vue'
 import contactLinks from '~/content/contact/links.json'
 
@@ -24,6 +36,8 @@ export default {
     googleSchoolarIcon,
     RGIcon,
     iconBase,
+    gmailLogo,
+    gitLogo,
   },
   props: {
     color: {
