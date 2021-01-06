@@ -2,7 +2,7 @@ import i18nMessages from './locales/locales.json'
 
 export default {
   generate: {
-    routes: ['/', '/en', '/es', '/es/pages/resources'],
+    fallback: true,
   },
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
@@ -48,7 +48,6 @@ export default {
         locales: ['en', 'es'],
         defaultLocale: 'en',
         vueI18n: {
-          fallbackLocale: 'en',
           messages: i18nMessages,
         },
       },
