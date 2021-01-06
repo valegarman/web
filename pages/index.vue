@@ -34,7 +34,7 @@
           <indexSection title="contact.title">
             <iconsLinks />
             <nuxt-content class="px-7" :document="contact" />
-            <funko />
+            <funko :messages="messages.messages" />
           </indexSection>
         </div>
       </v-col>
@@ -71,7 +71,10 @@ export default {
       ).fetch()
       const news = await $content(`/news/${app.i18n.locale}/news`).fetch()
       const publications = await $content('/publications/publications').fetch()
-      return { publications, news, contact }
+      const messages = await $content(
+        `/messages/${app.i18n.locale}/messages`
+      ).fetch()
+      return { publications, news, contact, messages }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }

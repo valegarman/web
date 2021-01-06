@@ -1,17 +1,32 @@
 <template>
-  <div id="funko-container" class="pt-3 mb-8">
-    <canvas
-      ref="canvas"
-      :width="`${width * scale}px`"
-      :height="`${height * scale}px`"
-      @click="step"
-    ></canvas>
+  <div class="pa-7">
+    <div class="container-bubble">
+      <div class="bubble bubble-bottom-left">
+        {{ messages[actualMessage].message }}
+      </div>
+    </div>
+    <div id="funko-container">
+      <canvas
+        ref="canvas"
+        class="pointer"
+        :width="`${width * scale}px`"
+        :height="`${height * scale}px`"
+        @click="animate"
+      ></canvas>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    messages: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data: () => ({
+    actualMessage: 0,
     img: null,
     scale: 0.3,
     width: 406,
@@ -64,6 +79,17 @@ export default {
         this.currentLoopIndex = 0
       }
     },
+    nextMessage() {
+      if (this.actualMessage < this.messages.length - 1) {
+        this.actualMessage++
+      } else {
+        this.actualMessage = 0
+      }
+    },
+    animate() {
+      this.step()
+      this.nextMessage()
+    },
   },
 }
 </script>
@@ -71,5 +97,40 @@ export default {
 <style scoped>
 #funko-container {
   text-align: center;
+}
+.container-bubble {
+  display: flex;
+  flex-direction: column;
+}
+.pointer {
+  cursor: pointer;
+}
+.bubble {
+  align-self: center;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 300px;
+  background: #fff;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3),
+    0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
+}
+
+.bubble-bottom-left:before {
+  content: '';
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 14px solid #fff;
+  border-right: 24px solid transparent;
+  border-top: 12px solid #fff;
+  border-bottom: 20px solid transparent;
+  right: 20px;
+  bottom: -24px;
 }
 </style>
