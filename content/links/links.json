@@ -1,0 +1,16 @@
+{
+  "links": [
+    {
+      "id": "news",
+      "type": "section"
+    },
+    {
+      "id": "publications",
+      "type": "section"
+    },
+    {
+      "id": "resources",
+      "type": "page"
+    }
+  ]
+}

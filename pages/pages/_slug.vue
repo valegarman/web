@@ -7,7 +7,11 @@
           v-for="link in links"
           :key="link.id"
           :href="`#${link.id}`"
-          @click="pushToHomeRouter(link.id)"
+          @click="
+            link.type === 'section'
+              ? pushToHomeRouter(link.id)
+              : pushToRouter(link.id)
+          "
         >
           {{ $t(`nav.${link.id}`) }}
         </v-tab>
@@ -34,7 +38,8 @@ export default {
   async asyncData({ $content, params, app, error }) {
     try {
       const article = await $content(
-        `/resources/${app.i18n.locale}/resources`
+        `/pages/${app.i18n.locale}/`,
+        params.slug
       ).fetch()
       return { article }
     } catch {

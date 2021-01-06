@@ -1,20 +1,9 @@
 <script>
+import links from '~/content/links/links.json'
+
 export default {
   data: () => ({
-    links: [
-      {
-        id: 'news',
-        type: 'section',
-      },
-      {
-        id: 'publications',
-        type: 'section',
-      },
-      {
-        id: 'resources',
-        type: 'page',
-      },
-    ],
+    links: links.links,
   }),
   methods: {
     goToId(link) {
@@ -33,7 +22,7 @@ export default {
     pushToRouter(link) {
       this.$router.push(
         this.localePath({
-          path: `/${link}`,
+          path: `/pages/${link}`,
         })
       )
     },

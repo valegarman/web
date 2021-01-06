@@ -7,7 +7,11 @@
           v-for="link in links"
           :key="link.id"
           :href="`#${link.id}`"
-          @click="pushToHomeRouter(link.id)"
+          @click="
+            link.type === 'section'
+              ? pushToHomeRouter(link.id)
+              : pushToRouter(link.id)
+          "
         >
           {{ $t(`nav.${link.id}`) }}
         </v-tab>

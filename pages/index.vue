@@ -78,11 +78,14 @@ export default {
   methods: {
     handleScroll(a) {
       const entries = []
-      for (const link of [...this.links, 'index']) {
-        entries.push({
-          id: this.$refs[link].id,
-          position: this.$refs[link].getBoundingClientRect().top,
-        })
+      const links = this.links.map((link) => link.id)
+      for (const link of [...links, 'index']) {
+        try {
+          entries.push({
+            id: this.$refs[link].id,
+            position: this.$refs[link].getBoundingClientRect().top,
+          })
+        } catch (err) {}
       }
       this.activeTab = entries
         .filter((entrie) => entrie.position <= 100)
