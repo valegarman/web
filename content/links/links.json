@@ -5,6 +5,10 @@
       "type": "section"
     },
     {
+      "id": "contact",
+      "type": "section"
+    },
+    {
       "id": "publications",
       "type": "section"
     },

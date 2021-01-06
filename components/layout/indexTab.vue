@@ -4,7 +4,7 @@
       width="30"
       height="30"
       style="margin-right: 10px"
-      icon-name="next"
+      icon-name="home"
     >
       <icon />
     </iconBase>
