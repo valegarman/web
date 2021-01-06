@@ -25,15 +25,16 @@
             <newsSlide :news="news.news" />
           </indexSection>
         </div>
+        <div id="publications" ref="publications" class="pb-5">
+          <indexSection title="publications.title">
+            <timelineSearch :publications="publications.publications" />
+          </indexSection>
+        </div>
         <div id="contact" ref="contact" class="pb-5">
           <indexSection title="contact.title">
             <iconsLinks />
             <nuxt-content class="px-7" :document="contact" />
-          </indexSection>
-        </div>
-        <div id="publications" ref="publications" class="pb-5">
-          <indexSection title="publications.title">
-            <timelineSearch :publications="publications.publications" />
+            <funko />
           </indexSection>
         </div>
       </v-col>
@@ -49,6 +50,7 @@ import iconsLinks from '~/components/index/iconsLinks.vue'
 import timelineSearch from '~/components/timelines/timelineSearch.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 import newsSlide from '~/components/news/newsSlide.vue'
+import funko from '~/components/funko/funko.vue'
 
 export default {
   layout: 'default',
@@ -59,6 +61,7 @@ export default {
     indexTab,
     newsSlide,
     iconsLinks,
+    funko,
   },
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
@@ -101,6 +104,12 @@ export default {
       this.activeTab = entries
         .filter((entrie) => entrie.position <= 100)
         .sort((a, b) => b.position - a.position)[0].id
+      if (
+        window.innerHeight + window.pageYOffset >=
+        document.body.offsetHeight
+      ) {
+        this.activeTab = 'contact'
+      }
     },
   },
 }
