@@ -42,4 +42,7 @@ export default {
     display: none;
   }
 }
+.v-slide-group__wrapper {
+  margin: 0 -40px 0 -40px;
+}
 </style>
