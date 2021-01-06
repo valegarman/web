@@ -3,7 +3,8 @@
     "nav": {
       "index": "Home",
       "news": "News",
-      "publications": "Publications" 
+      "publications": "Publications",
+      "resources": "Resources" 
     },
     "cookies": {
       "button": "Accept",
@@ -24,7 +25,8 @@
     "nav": {
       "index": "Inicio",
       "news": "Noticias",
-      "publications": "Publicaciones"
+      "publications": "Publicaciones",
+      "resources": "Recursos"
     },
     "cookies": {
       "button": "Aceptar",

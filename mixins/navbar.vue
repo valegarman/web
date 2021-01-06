@@ -1,7 +1,20 @@
 <script>
 export default {
   data: () => ({
-    links: ['news', 'publications'],
+    links: [
+      {
+        id: 'news',
+        type: 'section',
+      },
+      {
+        id: 'publications',
+        type: 'section',
+      },
+      {
+        id: 'resources',
+        type: 'page',
+      },
+    ],
   }),
   methods: {
     goToId(link) {
@@ -9,11 +22,18 @@ export default {
         this.$vuetify.goTo(`#${link}`)
       } catch (err) {}
     },
-    pushToRouter(link) {
+    pushToHomeRouter(link) {
       this.$router.push(
         this.localePath({
           path: '/',
           query: { id: link.toLowerCase().replaceAll(' ', '-') },
+        })
+      )
+    },
+    pushToRouter(link) {
+      this.$router.push(
+        this.localePath({
+          path: `/${link}`,
         })
       )
     },

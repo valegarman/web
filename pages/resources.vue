@@ -34,8 +34,7 @@ export default {
   async asyncData({ $content, params, app, error }) {
     try {
       const article = await $content(
-        `/info/${app.i18n.locale}/`,
-        params.slug
+        `/resources/${app.i18n.locale}/resources`
       ).fetch()
       return { article }
     } catch {
@@ -43,7 +42,7 @@ export default {
     }
   },
   data: () => ({
-    activeTab: 'index',
+    activeTab: 'resources',
   }),
 }
 </script>

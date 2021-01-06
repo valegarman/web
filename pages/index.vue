@@ -5,11 +5,13 @@
         <indexTab @tab="goToId" />
         <v-tab
           v-for="link in links"
-          :key="link"
-          :href="`#${link}`"
-          @click="goToId(link)"
+          :key="link.id"
+          :href="`#${link.id}`"
+          @click="
+            link.type === 'section' ? goToId(link.id) : pushToRouter(link.id)
+          "
         >
-          {{ $t(`nav.${link}`) }}
+          {{ $t(`nav.${link.id}`) }}
         </v-tab>
       </v-tabs>
     </v-app-bar>
