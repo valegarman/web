@@ -1,13 +1,13 @@
 <template>
-  <v-card class="ma-2" max-width="300px" min-height="500px">
+  <v-card flat>
     <v-img
       v-if="newElement.img"
       class="white--text align-end"
-      height="200px"
+      :height="$vuetify.breakpoint.mobile ? '150px' : '200px'"
       :src="newElement.img"
     >
     </v-img>
-    <v-card-text class="text-h6">
+    <v-card-text class="text-subtitle-1 text-sm-h5">
       <a :href="newElement.link">{{ newElement.title }}</a>
     </v-card-text>
     <v-card-subtitle class="pb-0"> {{ newElement.date }} </v-card-subtitle>
@@ -29,7 +29,8 @@ export default {
 </script>
 
 <style scoped>
-a:link {
+a:link,
+a:visited {
   background-color: white;
   color: black;
   text-decoration: none;
