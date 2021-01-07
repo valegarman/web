@@ -23,6 +23,9 @@
     },
     "contact": {
       "title": "CONTACT"
+    },
+    "hero":{
+      "ocupation": "Neurophysiology and electrophysiology"
     }
   },
   "es": {
@@ -49,6 +52,9 @@
     },
     "contact": {
       "title": "CONTACTO"
+    },
+    "hero":{
+      "ocupation": "Neurofisiología y electrofisiología"
     }
   }
 }

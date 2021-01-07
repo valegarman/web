@@ -2,7 +2,7 @@
   <div class="hero-image">
     <div class="hero-text">
       <h1 style="font-size: 50px">Manuel Valero</h1>
-      <p>Neurophysiology and electrophysiology</p>
+      <p>{{ $t('hero.ocupation') }}</p>
       <iconsLinks color="white" />
     </div>
   </div>
