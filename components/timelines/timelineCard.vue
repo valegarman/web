@@ -40,7 +40,8 @@ export default {
 </script>
 
 <style scoped>
-a:link {
+a:link,
+a:visited {
   background-color: white;
   color: black;
   text-decoration: none;
