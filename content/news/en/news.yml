@@ -4,7 +4,7 @@ news:
     date: "12-2020"
     link: https://www.nature.com/articles/s41593-020-00752-x
     img: /images/NatNeuro2020.jpg
-    content: Sara Mederos et al show the astrocytes as a hub for controlling inhibition in cortical circuits, providing a novel pathway for information processing and  goal-directed behaviors.
+    content: Sara Mederos et al show the astrocytes as a hub for controlling inhibition in cortical circuits, providing a novel pathway for information processing and goal-directed behaviors.
 
   - title: "Paper accepted in PNAS: DREADD induced interneuronal suppression of principal cells"
     date: "12-2020"
@@ -23,22 +23,22 @@ news:
     link: https://www.investigacionyciencia.es/revistas/mente-y-cerebro/quin-soy-744/ritmos-rpidos-para-organizar-los-recuerdos-16725
     img: /images/news_menteYcerebro2018.jpg
     content: "A short review about the behavioural implications of the hippocampal rythms: theta oscillations, ripples and memory. Written together with Liset Menendez de la Prida (in spanish)."
-
-  - title: "Paper accepted in Neuron: single-Cell reactivation during ripples and fast ripples"
-    date: "10-2019"
-    link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
-    img: /images/NeuronCover_news2017.jpg
-    content: We evaluated hippocampal single-cell activity during physiological and pathological sharp-wave ripples using juxtacellular and intracellular recordings in normal and epileptic rats with different memory abilities.
-
-  - title: "Paper in Nature Neuroscience: deep and superficial CA1 pyramidal cell dynamics during ripples"
-    date: "7-2017"
-    link: https://www.nature.com/articles/nn.4074
-    img: /images/NatNeuro2015.jpg
-    content: Using sharp and multi-site recordings, we show deep-superficial determinats interacting with behavioral and spatial effects to determine cell participation during sleep and awake sharp-wave ripples in freely moving rats.
   
   - title: "PhD thesis defense: deep and superficial organization of the normal and epileptic hippocampus"
     date: "9-2017"
     link: /docs/Tesis_MV_small.pdf
     img: /images/Tesis2017.jpg
     content: "Sup and Deep CA1 pyramidal cells have diferent responses during ripples, and their recruitment is exquisitely regulated as function of the system internal dynamic, its context and its history (mostly spanish)."
+
+  - title: "Paper accepted in Neuron: single-Cell reactivation during ripples and fast ripples"
+    date: "8-2017"
+    link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
+    img: /images/NeuronCover_news2017.jpg
+    content: We evaluated hippocampal single-cell activity during physiological and pathological sharp-wave ripples using juxtacellular and intracellular recordings in epileptic experimental models with impaired memory abilities.
+
+  - title: "Paper in Nature Neuroscience: deep and superficial CA1 pyramidal cell dynamics during ripples"
+    date: "7-2015"
+    link: https://www.nature.com/articles/nn.4074
+    img: /images/NatNeuro2015.jpg
+    content: Using sharp and multi-site recordings, we show deep-superficial determinats interacting with behavioral and spatial effects to determine cell participation during sleep and awake sharp-wave ripples in freely moving.
 
