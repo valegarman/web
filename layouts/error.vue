@@ -1,20 +1,33 @@
 <template>
   <v-app>
-    <h1 v-if="error.statusCode === 404">
-      {{ pageNotFound }}
-    </h1>
-    <h1 v-else>
-      {{ otherError }}
-    </h1>
-    <v-btn color="transparent" class="pr-4" elevation="0" :to="localePath('/')">
-      Home page <v-icon right> mdi-link </v-icon>
-    </v-btn>
+    <div class="pa-8">
+      <h1 v-if="error.statusCode === 404">
+        {{ pageNotFound }}
+      </h1>
+      <h1 v-else>
+        {{ otherError }}
+      </h1>
+      <v-btn
+        color="transparent"
+        class="pr-4"
+        elevation="0"
+        :to="localePath('/')"
+      >
+        Home page <v-icon right> mdi-link </v-icon>
+      </v-btn>
+      <game />
+    </div>
   </v-app>
 </template>
 
 <script>
+import game from '~/components/errorPage/game.vue'
+
 export default {
-  layout: 'empty',
+  layout: 'default',
+  components: {
+    game,
+  },
   props: {
     error: {
       type: Object,
