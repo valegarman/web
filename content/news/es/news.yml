@@ -12,6 +12,12 @@ news:
     img: /images/PNAS2020.jpg
     content: ¿Cómo cambian los patrones de actividad de un circuito cortical cuando las interneuronas son excitadas? Stephanie Rogers and Peter Rozman describen como la activación químico-genética (DREADDs) de las interneuronas induce cambios a corto y largo plazo en los circuitos neuronales.
 
+  - title: "Artículo en Nat Comms with Liset lab: Dinámicas de las células superficiales y profundas de CA1 en theta"
+    date: "5-2020"
+    link: https://www.nature.com/articles/s41467-020-15840-6
+    img: /images/NatComms2020.jpg
+    content: Gran trabajo del laboratorio de Liset! Andrea ha empleado modelos computacionales y algoritmos evolutivos para evaluar la preferencia de fase de células piramidales profundas y superficiales en CA1.
+
   - title: "Revisión in JNM: estrategias para registro de célula única en condiciones de libertad de movimiento"
     date: "12-2010"
     link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547

@@ -6,17 +6,17 @@ news:
     img: /images/NatNeuro2020.jpg
     content: Sara Mederos et al show the astrocytes as a hub for controlling inhibition in cortical circuits, providing a novel pathway for information processing and goal-directed behaviors.
 
-  - title: "Paper accepted in PNAS: DREADD induced interneuronal suppression of principal cells"
+  - title: "Paper in PNAS: DREADD induced interneuronal suppression of principal cells"
     date: "12-2020"
     link: https://www.pnas.org/content/118/2/e2014157118.long
     img: /images/PNAS2020.jpg
     content: How do firing patterns in a cortical circuit change when inhibitory neurons are excited? Stephanie Rogers and Peter Rozman found that Chemogenic activation of interneurons can bring about unexpected short-term and long-term changes in circuit dynamics.
 
- - title: "Paper in Nat Comms with Andrea Navas-Olive (Liset lab): deep-superficial dynamics during theta"
+  - title: "Paper in Nat Comms with Liset lab: CA1 deep-superficial dynamics during theta"
     date: "5-2020"
     link: https://www.nature.com/articles/s41467-020-15840-6
-    img: /images/PNAS2020.jpg
-    content: Amazing work from Andrea Navas-Olive! She employed computational models tuned with evolutionary algorithms to evaluate phase preference of individual deep/superficial CA1 pyramidal cells.
+    img: /images/NatComms2020.jpg
+    content: Amazing work from Liset lab! Andrea employed computational models tuned with evolutionary algorithms to evaluate phase preference of individual deep/superficial CA1 pyramidal cells.
 
   - title: "Review in JNM: Head-mounted approaches for targeting single-cells in freely moving"
     date: "12-2019"
@@ -30,10 +30,10 @@ news:
     img: /images/news_menteYcerebro2018.jpg
     content: "A short review about the behavioural implications of hippocampal rythms: theta oscillations, ripples and memory. Written together with Liset Menendez de la Prida (in spanish)."
   
-  - title: "PhD thesis defense: deep and superficial organization of the normal and epileptic hippocampus"
+  - title: "PhD thesis defense: sublayer organization of the normal and epileptic hippocampus"
     date: "9-2017"
     link: /docs/Tesis_MV_small.pdf
-    img: /images/Tesis2017.jpg
+    img: /images/supDeep_small.jpg
     content: "Sup and Deep CA1 pyramidal cells have diferent responses during ripples, and their recruitment is exquisitely regulated as function of the system internal dynamic, its context and its history (mostly spanish)."
 
   - title: "Paper accepted in Neuron: single-Cell reactivation during ripples and fast ripples"
