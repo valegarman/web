@@ -12,6 +12,12 @@ news:
     img: /images/PNAS2020.jpg
     content: How do firing patterns in a cortical circuit change when inhibitory neurons are excited? Stephanie Rogers and Peter Rozman found that Chemogenic activation of interneurons can bring about unexpected short-term and long-term changes in circuit dynamics.
 
+ - title: "Paper in Nat Comms with Andrea Navas-Olive (Liset lab): deep-superficial dynamics during theta"
+    date: "5-2020"
+    link: https://www.nature.com/articles/s41467-020-15840-6
+    img: /images/PNAS2020.jpg
+    content: Amazing work from Andrea Navas-Olive! She employed computational models tuned with evolutionary algorithms to evaluate phase preference of individual deep/superficial CA1 pyramidal cells.
+
   - title: "Review in JNM: Head-mounted approaches for targeting single-cells in freely moving"
     date: "12-2019"
     link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
