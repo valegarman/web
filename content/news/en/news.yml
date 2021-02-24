@@ -1,4 +1,9 @@
 news:
+  - title: "Down state-active ID2/Nkx2.1 interneurons in the neocortex | Nat Neurosci"
+    date: "1-2021"
+    link: https://www.nature.com/articles/s41593-021-00797-6
+    img: /images/Nat2021News.jpg
+    content: Pyramidal cells and GABAergic interneurons fire together in balanced cortical networks. In contrast to this general rule, we describe a distinct neuron type expressing ID2 and Nkx2.1, whose spiking activity is anti-correlated with all principal cells.
 
   - title: "GABAergic signaling to astrocytes in the PFC with Perea lab | Nat Neurosci"
     date: "12-2020"
