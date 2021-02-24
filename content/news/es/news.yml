@@ -1,24 +1,29 @@
 news:
+  - title: "Interneuronas selectivamente activas durante los down-states corticales | Nat Neurosci"
+    date: "1-2021"
+    link: https://www.nature.com/articles/s41593-021-00797-6
+    img: /images/Nat2021News.jpg
+    content: Células piramidales e interneuronas disparan coordinadamente en los circuitos corticales. En contra de esta regla general, describimos una interneurona ID2+ y Nkx2.1+ cuya actividad está negativamente correlacionada con todas las células principales.
 
-  - title: "Artículo en Nature Neuroscience con Perea lab: señalización GABAergica controlada por astrocytos en PFC"
+  - title: "Señalización GABAergica controlada por astrocytos en PFC, con Perea lab | Nat Neurosci"
     date: "12-2020"
     link: https://www.nature.com/articles/s41593-020-00752-x
     img: /images/NatNeuro2020.jpg
     content: Sara Mederos y colaboradores muestran cómo los astrocitos controlan los circuitos inhibitorios corticales, lo que supone una estrategia no canónica para el procesamiento de la información.
 
-  - title: "Artículo aceptado en PNAS: supresión de células piramidales a través de DREADD en interneuronas"
+  - title: "Supresión de células piramidales a través de DREADD en interneuronas | PNAS"
     date: "12-2020"
     link: https://www.pnas.org/content/118/2/e2014157118.long
     img: /images/PNAS2020.jpg
     content: ¿Cómo cambian los patrones de actividad de un circuito cortical cuando las interneuronas son excitadas? Stephanie Rogers and Peter Rozman describen como la activación químico-genética (DREADDs) de las interneuronas induce cambios a corto y largo plazo en los circuitos neuronales.
 
-  - title: "Artículo en Nat Comms with Liset lab: Dinámicas de las células superficiales y profundas de CA1 en theta"
+  - title: "Dinámicas de las células superficiales y profundas de CA1 en theta, con de la Prida lab | Nat Comms "
     date: "5-2020"
     link: https://www.nature.com/articles/s41467-020-15840-6
     img: /images/NatComms2020.jpg
     content: Gran trabajo del laboratorio de Liset! Andrea ha empleado modelos computacionales y algoritmos evolutivos para evaluar la preferencia de fase de células piramidales profundas y superficiales en CA1.
 
-  - title: "Revisión in JNM: estrategias para registro de célula única en condiciones de libertad de movimiento"
+  - title: "Estrategias para registro de célula única en condiciones de libertad de movimiento | Revisión in JNM: "
     date: "12-2019"
     link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
     img: /images/JNM2019.jpg
@@ -36,13 +41,13 @@ news:
     img: /images/supDeep_small.jpg
     content: "Las células piramidales de CA1 superficiales y profundas tienen diferentes respuestas durante los ripples, y su reclutamiento está elegántemente regulado en función de la dinámica interna, el contexto y la historia del circuito (dibujo de Andrea Navas-Olivé)"
 
-  - title: "Artículo aceptado en Neuron: Reactivación celular durante ripples y fast ripples"
+  - title: "Reactivación celular durante ripples y fast ripples | Neuron"
     date: "8-2017"
     link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
     img: /images/NeuronCover_news2017.jpg
     content: Evaluamos la actividad de células hipocampales durante ripples normales y patológicos mediante registros intracelulares y juxtacelulares en modelos experimentales de epilepsia con alteraciones de memoria.
 
-  - title: "Artículo en Nature Neuroscience: Dinámicas de las células piramidales superficiales y profundas de CA1 durante los ripples"
+  - title: "Dinámicas de las células piramidales superficiales y profundas de CA1 durante los ripples | Nat Neurosci"
     date: "7-2015"
     link: https://www.nature.com/articles/nn.4074
     img: /images/NatNeuro2015.jpg
