@@ -1,18 +1,18 @@
 news:
 
-  - title: "GABAergic signaling to astrocytes in the PFC in Nature Neuroscience, with Perea lab"
+  - title: "GABAergic signaling to astrocytes in the PFC, in Nature Neuroscience with Perea lab"
     date: "12-2020"
     link: https://www.nature.com/articles/s41593-020-00752-x
     img: /images/NatNeuro2020.jpg
     content: Sara Mederos et al show the astrocytes as a hub for controlling inhibition in cortical circuits, providing a novel pathway for information processing and goal-directed behaviors.
 
-  - title: "Paper in PNAS: DREADD induced interneuronal suppression of principal cells"
+  - title: "DREADD induced interneuronal suppression of principal cells in PNAS"
     date: "12-2020"
     link: https://www.pnas.org/content/118/2/e2014157118.long
     img: /images/PNAS2020.jpg
     content: How do firing patterns in a cortical circuit change when inhibitory neurons are excited? Stephanie Rogers and Peter Rozman found that Chemogenic activation of interneurons can bring about unexpected short-term and long-term changes in circuit dynamics.
 
-  - title: "Paper in Nat Comms with Liset lab: CA1 deep-superficial dynamics during theta"
+  - title: "CA1 deep-superficial dynamics during theta in Nat Comms, with de la Prida lab"
     date: "5-2020"
     link: https://www.nature.com/articles/s41467-020-15840-6
     img: /images/NatComms2020.jpg
@@ -36,13 +36,13 @@ news:
     img: /images/supDeep_small.jpg
     content: "Sup and Deep CA1 pyramidal cells have diferent responses during ripples, and their recruitment is exquisitely regulated as function of the system internal dynamic, its context and its history (drawing from Andrea Navas-Olivé)."
 
-  - title: "Paper accepted in Neuron: single-Cell reactivation during ripples and fast ripples"
+  - title: "Single-Cell reactivation during ripples and fast ripples, in Neuron"
     date: "8-2017"
     link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
     img: /images/NeuronCover_news2017.jpg
     content: We evaluated hippocampal single-cell activity during physiological and pathological sharp-wave ripples using juxtacellular and intracellular recordings in epileptic experimental models with impaired memory abilities.
 
-  - title: "Paper in Nature Neuroscience: deep and superficial CA1 pyramidal cell dynamics during ripples"
+  - title: "Deep and superficial CA1 pyramidal cell dynamics during ripples, in Nature Neuroscience"
     date: "7-2015"
     link: https://www.nature.com/articles/nn.4074
     img: /images/NatNeuro2015.jpg
