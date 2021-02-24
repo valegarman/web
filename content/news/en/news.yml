@@ -18,7 +18,7 @@ news:
     img: /images/NatComms2020.jpg
     content: Amazing work from Liset lab! Andrea employed computational models tuned with evolutionary algorithms to evaluate phase preference of individual deep/superficial CA1 pyramidal cells.
 
-  - title: "Review in JNM: Head-mounted approaches for targeting single-cells in freely moving"
+  - title: "Head-mounted approaches for targeting single-cells in freely moving | Review in JNM"
     date: "12-2019"
     link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
     img: /images/JNM2019.jpg
@@ -36,13 +36,13 @@ news:
     img: /images/supDeep_small.jpg
     content: "Sup and Deep CA1 pyramidal cells have diferent responses during ripples, and their recruitment is exquisitely regulated as function of the system internal dynamic, its context and its history (drawing from Andrea Navas-Olivé)."
 
-  - title: "Single-Cell reactivation during ripples and fast ripples, in Neuron"
+  - title: "Single-Cell reactivation during ripples and fast ripples | Neuron"
     date: "8-2017"
     link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
     img: /images/NeuronCover_news2017.jpg
     content: We evaluated hippocampal single-cell activity during physiological and pathological sharp-wave ripples using juxtacellular and intracellular recordings in epileptic experimental models with impaired memory abilities.
 
-  - title: "Deep and superficial CA1 pyramidal cell dynamics during ripples, in Nature Neuroscience"
+  - title: "Deep and superficial CA1 pyramidal cell dynamics during ripples | Nature Neuroscience"
     date: "7-2015"
     link: https://www.nature.com/articles/nn.4074
     img: /images/NatNeuro2015.jpg
