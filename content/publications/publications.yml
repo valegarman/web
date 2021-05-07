@@ -1,4 +1,12 @@
 publications:
+  - title: An update to Hippocampome.org by integrating single-cell phenotypes with circuit function in vivo
+    journal: PLOS Biology
+    issue: doi.org/10.1371/journal.pbio.3001213
+    year: 2021
+    link: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001213
+    authors: Sanchez-Aguilera A, Wheeler DW, Jurado-Parras T, Valero M, Nokia MS, Cid E, Fernandez-Lamo I, Sutton N, García-Rincón D, Menendez de la Prida L, Ascoli GA 
+    selected: false
+
   - title: Sleep down state-active ID2/Nkx2.1 interneurons in the neocortex
     journal: Nature Neuroscience
     issue: 10.1038/s41593-021-00797-6
