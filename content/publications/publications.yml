@@ -1,4 +1,13 @@
 publications:
+
+  - title: Sublayer- and cell-type-specific neurodegenerative transcriptional trajectories in hippocampal sclerosis
+    journal: Cell Reports
+    issue: doi.org/10.1016/j.celrep.2021.109229
+    year: 2021
+    link: https://www.cell.com/cell-reports/fulltext/S2211-1247(21)00580-5
+    authors: Cid E, Marquez-Galera A, Valero M, Gal B, Medeiros DC, Navarron CM, Ballesteros-Esteban L, Reig-Viader R, Morales AV, Fernandez-Lamo I, Gomez-Dominguez D, Sato M, Hayashi Y, Bayés A, Barco A, Lopez-Atalaya JP, and Menendez de la Prida L
+    selected: false
+
   - title: An update to Hippocampome.org by integrating single-cell phenotypes with circuit function in vivo
     journal: PLOS Biology
     issue: doi.org/10.1371/journal.pbio.3001213
