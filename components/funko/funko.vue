@@ -109,7 +109,7 @@ export default {
   align-self: center;
   position: relative;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   max-width: 300px;
   background: #fff;

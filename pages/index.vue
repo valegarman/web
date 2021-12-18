@@ -19,7 +19,7 @@
       <div id="index" ref="index" style="width: 100%; height: 100vh">
         <hero />
       </div>
-      <v-col cols="12" md="8">
+      <v-col cols="12" md="8" style="margin-bottom: 350px">
         <div id="news" ref="news" class="pb-5">
           <indexSection title="news_and_views.title">
             <newsSlide :news="news.news" />
@@ -34,10 +34,12 @@
           <indexSection title="contact.title">
             <iconsLinks />
             <nuxt-content class="px-7" :document="contact" />
-            <funko :messages="messages.messages" />
           </indexSection>
         </div>
       </v-col>
+      <div style="position: absolute; bottom: 10px">
+        <funko :messages="messages.messages" />
+      </div>
     </v-row>
   </main>
 </template>
