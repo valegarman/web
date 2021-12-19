@@ -17,7 +17,8 @@
     "nuxt": "^2.14.6",
     "nuxt-i18n": "^6.16.0",
     "phaser": "^3.51.0",
-    "vue-gtag": "^1.16.1"
+    "vue-gtag": "^1.16.1",
+    "vue-tweet-embed": "^2.4.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
