@@ -29,7 +29,7 @@ import RGIcon from '~/components/icons/RGIcon.vue'
 import gmailLogo from '~/components/icons/gmailLogo.vue'
 import gitLogo from '~/components/icons/gitLogo.vue'
 import iconBase from '~/components/icons/iconBase.vue'
-import contactLinks from '~/content/contact/links.json'
+import contactLinks from '~/assets/links/contact/links.json'
 
 export default {
   components: {

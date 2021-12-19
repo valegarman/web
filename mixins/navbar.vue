@@ -1,5 +1,5 @@
 <script>
-import links from '~/content/links/links.json'
+import links from '~/assets/links/links.json'
 
 export default {
   data: () => ({
