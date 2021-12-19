@@ -6,6 +6,7 @@ publications:
     link: https://www.cell.com/neuron/fulltext/S0896-6273(21)00953-3#.YbL3KI7dDbY.twitter
     authors: Zutshi I, Valero M, Fernández-Ruiz A, Buzsáki G 
     selected: false
+    img: /images/cover_neuron_ipi.jpeg
 
   - title: Sublayer- and cell-type-specific neurodegenerative transcriptional trajectories in hippocampal sclerosis
     journal: Cell Reports
