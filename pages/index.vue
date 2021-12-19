@@ -19,7 +19,7 @@
       <div id="index" ref="index" style="width: 100%; height: 100vh">
         <hero />
       </div>
-      <v-col cols="12" md="8" style="margin-bottom: 350px">
+      <v-col cols="12" md="8">
         <div id="news" ref="news" class="pb-5">
           <indexSection title="news_and_views.title">
             <newsSlide :news="news.news" />
@@ -30,32 +30,45 @@
             <timelineSearch :publications="publications.publications" />
           </indexSection>
         </div>
-        <div id="contact" ref="contact" class="pb-5">
-          <indexSection title="contact.title">
-            <iconsLinks />
-            <nuxt-content class="px-7" :document="contact" />
-          </indexSection>
-        </div>
       </v-col>
-      <div style="position: absolute; bottom: 10px">
-        <funko :messages="messages.messages" />
-      </div>
+      <v-row no-gutters justify="center">
+        <v-col cols="12" md="6">
+          <div class="contact">
+            <div id="contact" ref="contact" class="pb-5">
+              <indexSection title="contact.title">
+                <iconsLinks />
+                <nuxt-content class="px-7" :document="contact" />
+              </indexSection>
+            </div>
+            <div class="funko-absolute">
+              <funko :messages="messages.messages" />
+            </div>
+          </div>
+        </v-col>
+        <v-col cols="12" lg="4" md="6" sm="8" xs="12" class="mb-6">
+          <v-card-text class="ma-1">
+            <div class="twitter-timeline">
+              <Timeline id="MValero87" source-type="profile" />
+            </div>
+          </v-card-text>
+        </v-col>
+      </v-row>
     </v-row>
   </main>
 </template>
 
 <script>
+import { Timeline } from 'vue-tweet-embed'
 import navbar from '~/mixins/navbar.vue'
 import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
-import iconsLinks from '~/components/index/iconsLinks.vue'
 import timelineSearch from '~/components/timelines/timelineSearch.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 import newsSlide from '~/components/news/newsSlide.vue'
+import iconsLinks from '~/components/index/iconsLinks.vue'
 import funko from '~/components/funko/funko.vue'
 
 export default {
-  layout: 'default',
   components: {
     indexSection,
     hero,
@@ -64,6 +77,7 @@ export default {
     newsSlide,
     iconsLinks,
     funko,
+    Timeline,
   },
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
@@ -82,7 +96,7 @@ export default {
     }
   },
   data: () => ({
-    activeTab: 'index',
+    activeTab: null,
   }),
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll)
@@ -117,9 +131,25 @@ export default {
       }
     },
   },
+  layout: 'default',
 }
 </script>
 
 <style>
 @import url('~/assets/css/md.css');
+.contact {
+  display: flex;
+  justify-content: center;
+  min-height: 650px;
+  position: relative;
+}
+.funko-absolute {
+  position: absolute;
+  bottom: 0;
+}
+.twitter-timeline {
+  padding: 10px;
+  height: 700px;
+  overflow: auto;
+}
 </style>
