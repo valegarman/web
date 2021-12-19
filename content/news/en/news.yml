@@ -1,4 +1,10 @@
 news:
+- title: "Intrinsic computation in CA1 | Neuron"
+    date: "12-2021"
+    link: https://www.cell.com/neuron/fulltext/S0896-6273(21)00953-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627321009533%3Fshowall%3Dtrue
+    img: /images/cover_neuron_ipi.jpg
+    content: Ipshita Zutshi performed combined optogenetic and pharmacogenetic local and upstream inactivation of CA1! She showed that CA1 induce and maintain coordinated cell assemblies with minimal reliance on its inputs from CA3 and EC.
+
   - title: "Down state-active ID2/Nkx2.1 interneurons in the neocortex | Nat Neurosci"
     date: "1-2021"
     link: https://www.nature.com/articles/s41593-021-00797-6
