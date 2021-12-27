@@ -27,7 +27,7 @@
         </div>
         <div id="publications" ref="publications" class="pb-5">
           <indexSection title="publications.title">
-            <timelineSearch :publications="publications.publications" />
+            <publications :publications="publications.publications" />
           </indexSection>
         </div>
       </v-col>
@@ -62,7 +62,7 @@ import { Timeline } from 'vue-tweet-embed'
 import navbar from '~/mixins/navbar.vue'
 import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
-import timelineSearch from '~/components/timelines/timelineSearch.vue'
+import publications from '~/components/publications/publications.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 import newsSlide from '~/components/news/newsSlide.vue'
 import iconsLinks from '~/components/index/iconsLinks.vue'
@@ -72,7 +72,7 @@ export default {
   components: {
     indexSection,
     hero,
-    timelineSearch,
+    publications,
     indexTab,
     newsSlide,
     iconsLinks,
