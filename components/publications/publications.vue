@@ -1,7 +1,7 @@
 <template>
   <section>
     <v-container class="px-0" style="max-width: 800px">
-      <v-row>
+      <v-row no-gutters>
         <v-switch
           v-model="switchTimeline"
           class="ml-2"

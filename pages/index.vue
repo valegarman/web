@@ -31,28 +31,28 @@
           </indexSection>
         </div>
       </v-col>
-      <v-row no-gutters justify="center">
-        <v-col cols="12" md="6">
-          <div class="contact">
-            <div id="contact" ref="contact" class="pb-5">
-              <indexSection title="contact.title">
-                <iconsLinks />
-                <nuxt-content class="px-7" :document="contact" />
-              </indexSection>
-            </div>
-            <div class="funko-absolute">
-              <funko :messages="messages.messages" />
-            </div>
+    </v-row>
+    <v-row no-gutters justify="center">
+      <v-col cols="12" md="6">
+        <div class="contact">
+          <div id="contact" ref="contact" class="pb-5">
+            <indexSection title="contact.title">
+              <iconsLinks />
+              <nuxt-content class="px-7" :document="contact" />
+            </indexSection>
           </div>
-        </v-col>
-        <v-col cols="12" lg="4" md="6" sm="8" xs="12" class="mb-6">
-          <v-card-text class="ma-1">
-            <div class="twitter-timeline">
-              <Timeline id="MValero87" source-type="profile" />
-            </div>
-          </v-card-text>
-        </v-col>
-      </v-row>
+          <div class="funko-absolute">
+            <funko :messages="messages.messages" />
+          </div>
+        </div>
+      </v-col>
+      <v-col cols="12" lg="4" md="6" sm="8" xs="12" class="mb-6">
+        <v-card class="mb-6">
+          <div class="twitter-timeline">
+            <Timeline id="MValero87" source-type="profile" />
+          </div>
+        </v-card>
+      </v-col>
     </v-row>
   </main>
 </template>
