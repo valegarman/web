@@ -10,7 +10,7 @@ publications:
   - title: Extrinsic control and intrinsic computation in the hippocampal CA1 circuit
     journal: Neuron
     issue: https://doi.org/10.1016/j.neuron.2021.11.015
-    year: 2021 | Cover proposal
+    year: 2021
     link: https://www.cell.com/neuron/fulltext/S0896-6273(21)00953-3#.YbL3KI7dDbY.twitter
     authors: Zutshi I, Valero M, Fernández-Ruiz A, Buzsáki G 
     selected: false
@@ -18,7 +18,7 @@ publications:
 
   - title: Sublayer- and cell-type-specific neurodegenerative transcriptional trajectories in hippocampal sclerosis
     journal: Cell Reports
-    issue: doi.org/10.1016/j.celrep.2021.109229
+    issue: 35(10), 109229
     year: 2021
     link: https://www.cell.com/cell-reports/fulltext/S2211-1247(21)00580-5
     authors: Cid E, Marquez-Galera A, Valero M, Gal B, Medeiros DC, Navarron CM, Ballesteros-Esteban L, Reig-Viader R, Morales AV, Fernandez-Lamo I, Gomez-Dominguez D, Sato M, Hayashi Y, Bayés A, Barco A, Lopez-Atalaya JP, and Menendez de la Prida L
@@ -26,7 +26,7 @@ publications:
 
   - title: An update to Hippocampome.org by integrating single-cell phenotypes with circuit function in vivo
     journal: PLOS Biology
-    issue: doi.org/10.1371/journal.pbio.3001213
+    issue: 19(5), e3001213
     year: 2021
     link: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001213
     authors: Sanchez-Aguilera A, Wheeler DW, Jurado-Parras T, Valero M, Nokia MS, Cid E, Fernandez-Lamo I, Sutton N, García-Rincón D, Menendez de la Prida L, Ascoli GA 
@@ -34,7 +34,7 @@ publications:
 
   - title: Sleep down state-active ID2/Nkx2.1 interneurons in the neocortex
     journal: Nature Neuroscience
-    issue: 10.1038/s41593-021-00797-6
+    issue: 24, 401-411
     year: 2021
     link: https://www.nature.com/articles/s41593-021-00797-6
     authors: Valero M, Viney T, Machold R, Mederos S, Zutshi I, Schuman B, Senzai Y, Rudy B & Buzsáki G
@@ -75,7 +75,7 @@ publications:
 
   - title: Pathological aspects of neuronal hyperploidization in Alzheimer’s disease evidenced by computer simulation
     journal: Frontiers in Genetics
-    issue: 27
+    issue: 11, 287
     year: 2020
     link: https://www.frontiersin.org/articles/10.3389/fgene.2020.00287/full?report=reader
     authors: Barrio-Alonso E, Fontana B, Valero M and Frade JM
@@ -91,7 +91,7 @@ publications:
   
   - title: Proximodistal organization of the CA2 hippocampal area
     journal: Cell reports
-    issue: 26 (7), 1734-1746
+    issue: 26(7), 1734-1746
     year: 2019
     link: https://www.sciencedirect.com/science/article/pii/S2211124719300890
     authors: Fernandez-Lamo I, Gomez-Dominguez D, Sanchez-Aguilera A, Oliva A, Victoria Morales A, Valero M, Cid E, Berenyi A, Menendez de la Prida L
@@ -108,7 +108,7 @@ publications:
 
   - title: Feedback and Feedforward Inhibition May Resonate Distinctly in the Ripple Symphony
     journal: The Journal of Neuroscience
-    issue: 38 (30), 6612
+    issue: 38(30), 6612
     year: 2018
     link: https://www.jneurosci.org/content/38/30/6612
     authors: Sanchez-Aguilera A, Navas-Olive A, Valero M*
@@ -116,7 +116,7 @@ publications:
 
   - title: Mechanisms for selective single-cell reactivation during offline sharp-wave ripples and their distortion by fast ripples
     journal: Neuron
-    issue: 94 (6), 1234–1247
+    issue: 94(6), 1234–1247
     year: 2017
     link: https://www.cell.com/neuron/fulltext/S0896-6273(17)30470-1
     authors: Valero M, Averkin RG, Fernandez-Lamo I, Aguilar J, Lopez-Pigozzi D, Brotons-Mas JR, Cid E, Tamas G, Menendez de la Prida L
@@ -125,7 +125,7 @@ publications:
 
   - title: Altered oscillatory dynamics of CA1 parvalbumin basket cells during theta–gamma rhythmopathies of temporal lobe epilepsy
     journal: eNeuro
-    issue: 3 (6), 0284-16.2016 
+    issue: 3(6), 0284-16.2016 
     year: 2016
     link: https://www.eneuro.org/content/3/6/ENEURO.0284-16.2016
     authors: Lopez-Pigozzi D, Laurent F, Brotons-Mas JR, Valderrama M, Valero M, Fernandez-Lamo I, Cid E, Gomez-Dominguez D, Gal B, Mendendez de la Prida L
