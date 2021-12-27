@@ -32,7 +32,7 @@ export default {
       this.namesToHighlight.forEach((name) => {
         authorsHighlighted = authorsHighlighted.replace(
           name,
-          '<b>' + name + '</b>'
+          '<u>' + name + '</u>'
         )
       })
       return authorsHighlighted
@@ -44,12 +44,14 @@ export default {
         '<i>' +
         publication.title +
         '. </i>' +
+        '<b>' +
         publication.journal +
-        '. ' +
+        '</b>' +
+        ' ' +
         publication.issue +
-        '. ' +
+        '. (' +
         publication.year +
-        '.'
+        ')'
       )
     },
     copy() {
@@ -60,7 +62,7 @@ export default {
       const strings = this.publications.map((publication) =>
         this.publicationToHtml(publication)
       )
-      const string = strings.join('<br><br>').replace(/<b>|<\/b>/g, '')
+      const string = strings.join('<br><br>')
       function handler(event) {
         event.clipboardData.setData('text/html', string)
         event.preventDefault()
