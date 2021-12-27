@@ -3,7 +3,7 @@
     <div v-for="(publication, i) in publications" :key="i">
       <p>
         {{ beforeHighlightName(publication) }}
-        <b>{{ highlightName(publication) }}</b
+        <u>{{ highlightName(publication) }}</u
         >{{ afterHighlightName(publication) }}.
         <i> {{ publication.title }}. </i>
         {{ publication.journal }}. {{ publication.issue }}. ({{
