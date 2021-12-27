@@ -6,7 +6,7 @@
         <u>{{ highlightName(publication) }}</u
         >{{ afterHighlightName(publication) }}.
         <i> {{ publication.title }}. </i>
-        <b>{{ publication.journal }}. </b>{{ publication.issue }}. ({{
+        <b>{{ publication.journal }} </b>{{ publication.issue }}. ({{
           publication.year
         }})
       </p>
