@@ -19,17 +19,17 @@
         </v-btn>
       </v-card-actions>
       <v-window v-model="onboarding">
-        <v-window-item v-for="newElement in news" :key="newElement.title">
+        <v-window-item v-for="item in items" :key="item.title">
           <v-card class="ma-1" max-width="300px" min-height="500px">
-            <newsCard :new-element="newElement" />
+            <slideCard :new-element="item" :type="type" />
           </v-card>
         </v-window-item>
       </v-window>
     </v-card>
     <v-slide-group v-else v-model="slide" center-active show-arrows>
       <v-slide-item
-        v-for="newElement in news"
-        :key="newElement.title"
+        v-for="item in items"
+        :key="item.title"
         v-slot="{ active, toggle }"
       >
         <v-card
@@ -39,7 +39,7 @@
           :color="active ? 'transparent' : 'transparent'"
           @click="toggle"
         >
-          <newsCard :new-element="newElement" />
+          <slideCard :new-element="item" :type="type" />
         </v-card>
       </v-slide-item>
     </v-slide-group>
@@ -47,14 +47,18 @@
 </template>
 
 <script>
-import newsCard from '~/components/news/newsCard.vue'
+import slideCard from '~/components/slide/slideCard.vue'
 
 export default {
-  components: { newsCard },
+  components: { slideCard },
   props: {
-    news: {
+    items: {
       type: Array,
       default: () => [],
+    },
+    type: {
+      type: String,
+      default: 'news',
     },
   },
   data: () => ({
@@ -65,11 +69,11 @@ export default {
   methods: {
     next() {
       this.onboarding =
-        this.onboarding + 1 === this.news.length ? 0 : this.onboarding + 1
+        this.onboarding + 1 === this.items.length ? 0 : this.onboarding + 1
     },
     prev() {
       this.onboarding =
-        this.onboarding - 1 < 0 ? this.news.length - 1 : this.onboarding - 1
+        this.onboarding - 1 < 0 ? this.items.length - 1 : this.onboarding - 1
     },
   },
 }

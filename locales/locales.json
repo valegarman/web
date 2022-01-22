@@ -3,6 +3,7 @@
     "nav": {
       "index": "Home",
       "news": "News",
+      "people": "People",
       "publications": "Publications",
       "contact": "Contact",
       "resources": "Resources"
@@ -21,6 +22,9 @@
     "news_and_views": {
       "title": "NEWS AND VIEWS"
     },
+    "people": {
+      "title": "PEOPLE"
+    },
     "contact": {
       "title": "CONTACT"
     },
@@ -32,6 +36,7 @@
     "nav": {
       "index": "Inicio",
       "news": "Noticias",
+      "people": "Personas",
       "publications": "Artículos",
       "contact": "Contacto",
       "resources": "Recursos"
@@ -49,6 +54,9 @@
     },
     "news_and_views": {
       "title": "NOTICIAS"
+    },
+    "people": {
+      "title": "PERSONAS"
     },
     "contact": {
       "title": "CONTACTO"

@@ -9,6 +9,10 @@
       "type": "section"
     },
     {
+      "id": "people",
+      "type": "section"
+    },
+    {
       "id": "contact",
       "type": "section"
     }
