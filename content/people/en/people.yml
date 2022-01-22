@@ -1,10 +1,10 @@
 people:
-  - name: "Friedrich Wilhelm Nietzsche"
-    subtitle: "15 October 1844 Röcken, Saxony, Prussia"
-    link: https://en.wikipedia.org/wiki/Friedrich_Nietzsche
+  - name: "Manuel Valero"
+    subtitle: "Postdoctoral Fellow"
+    link: mailto:john@example.com
     img: /images/people/man.jpg
     imgAlt: /images/people/superman.jpg
-    content: Friedrich Wilhelm Nietzsche  15 October 1844 – 25 August 1900) was a German philosopher, cultural critic and philologist whose work has exerted a profound influence on modern intellectual history. He began his career as a classical philologist before turning to philosophy. He became the youngest person ever to hold the Chair of Classical Philology at the University of Basel in 1869 at the age of 24. Nietzsche resigned in 1879 due to health problems that plagued him most of his life; he completed much of his core writing in the following decade. In 1889, at age 45, he suffered a collapse and afterward a complete loss of his mental faculties. He lived his remaining years in the care of his mother until her death in 1897 and then with his sister Elisabeth Förster-Nietzsche. Nietzsche died in 1900.
+    content: I am neurophysiologist and I am interested in the generation of oscillations, with special emphasis on their cellular substrate, synaptic rules, and cognitive outcomes. During my PhD in Menéndez de la Prida lab I combined silicon probes together with single-cell recordings in vivo to unveil the columnar organization of the CA1 circuitry during hippocampal sharp-wave ripples, as well as to disclose the mechanisms for the cell-selective firing during SPW-Rs.
   - name: "Friedrich Wilhelm Nietzsche II"
     subtitle: "15 October 1844 Röcken, Saxony, Prussia"
     link: https://en.wikipedia.org/wiki/Friedrich_Nietzsche
