@@ -22,12 +22,17 @@
       <v-col cols="12" md="8">
         <div id="news" ref="news" class="pb-5">
           <indexSection title="news_and_views.title">
-            <newsSlide :news="news.news" />
+            <slide :type="'news'" :items="news.news" />
           </indexSection>
         </div>
         <div id="publications" ref="publications" class="pb-5">
           <indexSection title="publications.title">
             <publications :publications="publications.publications" />
+          </indexSection>
+        </div>
+        <div id="people" ref="people" class="pb-5">
+          <indexSection title="people.title">
+            <slide :type="'people'" :items="people.people" />
           </indexSection>
         </div>
       </v-col>
@@ -64,7 +69,7 @@ import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
 import publications from '~/components/publications/publications.vue'
 import indexTab from '~/components/layout/indexTab.vue'
-import newsSlide from '~/components/news/newsSlide.vue'
+import slide from '~/components/slide/slide.vue'
 import iconsLinks from '~/components/index/iconsLinks.vue'
 import funko from '~/components/funko/funko.vue'
 
@@ -74,7 +79,7 @@ export default {
     hero,
     publications,
     indexTab,
-    newsSlide,
+    slide,
     iconsLinks,
     funko,
     Timeline,
@@ -86,11 +91,12 @@ export default {
         `/contact/${app.i18n.locale}/contact`
       ).fetch()
       const news = await $content(`/news/${app.i18n.locale}/news`).fetch()
+      const people = await $content(`/people/${app.i18n.locale}/people`).fetch()
       const publications = await $content('/publications/publications').fetch()
       const messages = await $content(
         `/messages/${app.i18n.locale}/messages`
       ).fetch()
-      return { publications, news, contact, messages }
+      return { publications, news, people, contact, messages }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }
