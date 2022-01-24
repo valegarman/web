@@ -4,7 +4,7 @@ people:
     link: mailto:john@example.com
     img: /images/people/ManuMan.jpg
     imgAlt: /images/people/ManuSuperman.jpg
-    content: Currently a postdoc in the lab of György Buzsáki at NYU Neuroscience Institute. My research is focused on spatial memory, with specil emphasis on their cellular substrate and synaptic rules.
+    content: Currently a postdoc in the lab of György Buzsáki at NYU Neuroscience Institute. My research is focused on spatial memory, with special emphasis on their cellular substrate and synaptic rules.
   - name: "Friedrich Wilhelm Nietzsche II"
     subtitle: "15 October 1844 Röcken, Saxony, Prussia"
     link: https://en.wikipedia.org/wiki/Friedrich_Nietzsche
