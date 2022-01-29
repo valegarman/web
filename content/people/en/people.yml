@@ -1,19 +1,19 @@
 people:
   - name: "Manuel Valero"
     subtitle: "Postdoctoral Fellow"
-    link: mailto:john@example.com
+    link: mailto:valegarman@gmail.com
     img: /images/people/ManuMan.jpg
     imgAlt: /images/people/ManuSuperman.jpg
     content: Currently a postdoc in the lab of György Buzsáki at NYU Neuroscience Institute. My research is focused on spatial memory, with special emphasis on their cellular substrate and synaptic rules.
-  - name: "Friedrich Wilhelm Nietzsche II"
-    subtitle: "15 October 1844 Röcken, Saxony, Prussia"
-    link: https://en.wikipedia.org/wiki/Friedrich_Nietzsche
-    img: /images/people/man.jpg
-    imgAlt: /images/people/superman.jpg
-    content: Friedrich W Nietzsche  15 October 1844 – 25 August 1900) was a German philosopher, cultural critic and philologist whose work has exerted a profound influence on modern intellectual history. 
-  - name: "Friedrich W Nietzsche III"
-    subtitle: "15 October 1844 Röcken, Saxony, Prussia"
-    link: https://en.wikipedia.org/wiki/Friedrich_Nietzsche
-    img: /images/people/man.jpg
-    imgAlt: /images/people/superman.jpg
-    content: Friedrich Wilhelm Nietzsche  15 October 1844 – 25 August 1900) was a German philosopher, cultural critic and philologist whose work has exerted a profound influence on modern intellectual history. 
+  - name: "Pablo Abad"
+    subtitle: "Visiting Researcher"
+    link: mailto:pab9525@gmail.com 
+    img: /images/people/PabloMan.jpg
+    imgAlt: /images/people/PabloSuperman.jpg
+    content: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
+  - name: "Andrea Navas-Olive"
+    subtitle: "Visiting Researcher (Summer 2021)"
+    link: mailto:acnavasolive@gmail.com 
+    img: /images/people/AndreaMan.png
+    imgAlt: /images/people/AndreaMan.png
+    content: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
