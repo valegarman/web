@@ -1,15 +1,15 @@
 publications:
   - title: Probing subthreshold dynamics of hippocampal neurons by pulsed optogenetics
     journal: Science
-    issue: In press
-    year: 2021
-    link: https://www.science.org/journal/science
-    authors: Valero M*, Zutshi I, Yoon E, Buzsáki G 
+    issue: 375 (6580), 570-574
+    year: 2022
+    link: https://www.science.org/doi/10.1126/science.abm1891
+    authors: Valero M*, Zutshi I, Yoon E, Buzsáki G* 
     selected: true
 
   - title: Extrinsic control and intrinsic computation in the hippocampal CA1 circuit
     journal: Neuron
-    issue: https://doi.org/10.1016/j.neuron.2021.11.015
+    issue: 110, 1-16
     year: 2021
     link: https://www.cell.com/neuron/fulltext/S0896-6273(21)00953-3#.YbL3KI7dDbY.twitter
     authors: Zutshi I, Valero M, Fernández-Ruiz A, Buzsáki G 
