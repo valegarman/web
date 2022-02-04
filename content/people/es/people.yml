@@ -1,25 +1,19 @@
 people:
-  - name: "Exctrinsic control and intrinsic computation in hipocampal CA1 | Neuron"
-    subtitle: "15 October 1844 Röcken, Saxony, Prussia"
-    link: https://en.wikipedia.org/wiki/Friedrich_Nietzsche
-    img: /images/people/man.jpg
-    imgAlt: /images/people/superman.jpg
-    content: Friedrich Wilhelm Nietzsche  15 October 1844 – 25 August 1900) was a German philosopher, cultural critic and philologist whose work has exerted a profound influence on modern intellectual history. He began his career as a classical philologist before turning to philosophy. He became the youngest person ever to hold the Chair of Classical Philology at the University of Basel in 1869 at the age of 24. Nietzsche resigned in 1879 due to health problems that plagued him most of his life; he completed much of his core writing in the following decade. In 1889, at age 45, he suffered a collapse and afterward a complete loss of his mental faculties. He lived his remaining years in the care of his mother until her death in 1897 and then with his sister Elisabeth Förster-Nietzsche. Nietzsche died in 1900.
-  - name: "Exctrinsic control and intrinsic computation in hipocampal CA1 | Neuron"
-    subtitle: "15 October 1844 Röcken, Saxony, Prussia"
-    link: https://en.wikipedia.org/wiki/Friedrich_Nietzsche
-    img: /images/people/man.jpg
-    imgAlt: /images/people/superman.jpg
-    content: Friedrich Wilhelm Nietzsche  15 October 1844 – 25 August 1900) was a German philosopher, cultural critic and philologist whose work has exerted a profound influence on modern intellectual history. He began his career as a classical philologist before turning to philosophy. He became the youngest person ever to hold the Chair of Classical Philology at the University of Basel in 1869 at the age of 24. Nietzsche resigned in 1879 due to health problems that plagued him most of his life; he completed much of his core writing in the following decade. In 1889, at age 45, he suffered a collapse and afterward a complete loss of his mental faculties. He lived his remaining years in the care of his mother until her death in 1897 and then with his sister Elisabeth Förster-Nietzsche. Nietzsche died in 1900.
-  - name: "Exctrinsic control and intrinsic computation in hipocampal CA1 | Neuron"
-    subtitle: "15 October 1844 Röcken, Saxony, Prussia"
-    link: https://en.wikipedia.org/wiki/Friedrich_Nietzsche
-    img: /images/people/man.jpg
-    imgAlt: /images/people/superman.jpg
-    content: Friedrich Wilhelm Nietzsche  15 October 1844 – 25 August 1900) was a German philosopher, cultural critic and philologist whose work has exerted a profound influence on modern intellectual history. He began his career as a classical philologist before turning to philosophy. He became the youngest person ever to hold the Chair of Classical Philology at the University of Basel in 1869 at the age of 24. Nietzsche resigned in 1879 due to health problems that plagued him most of his life; he completed much of his core writing in the following decade. In 1889, at age 45, he suffered a collapse and afterward a complete loss of his mental faculties. He lived his remaining years in the care of his mother until her death in 1897 and then with his sister Elisabeth Förster-Nietzsche. Nietzsche died in 1900.
-  - name: "Exctrinsic control and intrinsic computation in hipocampal CA1 | Neuron"
-    subtitle: "15 October 1844 Röcken, Saxony, Prussia"
-    link: https://en.wikipedia.org/wiki/Friedrich_Nietzsche
-    img: /images/people/man.jpg
-    imgAlt: /images/people/superman.jpg
-    content: Friedrich Wilhelm Nietzsche  15 October 1844 – 25 August 1900) was a German philosopher, cultural critic and philologist whose work has exerted a profound influence on modern intellectual history. He began his career as a classical philologist before turning to philosophy. He became the youngest person ever to hold the Chair of Classical Philology at the University of Basel in 1869 at the age of 24. Nietzsche resigned in 1879 due to health problems that plagued him most of his life; he completed much of his core writing in the following decade. In 1889, at age 45, he suffered a collapse and afterward a complete loss of his mental faculties. He lived his remaining years in the care of his mother until her death in 1897 and then with his sister Elisabeth Förster-Nietzsche. Nietzsche died in 1900.
+  - name: "Manuel Valero"
+    subtitle: "Investigador Postdoctoral"
+    link: mailto:valegarman@gmail.com
+    img: /images/people/ManuMan.jpg
+    imgAlt: /images/people/ManuSuperman.jpg
+    content: Investigador en el laboratorio de György Buzsáki en la Universidad de Nueva York. Interesado en la memoria especial, y especialmente sus substratos celulares y reglas sinápticas. 
+  - name: "Pablo Abad"
+    subtitle: "Investigador visitante"
+    link: mailto:pab9525@gmail.com 
+    img: /images/people/PabloMan.jpg
+    imgAlt: /images/people/PabloSuperman.jpg
+    content: Electrofisiología y análisis de datos. Estudiante de doctorado en el laboratorio de Jorge Brotons-Mas Lab (IN, Alicante, Spain).
+  - name: "Andrea Navas-Olive"
+    subtitle: "Investigador visitante (Verano 2021)"
+    link: mailto:acnavasolive@gmail.com 
+    img: /images/people/AndreaMan.png
+    imgAlt: /images/people/AndreaSuperman.png
+    content: Modelos computacionales y análisis de datos. Estudiante de doctorado en el laboratorio de Liset Menéndez de la Prida (CSIC, Madrid, Spain).
