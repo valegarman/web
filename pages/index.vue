@@ -20,6 +20,11 @@
         <hero />
       </div>
       <v-col cols="12" md="8">
+        <div id="news" ref="news" class="pb-5">
+          <indexSection title="news_and_views.title">
+            <datawrapper />
+          </indexSection>
+        </div>
         <div id="publications" ref="publications" class="pb-5">
           <indexSection title="publications.title">
             <publications :publications="publications.publications" />
@@ -67,6 +72,7 @@ import indexTab from '~/components/layout/indexTab.vue'
 import slide from '~/components/slide/slide.vue'
 import iconsLinks from '~/components/index/iconsLinks.vue'
 import funko from '~/components/funko/funko.vue'
+import datawrapper from '~/components/datawrapper/datawrapper.vue'
 
 export default {
   components: {
@@ -78,6 +84,7 @@ export default {
     iconsLinks,
     funko,
     Timeline,
+    datawrapper,
   },
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
