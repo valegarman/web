@@ -5,6 +5,12 @@ people:
     img: /images/people/ManuMan.jpg
     imgAlt: /images/people/ManuSuperman.jpg
     content: Currently a postdoc in the lab of György Buzsáki at NYU Neuroscience Institute. My research is focused on spatial memory, with special emphasis on their cellular substrate and synaptic rules.
+  - name: "Raquel García-Hernández"
+    subtitle: "Visiting Researcher"
+    link: mailto:raquel.garciah@umh.es  
+    img: /images/people/RaquelMan.jpg
+    imgAlt: /images/people/RaquelSuperman.jpg
+    content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
   - name: "Pablo Abad"
     subtitle: "Visiting Researcher"
     link: mailto:pab9525@gmail.com 
