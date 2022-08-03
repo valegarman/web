@@ -20,11 +20,6 @@
         <hero />
       </div>
       <v-col cols="12" md="8">
-        <div id="news" ref="news" class="pb-5">
-          <indexSection title="news_and_views.title">
-            <slide :type="'news'" :items="news.news" />
-          </indexSection>
-        </div>
         <div id="publications" ref="publications" class="pb-5">
           <indexSection title="publications.title">
             <publications :publications="publications.publications" />
@@ -90,13 +85,12 @@ export default {
       const contact = await $content(
         `/contact/${app.i18n.locale}/contact`
       ).fetch()
-      const news = await $content(`/news/${app.i18n.locale}/news`).fetch()
       const people = await $content(`/people/${app.i18n.locale}/people`).fetch()
       const publications = await $content('/publications/publications').fetch()
       const messages = await $content(
         `/messages/${app.i18n.locale}/messages`
       ).fetch()
-      return { publications, news, people, contact, messages }
+      return { publications, people, contact, messages }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }
