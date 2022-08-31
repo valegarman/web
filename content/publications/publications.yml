@@ -1,4 +1,12 @@
 publications:
+  - title: Inhibitory conductance controls place field dynamics in the hippocampus
+    journal: Cell Reports
+    issue: 40 (8), 111232
+    year: 2022
+    link: https://www.cell.com/cell-reports/fulltext/S2211-1247(22)01049-X
+    authors: Valero M, Navas-Olive A, Menendez de la Prida L, Buzsáki G 
+    selected: true
+
   - title: Probing subthreshold dynamics of hippocampal neurons by pulsed optogenetics
     journal: Science
     issue: 375 (6580), 570-574
