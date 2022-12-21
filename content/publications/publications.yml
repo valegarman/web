@@ -1,4 +1,12 @@
 publications:
+  - title: Status epilepticus induces chronic silencing of burster and dominance of regular firing neurons during sharp wave-ripples in the mouse subiculum
+    journal: Neurobiology of Disease
+    issue: Volume 175, 105929
+    year: 2022
+    link: https://www.sciencedirect.com/science/article/pii/S0969996122003217
+    authors: Lippmann K, Klaft ZJ, Salar S, Hollnagel JO, Valero M, Maslarova A
+    selected: false
+
   - title: Inhibitory conductance controls place field dynamics in the hippocampus
     journal: Cell Reports
     issue: 40 (8), 111232
