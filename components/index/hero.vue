@@ -1,7 +1,7 @@
 <template>
   <div class="hero-image">
     <div class="hero-text">
-      <h1 style="font-size: 50px">Manuel Valero</h1>
+      <h1 style="font-size: 50px">Valero Lab</h1>
       <p>{{ $t('hero.ocupation') }}</p>
       <iconsLinks color="white" />
     </div>

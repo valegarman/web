@@ -20,11 +20,6 @@
         <hero />
       </div>
       <v-col cols="12" md="8">
-        <div id="news" ref="news" class="pb-5">
-          <indexSection title="news_and_views.title">
-            <datawrapper />
-          </indexSection>
-        </div>
         <div id="publications" ref="publications" class="pb-5">
           <indexSection title="publications.title">
             <publications :publications="publications.publications" />
