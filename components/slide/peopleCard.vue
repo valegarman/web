@@ -8,9 +8,18 @@
   >
     <v-img
       v-if="newElement.img"
+      :class="{ 'is-last': touch }"
       class="white--text align-end"
       :height="'300px'"
-      :src="!touch ? newElement.img : newElement.imgAlt"
+      :src="newElement.img"
+    >
+    </v-img>
+    <v-img
+      v-if="newElement.img"
+      :class="{ 'is-last': !touch }"
+      class="white--text align-end alt-image"
+      :height="'300px'"
+      :src="newElement.imgAlt"
     >
     </v-img>
     <v-card-text class="text-subtitle-1 text-sm-h6">
@@ -50,5 +59,11 @@ a:visited {
 
 a:hover {
   color: var(--v-primary-base);
+}
+.alt-image {
+  margin-top: -300px;
+}
+.is-last {
+  z-index: -10;
 }
 </style>
