@@ -67,7 +67,6 @@ import indexTab from '~/components/layout/indexTab.vue'
 import slide from '~/components/slide/slide.vue'
 import iconsLinks from '~/components/index/iconsLinks.vue'
 import funko from '~/components/funko/funko.vue'
-import datawrapper from '~/components/datawrapper/datawrapper.vue'
 
 export default {
   components: {
@@ -79,7 +78,6 @@ export default {
     iconsLinks,
     funko,
     Timeline,
-    datawrapper,
   },
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
