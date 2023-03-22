@@ -1,6 +1,14 @@
 <template>
   <div class="hero-image">
-    <div class="hero-text">
+    <div class="hero-container">
+      <iconBase
+        width="100"
+        height="100"
+        view-box="0 0 79.482 153.59"
+        icon-name="ripplocampus"
+      >
+        <ripplocampusIcon />
+      </iconBase>
       <h1 style="font-size: 50px">Valero Lab</h1>
       <p>{{ $t('hero.ocupation') }}</p>
       <iconsLinks color="white" />
@@ -9,16 +17,18 @@
 </template>
 
 <script>
+import iconBase from '~/components/icons/iconBase.vue'
 import iconsLinks from '~/components/index/iconsLinks.vue'
+import ripplocampusIcon from '~/components/icons/ripplocampusIcon.vue'
 
 export default {
-  components: { iconsLinks },
+  components: { iconBase, iconsLinks, ripplocampusIcon },
 }
 </script>
 
 <style lang="scss">
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.03)),
     url('/images/bkg2.jpg');
   height: 95%;
   background-position: center;
@@ -27,28 +37,12 @@ export default {
   position: relative;
 }
 
-.hero-text {
+.hero-container {
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-}
-
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #555;
   color: white;
 }
 </style>
