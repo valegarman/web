@@ -8,8 +8,8 @@ export default {
       '/pages/resources',
       '/es/people/join-us',
       '/people/join-us',
-      '/people/manuel-valero.md',
-      '/es/people/manuel-valero.md',
+      '/people/manuel-valero',
+      '/es/people/manuel-valero',
     ],
   },
 
