@@ -5,6 +5,7 @@
     @mouseleave="touch = false"
     @touchstart="touch = true"
     @touchend="touch = false"
+    @click="newElement.link ? $router.push({ path: newElement.link }) : none"
   >
     <v-img
       v-if="newElement.img"
@@ -23,7 +24,7 @@
     >
     </v-img>
     <v-card-text class="text-subtitle-1 text-sm-h6">
-      <a :href="newElement.link">{{ newElement.name }}</a>
+      {{ newElement.name }}
     </v-card-text>
     <v-card-subtitle class="pb-0"> {{ newElement.subtitle }} </v-card-subtitle>
     <v-card-text class="text--primary pt-5">
