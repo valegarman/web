@@ -1,25 +1,26 @@
 people:
   - name: "Manuel Valero"
     subtitle: "Postdoctoral Fellow"
-    link: mailto:valegarman@gmail.com
     img: /images/people/ManuMan.jpg
     imgAlt: /images/people/ManuSuperman.jpg
     content: Currently a postdoc in the lab of György Buzsáki at NYU Neuroscience Institute. My research is focused on spatial memory, with special emphasis on their cellular substrate and synaptic rules.
   - name: "Raquel Garcia-Hernandez"
     subtitle: "Visiting Researcher"
-    link: mailto:raquel.garcia16@um.es  
     img: /images/people/RaquelMan.jpg
     imgAlt: /images/people/RaquelSuperman.jpg
     content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
   - name: "Pablo Abad"
     subtitle: "Visiting Researcher"
-    link: mailto:pab9525@gmail.com 
     img: /images/people/PabloMan.jpg
     imgAlt: /images/people/PabloSuperman.jpg
     content: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
   - name: "Andrea Navas-Olive"
     subtitle: "Visiting Researcher (Summer 2021)"
-    link: mailto:acnavasolive@gmail.com 
     img: /images/people/AndreaMan.png
     imgAlt: /images/people/AndreaSuperman.png
     content: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
+  - name: "You"
+    link: /people/join-us
+    img: /images/people/YouMan.png
+    imgAlt: /images/people/YouMan.png
+    content: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
