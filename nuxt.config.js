@@ -3,7 +3,12 @@ import i18nMessages from './locales/locales.json'
 export default {
   generate: {
     fallback: true,
-    routes: ['/es/pages/resources', '/pages/resources'],
+    routes: [
+      '/es/pages/resources',
+      '/pages/resources',
+      '/es/people/join-us',
+      '/people/join-us',
+    ],
   },
 
   // Target (https://go.nuxtjs.dev/config-target)

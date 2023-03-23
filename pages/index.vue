@@ -33,7 +33,7 @@
       </v-col>
     </v-row>
     <v-row no-gutters justify="center">
-      <v-col cols="12" md="6">
+      <v-col cols="12" lg="3" md="6">
         <div class="contact">
           <div id="contact" ref="contact" class="pb-5">
             <indexSection title="contact.title">
@@ -46,8 +46,8 @@
           </div>
         </div>
       </v-col>
-      <v-col cols="12" lg="4" md="6" sm="8" xs="12" class="mb-6">
-        <v-card class="mb-6">
+      <v-col cols="12" lg="4" md="6" sm="8" xs="12">
+        <v-card flat class="mb-12">
           <div class="twitter-timeline">
             <Timeline id="MValero87" source-type="profile" />
           </div>
@@ -67,7 +67,6 @@ import indexTab from '~/components/layout/indexTab.vue'
 import slide from '~/components/slide/slide.vue'
 import iconsLinks from '~/components/index/iconsLinks.vue'
 import funko from '~/components/funko/funko.vue'
-import datawrapper from '~/components/datawrapper/datawrapper.vue'
 
 export default {
   components: {
@@ -79,7 +78,6 @@ export default {
     iconsLinks,
     funko,
     Timeline,
-    datawrapper,
   },
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
@@ -150,8 +148,9 @@ export default {
   bottom: 0;
 }
 .twitter-timeline {
-  padding: 10px;
+  padding: 0 10px;
   height: 700px;
   overflow: auto;
+  user-select: none;
 }
 </style>

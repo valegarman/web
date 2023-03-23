@@ -1,25 +1,26 @@
 people:
   - name: "Manuel Valero"
     subtitle: "Investigador Postdoctoral"
-    link: mailto:valegarman@gmail.com
     img: /images/people/ManuMan.jpg
     imgAlt: /images/people/ManuSuperman.jpg
     content: Investigador en el laboratorio de György Buzsáki en la Universidad de Nueva York. Interesado en la memoria especial, y especialmente sus substratos celulares y reglas sinápticas. 
   - name: "Raquel Garcia-Hernandez"
     subtitle: "Investigador visitante"
-    link: mailto:raquel.garcia16@um.es 
     img: /images/people/RaquelMan.jpg
     imgAlt: /images/people/RaquelSuperman.jpg
     content: Electrofisiología, comportamiento y análisis. Estudiante de doctorado en el laboratorio de Santiago Canals (IN, Alicante, Spain).
   - name: "Pablo Abad"
     subtitle: "Investigador visitante"
-    link: mailto:pab9525@gmail.com 
     img: /images/people/PabloMan.jpg
     imgAlt: /images/people/PabloSuperman.jpg
     content: Electrofisiología y análisis de datos. Estudiante de doctorado en el laboratorio de Jorge Brotons-Mas (IN, Alicante, Spain).
   - name: "Andrea Navas-Olive"
     subtitle: "Investigador visitante (Verano 2021)"
-    link: mailto:acnavasolive@gmail.com 
     img: /images/people/AndreaMan.png
     imgAlt: /images/people/AndreaSuperman.png
     content: Modelos computacionales y análisis de datos. Estudiante de doctorado en el laboratorio de Liset Menéndez de la Prida (CSIC, Madrid, Spain).
+  - name: "Tú"
+    link: /es/people/join-us
+    img: /images/people/YouMan.png
+    imgAlt: /images/people/YouMan.png
+    content: Buscamos estudiantes y postdoctorandos con talento, creatividad y motivación para unirse a nuestro equipo.
