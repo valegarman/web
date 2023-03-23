@@ -1,34 +1,36 @@
 <template>
   <v-card
-    flat
+    class="ma-2"
+    max-width="265px"
+    min-height="500px"
     @mouseover="touch = true"
     @mouseleave="touch = false"
     @touchstart="touch = true"
     @touchend="touch = false"
-    @click="newElement.link ? $router.push({ path: newElement.link }) : none"
+    @click="person.link ? $router.push({ path: person.link }) : none"
   >
     <v-img
-      v-if="newElement.img"
+      v-if="person.img"
       :class="{ 'is-last': touch }"
       class="white--text align-end"
       :height="'300px'"
-      :src="newElement.img"
+      :src="person.img"
     >
     </v-img>
     <v-img
-      v-if="newElement.img"
+      v-if="person.img"
       :class="{ 'is-last': !touch }"
       class="white--text align-end alt-image"
       :height="'300px'"
-      :src="newElement.imgAlt"
+      :src="person.imgAlt"
     >
     </v-img>
     <v-card-text class="text-subtitle-1 text-sm-h6">
-      {{ newElement.name }}
+      {{ person.name }}
     </v-card-text>
-    <v-card-subtitle class="pb-0"> {{ newElement.subtitle }} </v-card-subtitle>
+    <v-card-subtitle class="pb-0"> {{ person.subtitle }} </v-card-subtitle>
     <v-card-text class="text--primary pt-5">
-      {{ newElement.content }}
+      {{ person.content }}
     </v-card-text>
   </v-card>
 </template>
@@ -36,7 +38,7 @@
 <script>
 export default {
   props: {
-    newElement: {
+    person: {
       type: Object,
       default: () => {},
     },

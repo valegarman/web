@@ -27,7 +27,7 @@
         </div>
         <div id="people" ref="people" class="pb-5">
           <indexSection title="people.title">
-            <slide :type="'people'" :items="people.people" />
+            <people :people="people.people" />
           </indexSection>
         </div>
       </v-col>
@@ -64,7 +64,7 @@ import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
 import publications from '~/components/publications/publications.vue'
 import indexTab from '~/components/layout/indexTab.vue'
-import slide from '~/components/slide/slide.vue'
+import people from '~/components/people/people.vue'
 import iconsLinks from '~/components/index/iconsLinks.vue'
 import funko from '~/components/funko/funko.vue'
 
@@ -74,7 +74,7 @@ export default {
     hero,
     publications,
     indexTab,
-    slide,
+    people,
     iconsLinks,
     funko,
     Timeline,
