@@ -15,8 +15,8 @@ export default {
   },
   props: {
     people: {
-      type: Object,
-      default: () => {},
+      type: Array,
+      default: () => [],
     },
   },
 }
