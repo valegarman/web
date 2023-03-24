@@ -24,7 +24,8 @@
       "title": "NEWS"
     },
     "people": {
-      "title": "PEOPLE"
+      "title": "PEOPLE",
+      "current_only": "Current only"
     },
     "contact": {
       "title": "CONTACT"
@@ -58,7 +59,8 @@
       "title": "NOTICIAS"
     },
     "people": {
-      "title": "PERSONAS"
+      "title": "PERSONAS",
+      "current_only": "Solo actuales"
     },
     "contact": {
       "title": "CONTACTO"
