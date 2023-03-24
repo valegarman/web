@@ -6,7 +6,6 @@
     :viewBox="viewBox"
     @click="() => $emit('click')"
   >
-    <!-- <title :id="iconName" lang="en">{{ iconName }} icon</title> -->
     <g :fill="color">
       <slot />
     </g>
