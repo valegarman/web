@@ -19,6 +19,10 @@
     {
       "id": "join-us",
       "type": "people"
+    },
+    {
+      "id": "resources",
+      "type": "pages"
     }
   ]
 }
