@@ -19,8 +19,8 @@
     "publications": {
       "title": "PUBLICATIONS"
     },
-    "news_and_views": {
-      "title": "NEWS AND VIEWS"
+    "news": {
+      "title": "NEWS"
     },
     "people": {
       "title": "PEOPLE"
@@ -52,7 +52,7 @@
     "publications": {
       "title": "ARTÍCULOS"
     },
-    "news_and_views": {
+    "news": {
       "title": "NOTICIAS"
     },
     "people": {
