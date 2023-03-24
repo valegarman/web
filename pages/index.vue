@@ -33,7 +33,7 @@
       </v-col>
     </v-row>
     <v-row no-gutters justify="center">
-      <v-col cols="12" lg="3" md="6">
+      <v-col cols="12" lg="4" md="6">
         <div class="contact">
           <div id="contact" ref="contact" class="pb-5">
             <indexSection title="contact.title">
@@ -140,7 +140,7 @@ export default {
 .contact {
   display: flex;
   justify-content: center;
-  min-height: 650px;
+  min-height: 680px;
   position: relative;
 }
 .funko-absolute {
