@@ -8,7 +8,7 @@
           :key="link.id"
           :href="`#${link.id}`"
           @click="
-            link.type === 'section' ? goToId(link.id) : pushToRouter(link.id)
+            link.type === 'section' ? goToId(link.id) : pushToRouter(link)
           "
         >
           {{ $t(`nav.${link.id}`) }}
@@ -117,7 +117,7 @@ export default {
     } catch (err) {}
   },
   methods: {
-    handleScroll(a) {
+    handleScroll(_) {
       const entries = []
       const links = this.links.map((link) => link.id)
       for (const link of [...links, 'index']) {

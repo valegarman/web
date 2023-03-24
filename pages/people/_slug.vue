@@ -10,7 +10,7 @@
           @click="
             link.type === 'section'
               ? pushToHomeRouter(link.id)
-              : pushToRouter(link.id)
+              : pushToRouter(link)
           "
         >
           {{ $t(`nav.${link.id}`) }}
@@ -59,7 +59,6 @@ export default {
         (person) =>
           !!person.link && person.link.endsWith(`/people/${params.slug}`)
       )[0]
-      console.log('asdasdasdasda', person)
       return { article, person }
     } catch {
       error({ statusCode: 404, message: 'not found' })
