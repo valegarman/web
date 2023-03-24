@@ -6,17 +6,17 @@ people:
     content: Investigador en el laboratorio de György Buzsáki en la Universidad de Nueva York. Interesado en la memoria especial, y especialmente sus substratos celulares y reglas sinápticas. 
     link: /es/people/manuel-valero
     current: true
-  - name: "Raquel Garcia-Hernandez"
-    subtitle: "Investigador visitante"
-    img: /images/people/RaquelMan.jpg
-    imgAlt: /images/people/RaquelSuperman.jpg
-    content: Electrofisiología, comportamiento y análisis. Estudiante de doctorado en el laboratorio de Santiago Canals (IN, Alicante, Spain).
   - name: "Pablo Abad"
-    subtitle: "Investigador visitante"
+    subtitle: "Investigador visitante (2022) y colaborador"
     img: /images/people/PabloMan.jpg
     imgAlt: /images/people/PabloSuperman.jpg
     content: Electrofisiología y análisis de datos. Estudiante de doctorado en el laboratorio de Jorge Brotons-Mas (IN, Alicante, Spain).
     current: true
+  - name: "Raquel Garcia-Hernandez"
+    subtitle: "Investigador visitante (Verano 2022)"
+    img: /images/people/RaquelMan.jpg
+    imgAlt: /images/people/RaquelSuperman.jpg
+    content: Electrofisiología, comportamiento y análisis. Estudiante de doctorado en el laboratorio de Santiago Canals (IN, Alicante, Spain).
   - name: "Andrea Navas-Olive"
     subtitle: "Investigador visitante (Verano 2021)"
     img: /images/people/AndreaMan.png

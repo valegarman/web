@@ -6,17 +6,17 @@ people:
     content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (IMIM). Our research is focused on spatial memory, with special emphasis on their cellular substrate and synaptic rules.
     link: /people/manuel-valero
     current: true
-  - name: "Raquel Garcia-Hernandez"
-    subtitle: "Visiting Researcher"
-    img: /images/people/RaquelMan.jpg
-    imgAlt: /images/people/RaquelSuperman.jpg
-    content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
   - name: "Pablo Abad"
-    subtitle: "Visiting Researcher"
+    subtitle: "Visiting Researcher (2022) and collaborator"
     img: /images/people/PabloMan.jpg
     imgAlt: /images/people/PabloSuperman.jpg
     content: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
     current: true
+  - name: "Raquel Garcia-Hernandez (Summer 2022)"
+    subtitle: "Visiting Researcher"
+    img: /images/people/RaquelMan.jpg
+    imgAlt: /images/people/RaquelSuperman.jpg
+    content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
   - name: "Andrea Navas-Olive"
     subtitle: "Visiting Researcher (Summer 2021)"
     img: /images/people/AndreaMan.png
