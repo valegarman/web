@@ -42,8 +42,7 @@ School of Biological Sciences, Complutense University of Madrid (Spain).
 ## Scientific awards and honors
 **2022**
 - Ramón y Cajal Researcher Fellowship               
-- NARSAD Young Investigator Grant, Brain and 
-Behavior Research Foundation 
+- NARSAD Young Investigator Grant, Brain and Behavior Research Foundation 
 - **Peter and Patricia Gruber International Research Award**, Gruber Foundation.
 - **Outstanding Postdoc Award**, New York University.
 
@@ -51,8 +50,7 @@ Behavior Research Foundation
 - Human Frontiers Science Program (HFSP) Postdoctoral Fellowship
 
 **2018**
-- European Molecular Biology Organzation (EMBO) 
-long-term Postdoctoral Fellowship
+- European Molecular Biology Organzation (EMBO) long-term Postdoctoral Fellowship
 
 **2017**
 - Best PhD dissertation, Complutense University of Madrid.
