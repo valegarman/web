@@ -1,7 +1,14 @@
 <template>
-  <div class="people">
-    <div v-for="person in people" :key="person.name">
-      <personCard :person="person" />
+  <div>
+    <v-checkbox
+      v-model="currentOnly"
+      class="ml-4"
+      :label="$t('people.current_only')"
+    ></v-checkbox>
+    <div class="people">
+      <div v-for="person in peopleSelected" :key="person.name">
+        <personCard :person="person" />
+      </div>
     </div>
   </div>
 </template>
@@ -17,6 +24,16 @@ export default {
     people: {
       type: Array,
       default: () => [],
+    },
+  },
+  data: () => ({
+    currentOnly: true,
+  }),
+  computed: {
+    peopleSelected() {
+      return this.people.filter((person) =>
+        this.currentOnly ? person.current : true
+      )
     },
   },
 }
