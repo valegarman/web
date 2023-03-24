@@ -1,7 +1,7 @@
 <template>
   <v-tab key="index" href="#index" @click="$emit('tab', 'index')">
-    <iconBase width="30" height="30" icon-name="home">
-      <icon />
+    <iconBase width="50" height="50" icon-name="home">
+      <icon fill="#6d6d6d" />
     </iconBase>
   </v-tab>
 </template>
