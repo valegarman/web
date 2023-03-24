@@ -29,8 +29,11 @@
       {{ person.name }}
     </v-card-text>
     <v-card-subtitle class="pb-0"> {{ person.subtitle }} </v-card-subtitle>
-    <v-card-text class="text--primary pt-5">
+    <v-card-text v-if="!touch" class="text--primary pt-5">
       {{ person.content }}
+    </v-card-text>
+    <v-card-text v-if="touch" class="text--primary pt-5">
+      {{ person.contentFun }}
     </v-card-text>
   </v-card>
 </template>

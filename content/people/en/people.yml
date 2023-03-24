@@ -4,6 +4,7 @@ people:
     img: /images/people/ManuMan.jpg
     imgAlt: /images/people/ManuSuperman.jpg
     content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (IMIM). Our research is focused on spatial memory, with special emphasis on their cellular substrate and synaptic rules.
+    contentFun: Chasing neurons!!
     link: /people/manuel-valero
     current: true
   - name: "Pablo Abad"
@@ -11,20 +12,24 @@ people:
     img: /images/people/PabloMan.jpg
     imgAlt: /images/people/PabloSuperman.jpg
     content: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
+    contentFun: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
     current: true
   - name: "Raquel Garcia-Hernandez (Summer 2022)"
     subtitle: "Visiting Researcher"
     img: /images/people/RaquelMan.jpg
     imgAlt: /images/people/RaquelSuperman.jpg
     content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
+    contentFun: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
   - name: "Andrea Navas-Olive"
     subtitle: "Visiting Researcher (Summer 2021)"
     img: /images/people/AndreaMan.png
     imgAlt: /images/people/AndreaSuperman.png
     content: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
+    contentFun: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
   - name: "You"
     link: /people/join-us
     img: /images/people/YouMan.png
     imgAlt: /images/people/YouMan.png
     content: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
+    contentFun: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
     current: true
