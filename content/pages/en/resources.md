@@ -1,11 +1,12 @@
 # Resources
 
 ## HippoCookbook
-[![HippoCookBook logo](/images/rippoCookBook.png)](https://google.es)
+[![HippoCookBook logo](/images/rippoCookBook.png)](https://github.com/valegarman/HippoCookBook)
+Some dess
 
 ## HippoPlayGround
-[![HippoPlayGround logo](/images/hippoPlayGround.png)](https://google.es)
+[![HippoPlayGround logo](/images/hippoPlayGround.png)](https://github.com/valegarman/HippoPlayground)
 
 ## jLEDFish
-[![jLEDFish logo](/images/hippoPlayGround.png)](https://google.es)
+[![jLEDFish logo](/images/jLEDfish_logo.png)](https://google.es)
 
