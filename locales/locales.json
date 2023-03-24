@@ -6,7 +6,8 @@
       "people": "People",
       "publications": "Publications",
       "contact": "Contact",
-      "resources": "Resources"
+      "resources": "Resources",
+      "join-us": "Join us"
     },
     "cookies": {
       "button": "Accept",
@@ -19,8 +20,8 @@
     "publications": {
       "title": "PUBLICATIONS"
     },
-    "news_and_views": {
-      "title": "NEWS AND VIEWS"
+    "news": {
+      "title": "NEWS"
     },
     "people": {
       "title": "PEOPLE"
@@ -39,7 +40,8 @@
       "people": "Personas",
       "publications": "Artículos",
       "contact": "Contacto",
-      "resources": "Recursos"
+      "resources": "Recursos",
+      "join-us": "Únete"
     },
     "cookies": {
       "button": "Aceptar",
@@ -52,7 +54,7 @@
     "publications": {
       "title": "ARTÍCULOS"
     },
-    "news_and_views": {
+    "news": {
       "title": "NOTICIAS"
     },
     "people": {

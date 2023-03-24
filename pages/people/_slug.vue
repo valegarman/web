@@ -10,7 +10,7 @@
           @click="
             link.type === 'section'
               ? pushToHomeRouter(link.id)
-              : pushToRouter(link.id)
+              : pushToRouter(link)
           "
         >
           {{ $t(`nav.${link.id}`) }}
@@ -19,7 +19,17 @@
     </v-app-bar>
     <v-container>
       <v-row class="pt-5" justify="center">
-        <v-col cols="12" sm="8" md="8">
+        <v-col
+          v-if="person && !['You', 'Tú'].includes(person.name)"
+          class="person-card"
+          cols="12"
+          lg="3"
+          md="4"
+          sm="8"
+        >
+          <personCard :person="person" />
+        </v-col>
+        <v-col cols="12" lg="8" md="8" sm="8">
           <nuxt-content :document="article" />
         </v-col>
       </v-row>
@@ -30,10 +40,11 @@
 <script>
 import navbar from '~/mixins/navbar.vue'
 import indexTab from '~/components/layout/indexTab.vue'
+import personCard from '~/components/people/personCard.vue'
 
 export default {
   layout: 'default',
-  components: { indexTab },
+  components: { indexTab, personCard },
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
     try {
@@ -41,7 +52,14 @@ export default {
         `/people/${app.i18n.locale}/profiles/`,
         params.slug
       ).fetch()
-      return { article }
+      const { people } = await $content(
+        `/people/${app.i18n.locale}/people`
+      ).fetch()
+      const person = people.filter(
+        (person) =>
+          !!person.link && person.link.endsWith(`/people/${params.slug}`)
+      )[0]
+      return { article, person }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }
@@ -54,4 +72,9 @@ export default {
 
 <style>
 @import url('~/assets/css/md.css');
+.person-card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 </style>

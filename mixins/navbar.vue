@@ -6,23 +6,23 @@ export default {
     links: links.links,
   }),
   methods: {
-    goToId(link) {
+    goToId(id) {
       try {
-        this.$vuetify.goTo(`#${link}`)
+        this.$vuetify.goTo(`#${id}`)
       } catch (err) {}
     },
-    pushToHomeRouter(link) {
+    pushToHomeRouter(id) {
       this.$router.push(
         this.localePath({
           path: '/',
-          query: { id: link.toLowerCase().replaceAll(' ', '-') },
+          query: { id: id.toLowerCase().replaceAll(' ', '-') },
         })
       )
     },
     pushToRouter(link) {
       this.$router.push(
         this.localePath({
-          path: `/pages/${link}`,
+          path: `/${link.type}/${link.id}`,
         })
       )
     },

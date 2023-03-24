@@ -10,7 +10,7 @@
           @click="
             link.type === 'section'
               ? pushToHomeRouter(link.id)
-              : pushToRouter(link.id)
+              : pushToRouter(link)
           "
         >
           {{ $t(`nav.${link.id}`) }}

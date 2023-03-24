@@ -8,7 +8,7 @@
           :key="link.id"
           :href="`#${link.id}`"
           @click="
-            link.type === 'section' ? goToId(link.id) : pushToRouter(link.id)
+            link.type === 'section' ? goToId(link.id) : pushToRouter(link)
           "
         >
           {{ $t(`nav.${link.id}`) }}
@@ -20,6 +20,11 @@
         <hero />
       </div>
       <v-col cols="12" md="8">
+        <div id="news" ref="news" class="pb-5">
+          <indexSection title="news.title">
+            <news :news="news.news" />
+          </indexSection>
+        </div>
         <div id="publications" ref="publications" class="pb-5">
           <indexSection title="publications.title">
             <publications :publications="publications.publications" />
@@ -33,7 +38,7 @@
       </v-col>
     </v-row>
     <v-row no-gutters justify="center">
-      <v-col cols="12" lg="3" md="6">
+      <v-col cols="12" lg="4" md="6">
         <div class="contact">
           <div id="contact" ref="contact" class="pb-5">
             <indexSection title="contact.title">
@@ -62,6 +67,7 @@ import { Timeline } from 'vue-tweet-embed'
 import navbar from '~/mixins/navbar.vue'
 import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
+import news from '~/components/news/news.vue'
 import publications from '~/components/publications/publications.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 import people from '~/components/people/people.vue'
@@ -72,6 +78,7 @@ export default {
   components: {
     indexSection,
     hero,
+    news,
     publications,
     indexTab,
     people,
@@ -82,15 +89,16 @@ export default {
   mixins: [navbar],
   async asyncData({ $content, params, app, error }) {
     try {
+      const people = await $content(`/people/${app.i18n.locale}/people`).fetch()
       const contact = await $content(
         `/contact/${app.i18n.locale}/contact`
       ).fetch()
-      const people = await $content(`/people/${app.i18n.locale}/people`).fetch()
       const publications = await $content('/publications/publications').fetch()
       const messages = await $content(
         `/messages/${app.i18n.locale}/messages`
       ).fetch()
-      return { publications, people, contact, messages }
+      const news = await $content(`/news/${app.i18n.locale}/news`).fetch()
+      return { publications, people, contact, messages, news }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }
@@ -109,7 +117,7 @@ export default {
     } catch (err) {}
   },
   methods: {
-    handleScroll(a) {
+    handleScroll(_) {
       const entries = []
       const links = this.links.map((link) => link.id)
       for (const link of [...links, 'index']) {
@@ -140,7 +148,7 @@ export default {
 .contact {
   display: flex;
   justify-content: center;
-  min-height: 650px;
+  min-height: 680px;
   position: relative;
 }
 .funko-absolute {

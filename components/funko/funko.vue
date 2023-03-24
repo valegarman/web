@@ -1,5 +1,5 @@
 <template>
-  <div class="pa-7">
+  <div class="pa-1">
     <div class="container-bubble">
       <div class="bubble bubble-bottom-left">
         {{ messages[actualMessage].message }}
