@@ -1,60 +1,60 @@
 news:
-  - title: "Control extrínseco y computación intrínseca en CA1 hipocampal | Neuron"
-    date: "12-2021"
+  - title: 'Control extrínseco y computación intrínseca en CA1 hipocampal | Neuron'
+    date: '12-2021'
     link: https://www.cell.com/neuron/fulltext/S0896-6273(21)00953-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627321009533%3Fshowall%3Dtrue
     img: /images/cover_neuron_ipi_news.jpeg
     content: Ipshita Zutshi combinó manipulaciones optogenéticas y farmacogenéticas, tanto en CA1 como sus principales regiones aferentes de forma simultánea! CA1 es capaz de inducir y mantener secuencias neuronales de forma autónoma.
 
-  - title: "Interneuronas selectivamente activas durante los down-states corticales | Nat Neurosci"
-    date: "1-2021"
+  - title: 'Interneuronas selectivamente activas durante los down-states corticales | Nat Neurosci'
+    date: '1-2021'
     link: https://www.nature.com/articles/s41593-021-00797-6
     img: /images/Nat2021News.jpg
     content: Células piramidales e interneuronas disparan coordinadamente en los circuitos corticales. En contra de esta regla general, describimos una interneurona ID2+ y Nkx2.1+ cuya actividad está negativamente correlacionada con todas las células principales.
 
-  - title: "Señalización GABAergica controlada por astrocytos en PFC, con Perea lab | Nat Neurosci"
-    date: "12-2020"
+  - title: 'Señalización GABAergica controlada por astrocytos en PFC, con Perea lab | Nat Neurosci'
+    date: '12-2020'
     link: https://www.nature.com/articles/s41593-020-00752-x
     img: /images/NatNeuro2020.jpg
     content: Sara Mederos y colaboradores muestran cómo los astrocitos controlan los circuitos inhibitorios corticales, lo que supone una estrategia no canónica para el procesamiento de la información.
 
-  - title: "Supresión de células piramidales a través de DREADD en interneuronas | PNAS"
-    date: "12-2020"
+  - title: 'Supresión de células piramidales a través de DREADD en interneuronas | PNAS'
+    date: '12-2020'
     link: https://www.pnas.org/content/118/2/e2014157118.long
     img: /images/PNAS2020.jpg
     content: ¿Cómo cambian los patrones de actividad de un circuito cortical cuando las interneuronas son excitadas? Stephanie Rogers and Peter Rozman describen como la activación químico-genética (DREADDs) de las interneuronas induce cambios a corto y largo plazo en los circuitos neuronales.
 
-  - title: "Dinámicas de las células superficiales y profundas de CA1 en theta, con de la Prida lab | Nat Comms "
-    date: "5-2020"
+  - title: 'Dinámicas de las células superficiales y profundas de CA1 en theta, con de la Prida lab | Nat Comms '
+    date: '5-2020'
     link: https://www.nature.com/articles/s41467-020-15840-6
     img: /images/NatComms2020.jpg
     content: Gran trabajo del laboratorio de Liset! Andrea ha empleado modelos computacionales y algoritmos evolutivos para evaluar la preferencia de fase de células piramidales profundas y superficiales en CA1.
 
-  - title: "Estrategias para registro de célula única en condiciones de libertad de movimiento | Revisión in JNM: "
-    date: "12-2019"
+  - title: 'Estrategias para registro de célula única en condiciones de libertad de movimiento | Revisión in JNM: '
+    date: '12-2019'
     link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
     img: /images/JNM2019.jpg
     content: Mi primer artículo como corresponding author! Con Daniel English, compilamos ventajas y resultados de diferentes métodos de registro con pipetas de vidreo in vivo.
 
-  - title: "Consulte nuestros artículo de divulgación en Mente y Cerebro sobre oscilaciones cerebrales!"
-    date: "9-2018"
+  - title: 'Consulte nuestros artículo de divulgación en Mente y Cerebro sobre oscilaciones cerebrales!'
+    date: '9-2018'
     link: https://www.investigacionyciencia.es/revistas/mente-y-cerebro/quin-soy-744/ritmos-rpidos-para-organizar-los-recuerdos-16725
     img: /images/news_menteYcerebro2018.jpg
-    content: "Una (presuntamente) ligera revisión sobre las implicaciones comportamentales de los ritmos hipocampales: oscilaciones theta, ripples (rítmos rápidos) y memoria. Escrita con Liset Menéndez de la Prida."
-  
-  - title: "Defensa de mi tesis doctoral: Organización radial del hipocampo normal y epiléptico"
-    date: "9-2017"
+    content: 'Una (presuntamente) ligera revisión sobre las implicaciones comportamentales de los ritmos hipocampales: oscilaciones theta, ripples (rítmos rápidos) y memoria. Escrita con Liset Menéndez de la Prida.'
+
+  - title: 'Defensa de mi tesis doctoral: Organización radial del hipocampo normal y epiléptico'
+    date: '9-2017'
     link: /docs/Tesis_MV_small.pdf
     img: /images/supDeep_small.jpg
-    content: "Las células piramidales de CA1 superficiales y profundas tienen diferentes respuestas durante los ripples, y su reclutamiento está elegántemente regulado en función de la dinámica interna, el contexto y la historia del circuito (dibujo de Andrea Navas-Olivé)"
+    content: 'Las células piramidales de CA1 superficiales y profundas tienen diferentes respuestas durante los ripples, y su reclutamiento está elegántemente regulado en función de la dinámica interna, el contexto y la historia del circuito (dibujo de Andrea Navas-Olivé)'
 
-  - title: "Reactivación celular durante ripples y fast ripples | Neuron"
-    date: "8-2017"
+  - title: 'Reactivación celular durante ripples y fast ripples | Neuron'
+    date: '8-2017'
     link: https://www.sciencedirect.com/science/article/abs/pii/S0165027019302547
     img: /images/NeuronCover_news2017.jpg
     content: Evaluamos la actividad de células hipocampales durante ripples normales y patológicos mediante registros intracelulares y juxtacelulares en modelos experimentales de epilepsia con alteraciones de memoria.
 
-  - title: "Dinámicas de las células piramidales superficiales y profundas de CA1 durante los ripples | Nat Neurosci"
-    date: "7-2015"
+  - title: 'Dinámicas de las células piramidales superficiales y profundas de CA1 durante los ripples | Nat Neurosci'
+    date: '7-2015'
     link: https://www.nature.com/articles/nn.4074
     img: /images/NatNeuro2015.jpg
     content: Usamos una combinación de registros multicanal e intracelulares para estudiar los factores subyacientes a la partición de las células piramidales de CA1 durante los ripples.

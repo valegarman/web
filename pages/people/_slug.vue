@@ -42,9 +42,9 @@ import indexTab from '~/components/layout/indexTab.vue'
 import personCard from '~/components/people/personCard.vue'
 
 export default {
-  layout: 'default',
   components: { indexTab, personCard },
   mixins: [navbar],
+  layout: 'default',
   async asyncData({ $content, params, app, error }) {
     try {
       const article = await $content(

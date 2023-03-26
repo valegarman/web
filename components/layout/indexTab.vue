@@ -11,10 +11,10 @@ import icon from '~/components/icons/icon.vue'
 import iconBase from '~/components/icons/iconBase.vue'
 
 export default {
-  layout: 'default',
   components: {
     icon,
     iconBase,
   },
+  layout: 'default',
 }
 </script>

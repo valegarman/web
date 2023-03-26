@@ -30,7 +30,7 @@
     "contact": {
       "title": "CONTACT"
     },
-    "hero":{
+    "hero": {
       "ocupation": "Systems Neuroscience"
     }
   },
@@ -65,7 +65,7 @@
     "contact": {
       "title": "CONTACTO"
     },
-    "hero":{
+    "hero": {
       "ocupation": "Neurociencia de Sistemas"
     }
   }

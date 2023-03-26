@@ -24,10 +24,10 @@
 import game from '~/components/errorPage/game.vue'
 
 export default {
-  layout: 'default',
   components: {
     game,
   },
+  layout: 'default',
   props: {
     error: {
       type: Object,

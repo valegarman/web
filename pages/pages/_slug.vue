@@ -31,9 +31,9 @@ import navbar from '~/mixins/navbar.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 
 export default {
-  layout: 'default',
   components: { indexTab },
   mixins: [navbar],
+  layout: 'default',
   async asyncData({ $content, params, app, error }) {
     try {
       const article = await $content(
