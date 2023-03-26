@@ -87,6 +87,7 @@ export default {
     Timeline,
   },
   mixins: [navbar],
+  layout: 'default',
   async asyncData({ $content, params, app, error }) {
     try {
       const people = await $content(`/people/${app.i18n.locale}/people`).fetch()
@@ -103,9 +104,6 @@ export default {
       error({ statusCode: 404, message: 'not found' })
     }
   },
-  data: () => ({
-    activeTab: null,
-  }),
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll)
   },
@@ -139,12 +137,10 @@ export default {
       }
     },
   },
-  layout: 'default',
 }
 </script>
 
-<style>
-@import url('~/assets/css/md.css');
+<style lang="scss" scoped>
 .contact {
   display: flex;
   justify-content: center;
@@ -161,4 +157,8 @@ export default {
   overflow: auto;
   user-select: none;
 }
+</style>
+
+<style lang="scss">
+@import url('~/assets/css/md.css');
 </style>

@@ -12,6 +12,7 @@ export default {
     }
   },
   mounted() {
+    // eslint-disable-next-line nuxt/no-env-in-hooks
     if (process.browser) {
       const Preload = require('~/lib/scenes/Preload')
       const Home = require('~/lib/scenes/Home')
@@ -42,7 +43,7 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style lang="scss" scoped>
 .phaser-game {
   max-height: 600px;
 }

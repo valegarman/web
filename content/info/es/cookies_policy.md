@@ -1,6 +1,6 @@
 # POLÍTICA DE COOKIES
 
-En cumplimiento con lo dispuesto en el artículo 22.2 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, esta página web le informa, en esta sección, sobre la  **política de recogida y tratamiento de cookies**.
+En cumplimiento con lo dispuesto en el artículo 22.2 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, esta página web le informa, en esta sección, sobre la **política de recogida y tratamiento de cookies**.
 
 ## ¿QUÉ SON LAS COOKIES?
 
@@ -22,7 +22,7 @@ Esta página web utiliza los siguientes tipos de cookies:
 
 ## DESACTIVAR LAS COOKIES.
 
-Puede usted  **permitir, bloquear o eliminar las cookies**  instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador.
+Puede usted **permitir, bloquear o eliminar las cookies** instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador.
 
 En la mayoría de los navegadores web se ofrece la posibilidad de permitir, bloquear o eliminar las cookies instaladas en su equipo.
 

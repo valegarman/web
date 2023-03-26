@@ -54,7 +54,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 a:link,
 a:visited {
   background-color: white;
