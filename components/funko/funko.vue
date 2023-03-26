@@ -94,7 +94,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 #funko-container {
   text-align: center;
 }

@@ -69,11 +69,14 @@ export default {
 }
 </script>
 
-<style>
-@import url('~/assets/css/md.css');
+<style lang="scss" scoped>
 .person-card {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
+</style>
+
+<style lang="scss">
+@import url('~/assets/css/md.css');
 </style>

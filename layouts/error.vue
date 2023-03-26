@@ -50,7 +50,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 h1 {
   font-size: 20px;
 }

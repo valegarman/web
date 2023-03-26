@@ -143,8 +143,7 @@ export default {
 }
 </script>
 
-<style scoped>
-@import url('~/assets/css/md.css');
+<style lang="scss" scoped>
 .contact {
   display: flex;
   justify-content: center;
@@ -161,4 +160,8 @@ export default {
   overflow: auto;
   user-select: none;
 }
+</style>
+
+<style lang="scss">
+@import url('~/assets/css/md.css');
 </style>
