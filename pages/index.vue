@@ -104,9 +104,6 @@ export default {
       error({ statusCode: 404, message: 'not found' })
     }
   },
-  data: () => ({
-    activeTab: null,
-  }),
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll)
   },

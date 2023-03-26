@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <v-app-bar app flat>
-      <v-tabs v-model="activeTab" centered class="ml-n9">
+      <v-tabs :value="activeTab" centered class="ml-n9">
         <indexTab @tab="pushToHomeRouter" />
         <v-tab
           v-for="link in links"
@@ -46,9 +46,6 @@ export default {
       error({ statusCode: 404, message: 'not found' })
     }
   },
-  data: () => ({
-    activeTab: 'index',
-  }),
 }
 </script>
 
