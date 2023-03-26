@@ -87,6 +87,7 @@ export default {
     Timeline,
   },
   mixins: [navbar],
+  layout: 'default',
   async asyncData({ $content, params, app, error }) {
     try {
       const people = await $content(`/people/${app.i18n.locale}/people`).fetch()
@@ -139,11 +140,10 @@ export default {
       }
     },
   },
-  layout: 'default',
 }
 </script>
 
-<style>
+<style scoped>
 @import url('~/assets/css/md.css');
 .contact {
   display: flex;
