@@ -9,8 +9,8 @@ people:
     current: true
   - name: "Andrea Gallardo"
     subtitle: "Undergraduate Student"
-    img: /images/people/AndreaGallardoMan.jpg
-    imgAlt: /images/people/AndreaGallardoSuperman.jpg
+    img: /images/people/AndreaGallardoMan.jpeg
+    imgAlt: /images/people/AndreaGallardoSuperman.jpeg
     content: Ephys, spike sorting and data analysis.
     contentFun: Ephys, spike sorting and data analysis.
     current: true

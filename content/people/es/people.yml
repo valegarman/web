@@ -9,8 +9,8 @@ people:
     current: true
   - name: "Manuel Valero"
     subtitle: "Investigadora no graduada"
-    img: /images/people/AndreaGallardoMan.jpg
-    imgAlt: /images/people/AndreaGallardoSuperman.jpg
+    img: /images/people/AndreaGallardoMan.jpeg
+    imgAlt: /images/people/AndreaGallardoSuperman.jpeg
     content: Electrofisiología, spike sorting y análisis de datos.
     contentFun: Electrofisiología, spike sorting y análisis de datos.
     current: true
