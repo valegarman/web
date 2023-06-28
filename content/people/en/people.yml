@@ -7,6 +7,13 @@ people:
     contentFun: Chasing neurons!!
     link: /people/manuel-valero
     current: true
+  - name: "Andrea Gallardo"
+    subtitle: "Undergraduate Student"
+    img: /images/people/AndreaGallardoMan.jpg
+    imgAlt: /images/people/AndreaGallardoSuperman.jpg
+    content: Ephys, spike sorting and data analysis.
+    contentFun: Ephys, spike sorting and data analysis.
+    current: true
   - name: "Pablo Abad"
     subtitle: "Visiting Researcher (2022) and collaborator"
     img: /images/people/PabloMan.jpg

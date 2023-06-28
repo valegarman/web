@@ -7,6 +7,13 @@ people:
     contentFun: Buscando neuronas!!
     link: /es/people/manuel-valero
     current: true
+  - name: "Manuel Valero"
+    subtitle: "Investigadora no graduada"
+    img: /images/people/AndreaGallardoMan.jpg
+    imgAlt: /images/people/AndreaGallardoSuperman.jpg
+    content: Electrofisiología, spike sorting y análisis de datos.
+    contentFun: Electrofisiología, spike sorting y análisis de datos.
+    current: true
   - name: "Pablo Abad"
     subtitle: "Investigador visitante (2022) y colaborador"
     img: /images/people/PabloMan.jpg
