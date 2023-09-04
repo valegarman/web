@@ -1,7 +1,23 @@
 publications:
+  - title: Id2 GABAergic interneurons comprise a neglected fourth major group of cortical inhibitory cells
+    journal: Elife
+    issue: https://doi:10.7554/eLife.85893
+    year: 2023
+    link: https://elifesciences.org/articles/85893#info
+    authors: Machold R, Dellal S, Valero M, Zurita H, Kruglikov I, Meng JH, Hanson JL, Hashikawa Y, Schuman B, Buzsáki G, Rudy B
+    selected: false
+
+  - title: Interictal epileptiform discharges affect memory in an Alzheimer's disease mouse model
+    journal: PNAS
+    issue: https://doi.org/10.1073/pnas.2302676120
+    year: 2023
+    link: https://www.pnas.org/doi/10.1073/pnas.2302676120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+    authors: Soula M, Maslarova A, Harvey RE, Valero M, Brandner S, Hamer H, Fernández-Ruiz A, Buzsáki G
+    selected: false
+
   - title: Brief synaptic inhibition persistently interrupts firing of fast-spiking interneurons
     journal: Neuron
-    issue: https://doi.org/10.1016/j.neuron.2023.01.017
+    issue: 111(8), 1264-1281
     year: 2023
     link: https://www.cell.com/neuron/fulltext/S0896-6273(23)00065-X
     authors: Chamberland S, Nebet ER, Valero M, Hanani M, Egger R, Larsen SB, Eyring KW, Buzsáki G, Tsien RW
