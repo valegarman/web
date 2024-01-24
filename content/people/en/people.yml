@@ -21,6 +21,13 @@ people:
     content: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
     contentFun: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
     current: true
+  - name: "Marta Picco"
+    subtitle: "PhD Student"
+    img: /images/people/MartaMan.jpeg
+    imgAlt: /images/people/MartaSuperman.jpeg
+    content: Modeling and data analysis.
+    contentFun: Modeling and data analysis.
+    current: true
   - name: "Raquel Garcia-Hernandez (Summer 2022)"
     subtitle: "Visiting Researcher"
     img: /images/people/RaquelMan.jpg

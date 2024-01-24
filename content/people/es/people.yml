@@ -21,6 +21,13 @@ people:
     content: Electrofisiología y análisis de datos. Estudiante de doctorado en el laboratorio de Jorge Brotons-Mas (IN, Alicante, Spain).
     contentFun: Electrofisiología y análisis de datos. Estudiante de doctorado en el laboratorio de Jorge Brotons-Mas (IN, Alicante, Spain).
     current: true
+  - name: "Marta Picco"
+    subtitle: "PhD Student"
+    img: /images/people/MartaMan.jpeg
+    imgAlt: /images/people/MartaSuperman.jpeg
+    content: Modelos neuronales y análisis de datos.
+    contentFun: Modelos neuronales y análisis de datos.
+    current: true
   - name: "Raquel Garcia-Hernandez"
     subtitle: "Investigador visitante (Verano 2022)"
     img: /images/people/RaquelMan.jpg
