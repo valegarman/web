@@ -7,15 +7,29 @@ people:
     contentFun: Buscando neuronas!!
     link: /es/people/manuel-valero
     current: true
-  - name: 'Pablo Abad'
-    subtitle: 'Investigador visitante (2022) y colaborador'
+  - name: "Andrea Gallardo"
+    subtitle: "Investigadora no graduada"
+    img: /images/people/AndreaGallardoMan.jpeg
+    imgAlt: /images/people/AndreaGallardoSuperman.jpeg
+    content: Electrofisiología, spike sorting y análisis de datos.
+    contentFun: Electrofisiología, spike sorting y análisis de datos.
+    current: true
+  - name: "Pablo Abad"
+    subtitle: "Investigador visitante (2022) y colaborador"
     img: /images/people/PabloMan.jpg
     imgAlt: /images/people/PabloSuperman.jpg
     content: Electrofisiología y análisis de datos. Estudiante de doctorado en el laboratorio de Jorge Brotons-Mas (IN, Alicante, Spain).
     contentFun: Electrofisiología y análisis de datos. Estudiante de doctorado en el laboratorio de Jorge Brotons-Mas (IN, Alicante, Spain).
     current: true
-  - name: 'Raquel Garcia-Hernandez'
-    subtitle: 'Investigador visitante (Verano 2022)'
+  - name: "Marta Picco"
+    subtitle: "PhD Student"
+    img: /images/people/MartaMan.jpeg
+    imgAlt: /images/people/MartaSuperman.jpeg
+    content: Modelos neuronales y análisis de datos.
+    contentFun: Modelos neuronales y análisis de datos.
+    current: true
+  - name: "Raquel Garcia-Hernandez"
+    subtitle: "Investigador visitante (Verano 2022)"
     img: /images/people/RaquelMan.jpg
     imgAlt: /images/people/RaquelSuperman.jpg
     content: Electrofisiología, comportamiento y análisis. Estudiante de doctorado en el laboratorio de Santiago Canals (IN, Alicante, Spain).

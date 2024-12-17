@@ -20,11 +20,6 @@
         <hero />
       </div>
       <v-col cols="12" md="8">
-        <div id="news" ref="news" class="pb-5">
-          <indexSection title="news.title">
-            <news :news="news.news" />
-          </indexSection>
-        </div>
         <div id="publications" ref="publications" class="pb-5">
           <indexSection title="publications.title">
             <publications :publications="publications.publications" />
@@ -67,7 +62,6 @@ import { Timeline } from 'vue-tweet-embed'
 import navbar from '~/mixins/navbar.vue'
 import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
-import news from '~/components/news/news.vue'
 import publications from '~/components/publications/publications.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 import people from '~/components/people/people.vue'
@@ -78,7 +72,6 @@ export default {
   components: {
     indexSection,
     hero,
-    news,
     publications,
     indexTab,
     people,
@@ -98,8 +91,6 @@ export default {
       const messages = await $content(
         `/messages/${app.i18n.locale}/messages`
       ).fetch()
-      const news = await $content(`/news/${app.i18n.locale}/news`).fetch()
-      return { publications, people, contact, messages, news }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }

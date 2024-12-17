@@ -7,15 +7,29 @@ people:
     contentFun: Chasing neurons!!
     link: /people/manuel-valero
     current: true
-  - name: 'Pablo Abad'
-    subtitle: 'Visiting Researcher (2022) and collaborator'
+  - name: "Andrea Gallardo"
+    subtitle: "Undergraduate Student"
+    img: /images/people/AndreaGallardoMan.jpeg
+    imgAlt: /images/people/AndreaGallardoSuperman.jpeg
+    content: Ephys, spike sorting and data analysis.
+    contentFun: Ephys, spike sorting and data analysis.
+    current: true
+  - name: "Pablo Abad"
+    subtitle: "Visiting Researcher (2022) and collaborator"
     img: /images/people/PabloMan.jpg
     imgAlt: /images/people/PabloSuperman.jpg
     content: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
     contentFun: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
     current: true
-  - name: 'Raquel Garcia-Hernandez (Summer 2022)'
-    subtitle: 'Visiting Researcher'
+  - name: "Marta Picco"
+    subtitle: "PhD Student"
+    img: /images/people/MartaMan.jpeg
+    imgAlt: /images/people/MartaSuperman.jpeg
+    content: Modeling and data analysis.
+    contentFun: Modeling and data analysis.
+    current: true
+  - name: "Raquel Garcia-Hernandez (Summer 2022)"
+    subtitle: "Visiting Researcher"
     img: /images/people/RaquelMan.jpg
     imgAlt: /images/people/RaquelSuperman.jpg
     content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
