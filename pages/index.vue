@@ -62,7 +62,6 @@ import { Timeline } from 'vue-tweet-embed'
 import navbar from '~/mixins/navbar.vue'
 import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
-import news from '~/components/news/news.vue'
 import publications from '~/components/publications/publications.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 import people from '~/components/people/people.vue'
@@ -73,7 +72,6 @@ export default {
   components: {
     indexSection,
     hero,
-    news,
     publications,
     indexTab,
     people,
