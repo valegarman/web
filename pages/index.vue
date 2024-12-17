@@ -90,8 +90,6 @@ export default {
       const messages = await $content(
         `/messages/${app.i18n.locale}/messages`
       ).fetch()
-      const news = await $content(`/news/${app.i18n.locale}/news`).fetch()
-      return { publications, people, contact, messages, news }
     } catch {
       error({ statusCode: 404, message: 'not found' })
     }
