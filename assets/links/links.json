@@ -19,6 +19,11 @@
     {
       "id": "resources",
       "type": "pages"
+    },
+    {
+      "id": "group-photos",
+      "url": "https://www.google.com/",
+      "type": "external"
     }
   ]
 }
