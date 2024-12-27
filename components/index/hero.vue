@@ -10,7 +10,7 @@
         <ripplocampusIcon />
       </iconBase>
       <h1 style="font-size: 50px">
-        <span style="font-weight: normal">Valero</span
+        <span style="font-weight: normal">neuComp</span
         ><span style="color: rgb(255 223 116)">Lab</span>
       </h1>
       <p>{{ $t('hero.ocupation') }}</p>
