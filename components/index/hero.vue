@@ -10,7 +10,7 @@
         <ripplocampusIcon />
       </iconBase>
       <h1 style="font-size: 50px">
-        <span style="font-weight: normal">Valero</span
+        <span style="font-weight: normal">neuComp</span
         ><span style="color: rgb(255 223 116)">Lab</span>
       </h1>
       <p>{{ $t('hero.ocupation') }}</p>
@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.03)),
     url('/images/bkg2.jpg');

@@ -1,9 +1,9 @@
 people:
-  - name: "Manuel Valero"
-    subtitle: "Investigador Postdoctoral"
+  - name: 'Manuel Valero'
+    subtitle: 'Investigador Postdoctoral'
     img: /images/people/ManuMan.jpg
     imgAlt: /images/people/ManuSuperman.jpg
-    content: Investigador en el laboratorio de György Buzsáki en la Universidad de Nueva York. Interesado en la memoria especial, y especialmente sus substratos celulares y reglas sinápticas. 
+    content: Investigador en el laboratorio de György Buzsáki en la Universidad de Nueva York. Interesado en la memoria especial, y especialmente sus substratos celulares y reglas sinápticas.
     contentFun: Buscando neuronas!!
     link: /es/people/manuel-valero
     current: true
@@ -34,13 +34,13 @@ people:
     imgAlt: /images/people/RaquelSuperman.jpg
     content: Electrofisiología, comportamiento y análisis. Estudiante de doctorado en el laboratorio de Santiago Canals (IN, Alicante, Spain).
     contentFun: Electrofisiología, comportamiento y análisis. Estudiante de doctorado en el laboratorio de Santiago Canals (IN, Alicante, Spain).
-  - name: "Andrea Navas-Olive"
-    subtitle: "Investigador visitante (Verano 2021)"
+  - name: 'Andrea Navas-Olive'
+    subtitle: 'Investigador visitante (Verano 2021)'
     img: /images/people/AndreaMan.png
     imgAlt: /images/people/AndreaSuperman.png
     content: Modelos computacionales y análisis de datos. Estudiante de doctorado en el laboratorio de Liset Menéndez de la Prida (CSIC, Madrid, Spain).
     contentFun: Modelos computacionales y análisis de datos. Estudiante de doctorado en el laboratorio de Liset Menéndez de la Prida (CSIC, Madrid, Spain).
-  - name: "Tú"
+  - name: 'Tú'
     link: /es/people/join-us
     img: /images/people/YouMan.png
     imgAlt: /images/people/YouMan.png

@@ -1,10 +1,6 @@
 {
   "links": [
     {
-      "id": "news",
-      "type": "section"
-    },
-    {
       "id": "publications",
       "type": "section"
     },

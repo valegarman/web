@@ -24,10 +24,10 @@
 import game from '~/components/errorPage/game.vue'
 
 export default {
-  layout: 'default',
   components: {
     game,
   },
+  layout: 'default',
   props: {
     error: {
       type: Object,
@@ -50,7 +50,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 h1 {
   font-size: 20px;
 }

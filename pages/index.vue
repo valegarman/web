@@ -62,7 +62,6 @@ import { Timeline } from 'vue-tweet-embed'
 import navbar from '~/mixins/navbar.vue'
 import indexSection from '~/components/index/indexSection.vue'
 import hero from '~/components/index/hero.vue'
-import news from '~/components/news/news.vue'
 import publications from '~/components/publications/publications.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 import people from '~/components/people/people.vue'
@@ -73,7 +72,6 @@ export default {
   components: {
     indexSection,
     hero,
-    news,
     publications,
     indexTab,
     people,
@@ -82,6 +80,7 @@ export default {
     Timeline,
   },
   mixins: [navbar],
+  layout: 'default',
   async asyncData({ $content, params, app, error }) {
     try {
       const people = await $content(`/people/${app.i18n.locale}/people`).fetch()
@@ -98,9 +97,6 @@ export default {
       error({ statusCode: 404, message: 'not found' })
     }
   },
-  data: () => ({
-    activeTab: null,
-  }),
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll)
   },
@@ -134,12 +130,10 @@ export default {
       }
     },
   },
-  layout: 'default',
 }
 </script>
 
-<style>
-@import url('~/assets/css/md.css');
+<style lang="scss" scoped>
 .contact {
   display: flex;
   justify-content: center;
@@ -156,4 +150,8 @@ export default {
   overflow: auto;
   user-select: none;
 }
+</style>
+
+<style lang="scss">
+@import url('~/assets/css/md.css');
 </style>

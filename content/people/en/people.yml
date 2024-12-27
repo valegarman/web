@@ -1,6 +1,6 @@
 people:
-  - name: "Manuel Valero"
-    subtitle: "Group Leader"
+  - name: 'Manuel Valero'
+    subtitle: 'Group Leader'
     img: /images/people/ManuMan.jpg
     imgAlt: /images/people/ManuSuperman.jpg
     content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (IMIM). Our research is focused on spatial memory, with special emphasis on their cellular substrate and synaptic rules.
@@ -34,13 +34,13 @@ people:
     imgAlt: /images/people/RaquelSuperman.jpg
     content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
     contentFun: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
-  - name: "Andrea Navas-Olive"
-    subtitle: "Visiting Researcher (Summer 2021)"
+  - name: 'Andrea Navas-Olive'
+    subtitle: 'Visiting Researcher (Summer 2021)'
     img: /images/people/AndreaMan.png
     imgAlt: /images/people/AndreaSuperman.png
     content: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
     contentFun: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
-  - name: "You"
+  - name: 'You'
     link: /people/join-us
     img: /images/people/YouMan.png
     imgAlt: /images/people/YouMan.png

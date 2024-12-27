@@ -8,7 +8,7 @@
       direction="top"
       transition="slide-y-reverse-transition"
     >
-      <template v-slot:activator>
+      <template #activator>
         <v-btn v-model="fab" color="blue darken-2" small dark fab>
           <v-icon v-if="fab" small> mdi-close </v-icon>
           <v-icon v-else small> mdi-translate </v-icon>

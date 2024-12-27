@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <v-app-bar app flat>
-      <v-tabs v-model="activeTab" centered class="ml-n9">
+      <v-tabs :value="activeTab" centered class="ml-n9">
         <indexTab @tab="pushToHomeRouter" />
         <v-tab
           v-for="link in links"
@@ -32,9 +32,9 @@ import navbar from '~/mixins/navbar.vue'
 import indexTab from '~/components/layout/indexTab.vue'
 
 export default {
-  layout: 'default',
   components: { indexTab },
   mixins: [navbar],
+  layout: 'default',
   async asyncData({ $content, params, app, error }) {
     try {
       const article = await $content(
@@ -46,12 +46,9 @@ export default {
       error({ statusCode: 404, message: 'not found' })
     }
   },
-  data: () => ({
-    activeTab: 'index',
-  }),
 }
 </script>
 
-<style>
+<style lang="scss">
 @import url('~/assets/css/md.css');
 </style>
