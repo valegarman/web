@@ -7,7 +7,8 @@
       "publications": "Publications",
       "contact": "Contact",
       "resources": "Resources",
-      "join-us": "Join us"
+      "join-us": "Join us",
+      "group-photos": "Group Photos"
     },
     "cookies": {
       "button": "Accept",
@@ -42,7 +43,8 @@
       "publications": "Artículos",
       "contact": "Contacto",
       "resources": "Recursos",
-      "join-us": "Únete"
+      "join-us": "Únete",
+      "group-photos": "Fotos de grupo"
     },
     "cookies": {
       "button": "Aceptar",
