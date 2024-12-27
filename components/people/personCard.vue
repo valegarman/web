@@ -2,7 +2,7 @@
   <v-card
     class="ma-2"
     max-width="265px"
-    min-height="500px"
+    min-height="570px"
     @mouseover="touch = true"
     @mouseleave="touch = false"
     @touchstart="touch = true"
