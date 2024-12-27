@@ -40,6 +40,10 @@ export default {
       )
     },
     pushToRouter(link) {
+      if (link.type === 'external') {
+        window.location.href = link.url
+        return
+      }
       this.$router.push(
         this.localePath({
           path: `/${link.type}/${link.id}`,

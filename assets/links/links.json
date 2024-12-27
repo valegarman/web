@@ -18,7 +18,8 @@
     },
     {
       "id": "resources",
-      "type": "pages"
+      "url": "https://www.google.com/",
+      "type": "external"
     }
   ]
 }
