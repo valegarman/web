@@ -1,9 +1,9 @@
 people:
   - name: 'Manuel Valero'
     subtitle: 'Group Leader'
-    img: /images/people/ManuMan.jpg
-    imgAlt: /images/people/ManuSuperman.jpg
-    content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (IMIM). Our research is focused on spatial memory, with special emphasis on their cellular substrate and synaptic rules.
+    img: /images/people/ManuMan.webp
+    imgAlt: /images/people/ManuSuperman.webp
+    content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (IMIM).
     contentFun: Chasing neurons!!
     link: /people/manuel-valero
     current: true
@@ -15,18 +15,25 @@ people:
     contentFun: Ephys, spike sorting and data analysis.
     current: true
   - name: "Pablo Abad"
-    subtitle: "Visiting Researcher (2022) and collaborator"
-    img: /images/people/PabloMan.jpg
-    imgAlt: /images/people/PabloSuperman.jpg
-    content: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
-    contentFun: Ephys and data analysis. PhD Student in Brotons-Mas Lab (Alicante, Spain).
+    subtitle: "Postdoctoral Researcher"
+    img: /images/people/PabloMan.webp
+    imgAlt: /images/people/PabloSuperman.webp
+    content: Ephys and data analysis. 
+    contentFun: Ephys and data analysis.
     current: true
   - name: "Marta Picco"
-    subtitle: "PhD Student"
-    img: /images/people/MartaMan.jpeg
-    imgAlt: /images/people/MartaSuperman.jpeg
+    subtitle: "FPI PhD Student"
+    img: /images/people/MartaMan.webp
+    imgAlt: /images/people/MartaSuperman.webp
     content: Modeling and data analysis.
     contentFun: Modeling and data analysis.
+    current: true
+  - name: "Anel Martínez-Félix"
+    subtitle: "Joan Oró PhD Student"
+    img: /images/people/AnelMan.webp
+    imgAlt: /images/people/AnelSuperman.webp
+    content: Simultaneous fiber photometry-ephys and behaviour.
+    contentFun: Neuroscientist by day, sexologist by night! Whether it is neurons firing or chemistry sparking, I am all about decoding connections.
     current: true
   - name: "Raquel Garcia-Hernandez (Summer 2022)"
     subtitle: "Visiting Researcher"
