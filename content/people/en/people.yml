@@ -7,36 +7,36 @@ people:
     contentFun: Chasing neurons!!
     link: /people/manuel-valero
     current: true
-  - name: "Andrea Gallardo"
-    subtitle: "Undergraduate Student"
+  - name: 'Andrea Gallardo'
+    subtitle: 'Undergraduate Student'
     img: /images/people/AndreaGallardoMan.jpeg
     imgAlt: /images/people/AndreaGallardoSuperman.jpeg
     content: Ephys, spike sorting and data analysis.
     contentFun: Ephys, spike sorting and data analysis.
     current: true
-  - name: "Pablo Abad"
-    subtitle: "Postdoctoral Researcher"
+  - name: 'Pablo Abad'
+    subtitle: 'Postdoctoral Researcher'
     img: /images/people/PabloMan.webp
     imgAlt: /images/people/PabloSuperman.webp
-    content: Ephys and data analysis. 
+    content: Ephys and data analysis.
     contentFun: Ephys and data analysis.
     current: true
-  - name: "Marta Picco"
-    subtitle: "FPI PhD Student"
+  - name: 'Marta Picco'
+    subtitle: 'FPI PhD Student'
     img: /images/people/MartaMan.webp
     imgAlt: /images/people/MartaSuperman.webp
     content: Modeling and data analysis.
     contentFun: Modeling and data analysis.
     current: true
-  - name: "Anel Martínez-Félix"
-    subtitle: "Joan Oró PhD Student"
+  - name: 'Anel Martínez-Félix'
+    subtitle: 'Joan Oró PhD Student'
     img: /images/people/AnelMan.webp
     imgAlt: /images/people/AnelSuperman.webp
     content: Simultaneous fiber photometry-ephys and behaviour.
     contentFun: Neuroscientist by day, sexologist by night! Whether it is neurons firing or chemistry sparking, I am all about decoding connections.
     current: true
-  - name: "Raquel Garcia-Hernandez (Summer 2022)"
-    subtitle: "Visiting Researcher"
+  - name: 'Raquel Garcia-Hernandez (Summer 2022)'
+    subtitle: 'Visiting Researcher'
     img: /images/people/RaquelMan.jpg
     imgAlt: /images/people/RaquelSuperman.jpg
     content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
