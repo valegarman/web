@@ -7,6 +7,14 @@ people:
     contentFun: Chasing neurons!!
     link: /people/manuel-valero
     current: true
+  - name: 'Mario Martin-Fernandez'
+    subtitle: 'Group Leader'
+    img: /images/people/MarioMan.jpeg
+    imgAlt: /images/people/MarioSuperman.jpeg
+    content: Principal investigator at Hospital del Mar Medical Research Institute (IMIM).
+    contentFun: Evans gambit and scandinavian defense
+    link: /people/mario-martin-fernandez
+    current: true
   - name: 'Andrea Gallardo'
     subtitle: 'Undergraduate Student'
     img: /images/people/AndreaGallardoMan.jpeg
@@ -61,3 +69,4 @@ people:
     content: Simultaneous fiber photometry-ephys and behaviour. Astrocytes and memory.
     contentFun: Creativity is not my strenght! Insert your comment here
     current: true
+    link: /people/ignacio-del-castillo

@@ -7,6 +7,14 @@ people:
     contentFun: Buscando neuronas!!
     link: /es/people/manuel-valero
     current: true
+  - name: 'Mario Martin-Fernandez'
+    subtitle: 'Group Leader'
+    img: /images/people/MarioMan.jpeg
+    imgAlt: /images/people/MarioSuperman.jpeg
+    content: Principal investigator at Hospital del Mar Medical Research Institute (IMIM).
+    contentFun: Evans gambit and scandinavian defense
+    link: /people/mario-martin-fernandez
+    current: true
   - name: 'Andrea Gallardo'
     subtitle: 'Investigadora no graduada'
     img: /images/people/AndreaGallardoMan.jpeg
