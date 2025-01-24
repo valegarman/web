@@ -56,8 +56,8 @@ people:
     current: true
   - name: 'Ignacio del Castillo'
     subtitle: 'La Caixa INPhINIT PhD Student'
-    img: /images/people/NachoMan.png
-    imgAlt: /images/people/NachoSuperman.png
+    img: /images/people/NachoMan.jpeg
+    imgAlt: /images/people/NachoSuperman.jpeg
     content: Simultaneous fiber photometry-ephys and behaviour. Astrocytes and memory.
     contentFun: Creativity is not my strenght! Insert your comment here
     current: true

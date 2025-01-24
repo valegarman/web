@@ -28,6 +28,13 @@ people:
     content: Modelos neuronales y análisis de datos.
     contentFun: Modelos neuronales y análisis de datos.
     current: true
+  - name: 'Anel Martínez-Félix'
+    subtitle: 'Joan Oró PhD Student'
+    img: /images/people/AnelMan.webp
+    imgAlt: /images/people/AnelSuperman.webp
+    content: Fotometría de fibra y electrofisiología.
+    contentFun: Neuroscientist by day, sexologist by night! Whether it is neurons firing or chemistry sparking, I am all about decoding connections.
+    current: true
   - name: 'Raquel Garcia-Hernandez'
     subtitle: 'Investigador visitante (Verano 2022)'
     img: /images/people/RaquelMan.jpg
@@ -49,8 +56,9 @@ people:
     current: true
   - name: 'Ignacio del Castillo'
     subtitle: 'La Caixa INPhINIT PhD Student'
-    img: /images/people/NachoMan.png
-    imgAlt: /images/people/NachoSuperman.png
+    img: /images/people/NachoMan.jpeg
+    imgAlt: /images/people/NachoSuperman.jpeg
     content: Fotometría de fibra y electrofisiología. Astrocitos y memoria.
     contentFun: La creatividad no es mi fuerte!
     current: true
+
