@@ -54,3 +54,10 @@ people:
     content: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
     contentFun: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
     current: true
+  - name: 'Ignacio del Castillo'
+    subtitle: 'La Caixa INPhINIT PhD Student'
+    img: /images/people/NachoMan.png
+    imgAlt: /images/people/NachoSuperman.png
+    content: Simultaneous fiber photometry-ephys and behaviour. Astrocytes and memory.
+    contentFun: Creativity is not my strenght! Insert your comment here
+    current: true

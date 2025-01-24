@@ -47,3 +47,10 @@ people:
     content: Buscamos estudiantes y postdoctorandos con talento, creatividad y motivación para unirse a nuestro equipo.
     contentFun: Buscamos estudiantes y postdoctorandos con talento, creatividad y motivación para unirse a nuestro equipo.
     current: true
+  - name: 'Ignacio del Castillo'
+    subtitle: 'La Caixa INPhINIT PhD Student'
+    img: /images/people/NachoMan.png
+    imgAlt: /images/people/NachoSuperman.png
+    content: Fotometría de fibra y electrofisiología. Astrocitos y memoria.
+    contentFun: La creatividad no es mi fuerte!
+    current: true
