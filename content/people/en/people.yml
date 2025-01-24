@@ -55,13 +55,6 @@ people:
     imgAlt: /images/people/AndreaSuperman.png
     content: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
     contentFun: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
-  - name: 'You'
-    link: /people/join-us
-    img: /images/people/YouMan.png
-    imgAlt: /images/people/YouMan.png
-    content: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
-    contentFun: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
-    current: true
   - name: 'Ignacio del Castillo'
     subtitle: 'La Caixa INPhINIT PhD Student'
     img: /images/people/NachoMan.jpeg
@@ -70,3 +63,10 @@ people:
     contentFun: Creativity is not my strenght! Insert your comment here
     current: true
     link: /people/ignacio-del-castillo
+  - name: 'You'
+    link: /people/join-us
+    img: /images/people/YouMan.png
+    imgAlt: /images/people/YouMan.png
+    content: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
+    contentFun: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
+    current: true

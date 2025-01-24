@@ -55,18 +55,19 @@ people:
     imgAlt: /images/people/AndreaSuperman.png
     content: Modelos computacionales y análisis de datos. Estudiante de doctorado en el laboratorio de Liset Menéndez de la Prida (CSIC, Madrid, Spain).
     contentFun: Modelos computacionales y análisis de datos. Estudiante de doctorado en el laboratorio de Liset Menéndez de la Prida (CSIC, Madrid, Spain).
-  - name: 'Tú'
-    link: /es/people/join-us
-    img: /images/people/YouMan.png
-    imgAlt: /images/people/YouMan.png
-    content: Buscamos estudiantes y postdoctorandos con talento, creatividad y motivación para unirse a nuestro equipo.
-    contentFun: Buscamos estudiantes y postdoctorandos con talento, creatividad y motivación para unirse a nuestro equipo.
-    current: true
   - name: 'Ignacio del Castillo'
     subtitle: 'La Caixa INPhINIT PhD Student'
     img: /images/people/NachoMan.jpeg
     imgAlt: /images/people/NachoSuperman.jpeg
     content: Fotometría de fibra y electrofisiología. Astrocitos y memoria.
     contentFun: La creatividad no es mi fuerte!
+    current: true
+    link: /people/ignacio-del-castillo
+  - name: 'Tú'
+    link: /es/people/join-us
+    img: /images/people/YouMan.png
+    imgAlt: /images/people/YouMan.png
+    content: Buscamos estudiantes y postdoctorandos con talento, creatividad y motivación para unirse a nuestro equipo.
+    contentFun: Buscamos estudiantes y postdoctorandos con talento, creatividad y motivación para unirse a nuestro equipo.
     current: true
 
