@@ -1,7 +1,15 @@
 publications:
-  - title: Differential contribution of distinct neuronal populations to danger representations
+  - title: Inhibitory and disinhibitory VIP IN-mediated circuits in neocortex
     journal: bioRxiv
-    issue: 2024.01. 24.577067
+    issue: 2025.02.26.640383
+    year: 2025
+    link: https://www.biorxiv.org/content/10.1101/2025.02.26.640383v1
+    authors: Dellal S, Zurita H, Valero M, Abad-Perez P, Kruglikov I, Meng J, Prönneke A, Hanson JL, Mir E, On-garo M, Wang XJ, Buzsáki G, Machold R, Rudy B
+    selected: true 
+ 
+ - title: Differential contribution of distinct neuronal populations to danger representations
+    journal: bioRxiv
+    issue: 2024.01.24.577067
     year: 2024
     link: https://www.biorxiv.org/content/10.1101/2024.01.24.577067v1.abstract
     authors: Menegolla AP, Lopez-Fernandez G, Herry C, Martin-Fernandez M
