@@ -1,4 +1,12 @@
 publications:
+  - title: Cooperative actions of interneuron families support the hippocampal spatial code
+    journal: Science
+    issue: 389, 6764
+    year: 2025
+    link: https://www.science.org/doi/10.1126/science.adv5638
+    authors: Valero M*, Abad-Perez P, Gallardo A, Picco M, García-Hernandez R, Brotons J, Martínez-Félix A, Machold R, Rudy B, Buzsáki G
+    selected: true
+
   - title: Inhibitory and disinhibitory VIP IN-mediated circuits in neocortex
     journal: bioRxiv
     issue: 2025.02. 26.640383

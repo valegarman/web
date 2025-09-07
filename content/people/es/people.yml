@@ -1,9 +1,9 @@
 people:
   - name: 'Manuel Valero'
-    subtitle: 'Investigador Postdoctoral'
+    subtitle: 'Group Leader'
     img: /images/people/ManuMan.jpg
     imgAlt: /images/people/ManuSuperman.jpg
-    content: Investigador en el laboratorio de György Buzsáki en la Universidad de Nueva York. Interesado en la memoria especial, y especialmente sus substratos celulares y reglas sinápticas.
+    content: Investigador principal en el Hospital del Mar Research Institute. Interesado en la memoria especial, y especialmente sus substratos celulares y reglas sinápticas.
     contentFun: Buscando neuronas!!
     link: /es/people/manuel-valero
     current: true
@@ -11,7 +11,7 @@ people:
     subtitle: 'Group Leader'
     img: /images/people/MarioMan.jpeg
     imgAlt: /images/people/MarioSuperman.jpeg
-    content: Principal investigator at Hospital del Mar Medical Research Institute (IMIM).
+    content: Investigador principal en el Hospital del Mar Research Institute.
     contentFun: Evans gambit and scandinavian defense
     link: /es/people/mario-martin-fernandez
     current: true
