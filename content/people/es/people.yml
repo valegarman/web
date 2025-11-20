@@ -1,73 +1,89 @@
 people:
   - name: 'Manuel Valero'
     subtitle: 'Group Leader'
-    img: /images/people/ManuMan.jpg
-    imgAlt: /images/people/ManuSuperman.jpg
-    content: Investigador principal en el Hospital del Mar Research Institute. Interesado en la memoria especial, y especialmente sus substratos celulares y reglas sinápticas.
-    contentFun: Buscando neuronas!!
-    link: /es/people/manuel-valero
+    img: /images/people/ManuMan.webp
+    imgAlt: /images/people/ManuSuperman2.webp
+    content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (HMRIB).
+    contentFun: Chasing neurons!!
+    link: /people/manuel-valero
     current: true
-  - name: 'Mario Martin-Fernandez'
+  - name: 'Sara Mederos'
     subtitle: 'Group Leader'
-    img: /images/people/MarioMan.jpeg
-    imgAlt: /images/people/MarioSuperman.jpeg
-    content: Investigador principal en el Hospital del Mar Research Institute.
-    contentFun: Evans gambit and scandinavian defense
-    link: /es/people/mario-martin-fernandez
+    img: /images/people/SaraMan.webp
+    imgAlt: /images/people/SaraSuperman.webp
+    content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (HMRIB)
+    contentFun: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (HMRIB)
+    link: /people/manuel-valero
     current: true
   - name: 'Andrea Gallardo'
-    subtitle: 'Investigadora no graduada'
-    img: /images/people/AndreaGallardoMan.jpeg
-    imgAlt: /images/people/AndreaGallardoSuperman.jpeg
-    content: Electrofisiología, spike sorting y análisis de datos.
-    contentFun: Electrofisiología, spike sorting y análisis de datos.
+    subtitle: 'Undergraduate Student'
+    img: /images/people/AndreaGMan.webp
+    imgAlt: /images/people/AndreaGSuperman.webp
+    content: Ephys, spike sorting and data analysis.
+    contentFun: Ephys, spike sorting and data analysis.
     current: true
   - name: 'Pablo Abad'
-    subtitle: 'Investigador visitante (2022) y colaborador'
-    img: /images/people/PabloMan.jpg
-    imgAlt: /images/people/PabloSuperman.jpg
-    content: Electrofisiología y análisis de datos. Estudiante de doctorado en el laboratorio de Jorge Brotons-Mas (IN, Alicante, Spain).
-    contentFun: Electrofisiología y análisis de datos. Estudiante de doctorado en el laboratorio de Jorge Brotons-Mas (IN, Alicante, Spain).
+    subtitle: 'Postdoctoral Researcher'
+    img: /images/people/PabloMan.webp
+    imgAlt: /images/people/PabloSuperman.webp
+    content: Ephys and data analysis.
+    contentFun: Ephys and data analysis.
+    current: true
+  - name: 'Antonio Florido'
+    subtitle: 'Postdoctoral Researcher'
+    img: /images/people/AntonioMan.webp
+    imgAlt: /images/people/AntonioSuperman.webp
+    content: Miniscope, ephys and stress models
+    contentFun: Miniscope, ephys and stress models
     current: true
   - name: 'Marta Picco'
-    subtitle: 'PhD Student'
-    img: /images/people/MartaMan.jpeg
-    imgAlt: /images/people/MartaSuperman.jpeg
-    content: Modelos neuronales y análisis de datos.
-    contentFun: Modelos neuronales y análisis de datos.
+    subtitle: 'FPI PhD Student'
+    img: /images/people/MartaMan.webp
+    imgAlt: /images/people/MartaSuperman.webp
+    content: Modeling and data analysis.
+    contentFun: Modeling and data analysis.
     current: true
   - name: 'Anel Martínez-Félix'
     subtitle: 'Joan Oró PhD Student'
     img: /images/people/AnelMan.webp
     imgAlt: /images/people/AnelSuperman.webp
-    content: Fotometría de fibra y electrofisiología.
+    content: Simultaneous fiber photometry-ephys and behaviour.
     contentFun: Neuroscientist by day, sexologist by night! Whether it is neurons firing or chemistry sparking, I am all about decoding connections.
     current: true
-  - name: 'Raquel Garcia-Hernandez'
-    subtitle: 'Investigador visitante (Verano 2022)'
-    img: /images/people/RaquelMan.jpg
-    imgAlt: /images/people/RaquelSuperman.jpg
-    content: Electrofisiología, comportamiento y análisis. Estudiante de doctorado en el laboratorio de Santiago Canals (IN, Alicante, Spain).
-    contentFun: Electrofisiología, comportamiento y análisis. Estudiante de doctorado en el laboratorio de Santiago Canals (IN, Alicante, Spain).
+  - name: 'Mario Martin-Fernandez'
+    subtitle: 'Group Leader'
+    img: /images/people/MarioMan.webp
+    imgAlt: /images/people/MarioSuperman.webp
+    content: Principal investigator at Hospital del Mar Medical Research Institute (IMIM).
+    contentFun: Evans gambit and scandinavian defense
+    link: /people/manuel-valero
+    current: false
+  - name: 'Raquel Garcia-Hernandez (Summer 2022)'
+    subtitle: 'Visiting Researcher'
+    img: /images/people/RaquelMan.webp
+    imgAlt: /images/people/RaquelSuperman.webp
+    content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
+    contentFun: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
+    current: false
   - name: 'Andrea Navas-Olive'
-    subtitle: 'Investigador visitante (Verano 2021)'
-    img: /images/people/AndreaMan.png
-    imgAlt: /images/people/AndreaSuperman.png
-    content: Modelos computacionales y análisis de datos. Estudiante de doctorado en el laboratorio de Liset Menéndez de la Prida (CSIC, Madrid, Spain).
-    contentFun: Modelos computacionales y análisis de datos. Estudiante de doctorado en el laboratorio de Liset Menéndez de la Prida (CSIC, Madrid, Spain).
+    subtitle: 'Visiting Researcher (Summer 2021)'
+    img: /images/people/AndreaMan.webp
+    imgAlt: /images/people/AndreaSuperman.webp
+    content: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
+    contentFun: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
+    current: false
   - name: 'Ignacio del Castillo'
     subtitle: 'La Caixa INPhINIT PhD Student'
-    img: /images/people/NachoMan.jpeg
-    imgAlt: /images/people/NachoSuperman.jpeg
-    content: Fotometría de fibra y electrofisiología. Astrocitos y memoria.
-    contentFun: La creatividad no es mi fuerte!
+    img: /images/people/NachoMan.webp
+    imgAlt: /images/people/NachoSuperman.webp
+    content: Simultaneous fiber photometry-ephys and behaviour. Astrocytes and memory.
+    contentFun: Creativity is not my strenght! Insert your comment here
     current: true
-    link: /es/people/ignacio-del-castillo
-  - name: 'Tú'
-    link: /es/people/join-us
+    link: /people/ignacio-del-castillo
+  - name: 'You'
+    link: /people/join-us
     img: /images/people/YouMan.png
     imgAlt: /images/people/YouMan.png
-    content: Buscamos estudiantes y postdoctorandos con talento, creatividad y motivación para unirse a nuestro equipo.
-    contentFun: Buscamos estudiantes y postdoctorandos con talento, creatividad y motivación para unirse a nuestro equipo.
+    content: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
+    contentFun: We are looking for talented, creative, and motivated students and postdoctoral candidates to join our team.
     current: true
-
