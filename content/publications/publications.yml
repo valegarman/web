@@ -14,22 +14,6 @@ publications:
     link: https://www.biorxiv.org/content/10.1101/2025.02.26.640383v1.full
     authors: Dellal S, Zurita H, Valero M, Abad-Perez P, Kruglikov I, Meng J, Pröneke A, Hanson JL, Mir E, On-Garo M, Wang XJ, Buzsáki G, Rudy B
     selected: false
-
-  - title: Differential contribution of distinct neuronal populations to danger representations
-    journal: bioRxiv
-    issue: 2024.01. 24.577067
-    year: 2024
-    link: https://www.biorxiv.org/content/10.1101/2024.01.24.577067v1.abstract
-    authors: Menegolla AP, Lopez-Fernandez G, Herry C, Martin-Fernandez M
-    selected: false
-
-  - title: Prefrontal circuits encode both general danger and specific threat representations
-    journal: Nature Neuroscience
-    issue: 12(26), 2147-2157
-    year: 2023
-    link: https://www.nature.com/articles/s41593-023-01472-8
-    authors: Martin-Fernandez M, Menegolla AP, Lopez-Fernandez G, Winke N, Jercog D, Kim H, Girard D, Dejean C, Herry C
-    selected: false
   
   - title: Id2 GABAergic interneurons comprise a neglected fourth major group of cortical inhibitory cells
     journal: Elife
@@ -194,14 +178,6 @@ publications:
     authors: Valero M, Averkin RG, Fernandez-Lamo I, Aguilar J, Lopez-Pigozzi D, Brotons-Mas JR, Cid E, Tamas G, Menendez de la Prida L
     selected: true
     img: /images/NeuronCover.jpg
-
-  - title: Synapse-specific astrocyte gating of amygdala-related behavior
-    journal: Nature neuroscience
-    issue: 20(11), 1540-1548
-    year: 2017
-    link: https://www.nature.com/articles/nn.4649
-    authors: Martin-Fernandez M, Jamison S, Robin LM, Zhao Z, Martin ED, Aguilar J, Benneyworth MA, Marsicano G, Araque A
-    selected: true
 
   - title: Altered oscillatory dynamics of CA1 parvalbumin basket cells during theta–gamma rhythmopathies of temporal lobe epilepsy
     journal: eNeuro

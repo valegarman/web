@@ -2,23 +2,23 @@ people:
   - name: 'Manuel Valero'
     subtitle: 'Group Leader'
     img: /images/people/ManuMan.webp
-    imgAlt: /images/people/ManuSuperman.webp
-    content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (IMIM).
+    imgAlt: /images/people/ManuSuperman2.webp
+    content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (HMRIB).
     contentFun: Chasing neurons!!
     link: /people/manuel-valero
     current: true
-  - name: 'Mario Martin-Fernandez'
+  - name: 'Sara Mederos'
     subtitle: 'Group Leader'
-    img: /images/people/MarioMan.jpeg
-    imgAlt: /images/people/MarioSuperman.jpeg
-    content: Principal investigator at Hospital del Mar Medical Research Institute (IMIM).
-    contentFun: Evans gambit and scandinavian defense
+    img: /images/people/SaraMan.webp
+    imgAlt: /images/people/SaraSuperman.webp
+    content: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (HMRIB)
+    contentFun: Ramon y Cajal Group Leader at Hospital del Mar Medical Research Institute (HMRIB)
     link: /people/manuel-valero
     current: true
   - name: 'Andrea Gallardo'
     subtitle: 'Undergraduate Student'
-    img: /images/people/AndreaGallardoMan.jpeg
-    imgAlt: /images/people/AndreaGallardoSuperman.jpeg
+    img: /images/people/AndreaGMan.webp
+    imgAlt: /images/people/AndreaGSuperman.webp
     content: Ephys, spike sorting and data analysis.
     contentFun: Ephys, spike sorting and data analysis.
     current: true
@@ -28,6 +28,13 @@ people:
     imgAlt: /images/people/PabloSuperman.webp
     content: Ephys and data analysis.
     contentFun: Ephys and data analysis.
+    current: true
+  - name: 'Antonio Florido'
+    subtitle: 'Postdoctoral Researcher'
+    img: /images/people/AntonioMan.webp
+    imgAlt: /images/people/AntonioSuperman.webp
+    content: Miniscope, ephys and stress models
+    contentFun: Miniscope, ephys and stress models
     current: true
   - name: 'Marta Picco'
     subtitle: 'FPI PhD Student'
@@ -43,22 +50,32 @@ people:
     content: Simultaneous fiber photometry-ephys and behaviour.
     contentFun: Neuroscientist by day, sexologist by night! Whether it is neurons firing or chemistry sparking, I am all about decoding connections.
     current: true
+  - name: 'Mario Martin-Fernandez'
+    subtitle: 'Group Leader'
+    img: /images/people/MarioMan.webp
+    imgAlt: /images/people/MarioSuperman.webp
+    content: Principal investigator at Hospital del Mar Medical Research Institute (IMIM).
+    contentFun: Evans gambit and scandinavian defense
+    link: /people/manuel-valero
+    current: false
   - name: 'Raquel Garcia-Hernandez (Summer 2022)'
     subtitle: 'Visiting Researcher'
-    img: /images/people/RaquelMan.jpg
-    imgAlt: /images/people/RaquelSuperman.jpg
+    img: /images/people/RaquelMan.webp
+    imgAlt: /images/people/RaquelSuperman.webp
     content: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
     contentFun: Ephys, behaviour and analysis. PhD Student in Canals lab (Alicante, Spain).
+    current: false
   - name: 'Andrea Navas-Olive'
     subtitle: 'Visiting Researcher (Summer 2021)'
-    img: /images/people/AndreaMan.png
-    imgAlt: /images/people/AndreaSuperman.png
+    img: /images/people/AndreaMan.webp
+    imgAlt: /images/people/AndreaSuperman.webp
     content: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
     contentFun: Computational models and data analysis. PhD Student in Mendendez de la Prida Lab (Madrid, Spain).
+    current: false
   - name: 'Ignacio del Castillo'
     subtitle: 'La Caixa INPhINIT PhD Student'
-    img: /images/people/NachoMan.jpeg
-    imgAlt: /images/people/NachoSuperman.jpeg
+    img: /images/people/NachoMan.webp
+    imgAlt: /images/people/NachoSuperman.webp
     content: Simultaneous fiber photometry-ephys and behaviour. Astrocytes and memory.
     contentFun: Creativity is not my strenght! Insert your comment here
     current: true
