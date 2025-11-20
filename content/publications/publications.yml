@@ -14,6 +14,14 @@ publications:
     link: https://www.biorxiv.org/content/10.1101/2025.02.26.640383v1.full
     authors: Dellal S, Zurita H, Valero M, Abad-Perez P, Kruglikov I, Meng J, Pröneke A, Hanson JL, Mir E, On-Garo M, Wang XJ, Buzsáki G, Rudy B
     selected: false
+
+  - title: "Fear protects. Until it doesn't.: The brain learns to suppress instinctive defensive responses when threats prove harmless"
+    journal: Science
+    issue: 390(6772), 483
+    year: 2025
+    link: https://www.science.org/doi/10.1126/science.aeb5165
+    authors: Mederos S
+    selected: true
   
   - title: Id2 GABAergic interneurons comprise a neglected fourth major group of cortical inhibitory cells
     journal: Elife
