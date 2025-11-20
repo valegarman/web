@@ -20,7 +20,15 @@ publications:
     issue: 390(6772), 483
     year: 2025
     link: https://www.science.org/doi/10.1126/science.aeb5165
-    authors: Mederos S
+    authors: Mederos S (Eppendof and Science prize for neurobiology Essay)
+    selected: true
+
+  - title: "Overwriting an instinct: Visual cortex instructs learning to suppress fear responses"
+    journal: Science
+    issue: 387(6734), 682-688
+    year: 2025
+    link: https://www.science.org/doi/10.1126/science.adr2247
+    authors: Mederos S*, Blakely P, Vissers N, Clopath C, Hofer S*
     selected: true
   
   - title: Id2 GABAergic interneurons comprise a neglected fourth major group of cortical inhibitory cells
