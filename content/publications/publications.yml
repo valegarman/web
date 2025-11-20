@@ -176,7 +176,7 @@ publications:
     year: 2018
     link: https://www.sciencedirect.com/science/article/abs/pii/S0959438817302994#fig0020
     authors: Valero M, Menendez de la Prida L
-    selected: true
+    selected: false
 
   - title: Feedback and Feedforward Inhibition May Resonate Distinctly in the Ripple Symphony
     journal: The Journal of Neuroscience
