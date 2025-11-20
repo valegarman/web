@@ -63,14 +63,6 @@ publications:
     authors: Lippmann K, Klaft ZJ, Salar S, Hollnagel JO, Valero M, Maslarova A
     selected: false
 
-  - title: Inhibitory conductance controls place field dynamics in the hippocampus
-    journal: Cell Reports
-    issue: 40 (8), 111232
-    year: 2022
-    link: https://www.cell.com/cell-reports/fulltext/S2211-1247(22)01049-X
-    authors: Valero M, Navas-Olive A, Menendez de la Prida L, Buzsáki G
-    selected: true
-
   - title: Probing subthreshold dynamics of hippocampal neurons by pulsed optogenetics
     journal: Science
     issue: 375 (6580), 570-574
@@ -78,6 +70,14 @@ publications:
     link: https://www.science.org/doi/10.1126/science.abm1891
     authors: Valero M*, Zutshi I, Yoon E, Buzsáki G*
     selected: true
+
+  - title: Inhibitory conductance controls place field dynamics in the hippocampus
+    journal: Cell Reports
+    issue: 40 (8), 111232
+    year: 2022
+    link: https://www.cell.com/cell-reports/fulltext/S2211-1247(22)01049-X
+    authors: Valero M, Navas-Olive A, Menendez de la Prida L, Buzsáki G
+    selected: false
 
   - title: Extrinsic control and intrinsic computation in the hippocampal CA1 circuit
     journal: Neuron
@@ -127,7 +127,7 @@ publications:
     year: 2020
     link: https://www.nature.com/articles/s41593-020-00752-x
     authors: Mederos S, Sánchez-Puelles C, Esparza J, Valero M, Ponomarenko A, Perea G
-    selected: false
+    selected: true
 
   - title: Multimodal determinants of phase-locked dynamics across deep-superficial hippocampal sublayers during theta oscillations
     journal: Nature Communications
