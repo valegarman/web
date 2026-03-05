@@ -36,6 +36,13 @@ people:
     content: Ephys, fiber photometry and behavior
     contentFun: Ephys, fiber photometry and behavior
     current: true
+  - name: 'Andrea Gallardo'
+    subtitle: 'Undergraduate Student'
+    img: /images/people/AndreaGMan.webp
+    imgAlt: /images/people/AndreaGSuperman.webp
+    content: Ephys, spike sorting and data analysis.
+    contentFun: Ephys, spike sorting and data analysis.
+    current: true
   - name: 'Marta Picco'
     subtitle: 'FPI PhD Student'
     img: /images/people/MartaMan.webp
@@ -80,6 +87,13 @@ people:
     contentFun: Creativity is not my strenght! Insert your comment here
     current: true
     link: /people/ignacio-del-castillo
+  - name: 'Bea Monferrari'
+    subtitle: 'Areces Fundation PhD Student'
+    img: /images/people/BeaMan.webp
+    imgAlt: /images/people/BeaSuperman.webp
+    content: Simultaneous fiber photometry-ephys and behaviour.
+    contentFun: Simultaneous fiber photometry-ephys and behaviour.
+    current: true
   - name: 'Marlene Zubillaga'
     subtitle: 'Lab manager'
     img: /images/people/MarleneMan.webp
