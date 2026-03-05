@@ -2,7 +2,7 @@
 
 ## Short Biosketch
 
-My research is focused in the neural interplay of excitatory and inhibitory activity in cortical networks and how these dynamics create neural representations and memories. I am Group Leader at the [Hospital del Mar Medical Research Institute (IMIM)](https://www.imim.es/en_index.html), Barcelona (Spain).
+My research is focused in the neural interplay of excitatory and inhibitory activity in cortical networks and how these dynamics create neural representations and memories. I am Group Leader at the [Hospital del Mar Medical Research Institute (HMRIB)](https://researchmar.net), Barcelona (Spain).
 
 I did my postdoc (2018-2022) in the laboratory of [György Buzsáki](https://buzsakilab.com/wp/) at NYU Neuroscience Institute, New York (US). Funded by the EMBO and the HFSP I developed novel high-resolution optogenetics strategies and I studied inhibitory neural motifs.
 
@@ -55,8 +55,7 @@ School of Biological Sciences, Complutense University of Madrid (Spain).
 **2022**
 
 - Ramón y Cajal Researcher Fellowship
-- NARSAD Young Investigator Grant, Brain and
-  Behavior Research Foundation
+- NARSAD Young Investigator Grant, Brain and Behavior Research Foundation
 - **Peter and Patricia Gruber International Research Award**, Gruber Foundation.
 - **Outstanding Postdoc Award**, New York University.
 
@@ -66,8 +65,7 @@ School of Biological Sciences, Complutense University of Madrid (Spain).
 
 **2018**
 
-- European Molecular Biology Organzation (EMBO)
-  long-term Postdoctoral Fellowship
+- European Molecular Biology Organzation (EMBO) long-term Postdoctoral Fellowship
 
 **2017**
 
