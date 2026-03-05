@@ -52,12 +52,20 @@ School of Biological Sciences, Complutense University of Madrid (Spain).
 
 ## Scientific awards and honors
 
+**2025**
+- Leonardo Grant for Scientific Research and Cultural Creation, BBVA Foundation
+
+**2023**
+
+- **Tatiana Foundation Young Investigator Award, Spanish Society of Neuroscience (SENC)**
+
+
 **2022**
 
 - Ramón y Cajal Researcher Fellowship
 - NARSAD Young Investigator Grant, Brain and Behavior Research Foundation
-- **Peter and Patricia Gruber International Research Award**, Gruber Foundation.
-- **Outstanding Postdoc Award**, New York University.
+- **Peter and Patricia Gruber International Research Award**, Gruber Foundation
+- **Outstanding Postdoc Award**, New York University
 
 **2019**
 
@@ -69,13 +77,13 @@ School of Biological Sciences, Complutense University of Madrid (Spain).
 
 **2017**
 
-- Best PhD dissertation, Complutense University of Madrid.
-- Best presentation award, International ICTALS conference, Minneapolis (US).
-- Best short talk award, European Neuroscience Conference for Doctoral Student (ENCODS), Alicante (Spain).
+- Best PhD dissertation, Complutense University of Madrid
+- Best presentation award, International ICTALS conference, Minneapolis (US)
+- Best short talk award, European Neuroscience Conference for Doctoral Student (ENCODS), Alicante (Spain)
 
 **2016**
 
-- Best short talk award, 1rst International ‘Instituto de Neurosciencias’ (IN) PhD Student & Postdoc meeting, Alicante (Spain).
+- Best short talk award, 1rst International ‘Instituto de Neurosciencias’ (IN) PhD Student & Postdoc meeting, Alicante (Spain)
 
 **2013**
 
