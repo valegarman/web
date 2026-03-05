@@ -14,6 +14,10 @@ export default {
       '/es/people/sara-mederos',
       '/people/sara-mederos',
       '/es/people/sara-mederos',
+
+      '/es/people/ignacio-del-castillo',
+      '/people/ignacio-del-castillo',
+      '/es/people/ignacio-del-castillo',
     ],
   },
 
