@@ -32,7 +32,7 @@ people:
   - name: 'Paula Gomez-Sotres'
     subtitle: 'Postdoctoral Researcher'
     img: /images/people/PaulaMan.webp
-    imgAlt: /images/people/PaulaSupermanSuperman.webp
+    imgAlt: /images/people/PaulaSuperman.webp
     content: Ephys, fiber photometry and behavior
     contentFun: Ephys, fiber photometry and behavior
     current: true
