@@ -10,6 +10,10 @@ export default {
       '/people/join-us',
       '/people/manuel-valero',
       '/es/people/manuel-valero',
+
+      '/es/people/sara-mederos',
+      '/people/sara-mederos',
+      '/es/people/sara-mederos',
     ],
   },
 
